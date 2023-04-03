@@ -18,7 +18,17 @@
   /* 위아래 너비를 준 상태에서 가로 50%, 세로 50%를 이동시킬 수 있다 (= 한가운데 배치) */
   transform: translate(-50%, -50%);
 }
+.modal-background {
+  /* 화면에 꽉 차게 하는 코드 */
+  position: fixed;
+  width: 100%;
+  height: 100%;
 
+  background: rgba(0, 0, 0, 0.35);
+  /* 검정 도화지로 덮어 씌우기 */
+  z-index: 10;
+  /* 헤더 위로 올라갈 수 있게 헤더 이상으로 z-index를 준다. */
+}
 /* #modal.modal-overlay{
     width: 100%;
     height: 100%;

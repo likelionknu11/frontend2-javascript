@@ -27,6 +27,8 @@
     <title>JavaScript-Project</title>
   </head>
   <body>
+    <div id="overlay" class="modal-background"></div>
+
     <header>
       <div class="inner">
         <div class="nav">
@@ -45,80 +47,85 @@
         </div>
       </div>
     </header>
+
     <!-- 지도 시작 -->
     <object type="image/svg+xml" data="./map.svg" class="map"></object>
     <!-- 지도 종료 -->
-    <div id="modal" class="modal-overlay">
-      <!--모달 창 시작-->
-      <div class="modal-window">
-        <div class="title">
-          <h2>지역명</h2>
-        </div>
-        <div class="close-modal-btn">X</div>
-        <!--모달 창 닫기 버튼-->
-        <div class="modal-content">
-          <div class="card-section">
-            <!--카드 시작-->
 
-            <div class="card1">
-              <!--카드1-->
-              <h2>축제 제목</h2>
-              <img src="" alt="축제 사진" />
-              <ul class="card-contents">
-                <!--카드 내용-->
-                <li>
-                  <span class="festival-term">축제 기간</span
-                  ><a class="date">2023.00.00</a>
-                </li>
-                <li>
-                  <span class="festival-ins">축제 설명</span
-                  ><span class="festival-contents">축제 설명 내용</span>
-                </li>
-                <li><span class="hashtag">해시태그</span></li>
-              </ul>
-            </div>
-
-            <div class="card2">
-              <!--카드2-->
-              <h2>축제 제목</h2>
-              <img src="" alt="축제 사진" />
-              <ul class="card-contents">
-                <!--카드 내용-->
-                <li>
-                  <span class="festival-term">축제 기간</span
-                  ><a class="date">2023.00.00</a>
-                </li>
-                <li>
-                  <span class="festival-ins">축제 설명</span
-                  ><span class="festival-contents">축제 설명 내용</span>
-                </li>
-                <li><span class="hashtag">해시태그</span></li>
-              </ul>
-            </div>
-
-            <div class="card3">
-              <!--카드3-->
-              <h2>축제 제목</h2>
-              <img src="" alt="축제 사진" />
-              <ul class="card-contents">
-                <!--카드 내용-->
-                <li>
-                  <span class="festival-term">축제 기간</span
-                  ><a class="date">2023.00.00</a>
-                </li>
-                <li>
-                  <span class="festival-ins">축제 설명</span
-                  ><span class="festival-contents">축제 설명 내용</span>
-                </li>
-                <li><span class="hashtag">해시태그</span></li>
-              </ul>
-            </div>
+    <section>
+      <div id="modal" class="modal-overlay">
+        <!--모달 창 시작-->
+        <div class="modal-window">
+          <div class="title">
+            <h2>지역명</h2>
           </div>
-          <!--카드 종료-->
+          <div class="close-modal-btn">X</div>
+          <!--모달 창 닫기 버튼-->
+          <div class="modal-content">
+            <div class="card-section">
+              <!--카드 시작-->
+
+              <div class="card1">
+                <!--카드1-->
+                <h2>축제 제목</h2>
+                <img src="" alt="축제 사진" />
+                <ul class="card-contents">
+                  <!--카드 내용-->
+                  <li>
+                    <span class="festival-term">축제 기간</span
+                    ><a class="date">2023.00.00</a>
+                  </li>
+                  <li>
+                    <span class="festival-ins">축제 설명</span
+                    ><span class="festival-contents">축제 설명 내용</span>
+                  </li>
+                  <li><span class="hashtag">해시태그</span></li>
+                </ul>
+              </div>
+
+              <div class="card2">
+                <!--카드2-->
+                <h2>축제 제목</h2>
+                <img src="" alt="축제 사진" />
+                <ul class="card-contents">
+                  <!--카드 내용-->
+                  <li>
+                    <span class="festival-term">축제 기간</span
+                    ><a class="date">2023.00.00</a>
+                  </li>
+                  <li>
+                    <span class="festival-ins">축제 설명</span
+                    ><span class="festival-contents">축제 설명 내용</span>
+                  </li>
+                  <li><span class="hashtag">해시태그</span></li>
+                </ul>
+              </div>
+
+              <div class="card3">
+                <!--카드3-->
+                <h2>축제 제목</h2>
+                <img src="" alt="축제 사진" />
+                <ul class="card-contents">
+                  <!--카드 내용-->
+                  <li>
+                    <span class="festival-term">축제 기간</span
+                    ><a class="date">2023.00.00</a>
+                  </li>
+                  <li>
+                    <span class="festival-ins">축제 설명</span
+                    ><span class="festival-contents">축제 설명 내용</span>
+                  </li>
+                  <li><span class="hashtag">해시태그</span></li>
+                </ul>
+              </div>
+            </div>
+            <!--카드 종료-->
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <!--모달 창 종료-->
+
     <footer>
       <div class="inner">
         <div class="container">
