@@ -4,16 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Reset Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <!-- Nanum Gothic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <script defer src="js/map.js"></script>
-    <title>FrontExample</title>
+    <title>JavaScript-Project</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="inner">
+        <div class="nav">
+          <div>
+            <p>LOGO</p>
+          </div>
+          <div class="region">
+            <p>서울</p>
+            <p>수도권</p>
+            <p>강원도</p>
+            <p>충청도</p>
+            <p>경상도</p>
+            <p>전라도</p>
+            <p>제주도</p>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- 지도 시작 -->
     <object type="image/svg+xml" data="./map.svg" class="map"></object>
     <!-- 지도 종료 -->
-    <footer></footer>
+    <footer>
+      <div class="inner">
+        <div class="container">
+          <div class="info">
+            <div class="leader">
+              <h2>팀장</h2>
+              <p>신홍기</p>
+              <p>hin6150@gmail.com</p>
+            </div>
+            <div class="crew-tab">
+              <div><h2>팀원</h2></div>
+              <div class="crew-info">
+                <div class="crew">
+                  <p>이서현</p>
+                  <p>uimi7625@kangnam.ac.kr</p>
+                </div>
+                <div class="crew">
+                  <p>김재연</p>
+                  <p>bigpidture@kangnam.ac.kr</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="logo-img">
+            <img src="./LikeLion.png" alt="LikeLionLogo" />
+            <p>X</p>
+            <img src="/KangNam.png" alt="KangNamLogo" />
+          </div>
+          <p>ⓒ 2023 LIKELION KANGNAM. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

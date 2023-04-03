@@ -7,7 +7,8 @@ path {
   fill: #ccc;
 }
 path:hover {
-  fill: #fff;
+  cursor: pointer;
+  fill: #eee;
 }
 /* #CD11 {
   fill: #f1c40f;
@@ -62,8 +63,9 @@ path:hover {
 } */
 .TEXT {
   fill: #ffffff;
-  font-size: 16;
+  font-size: 16px;
   font-weight: bold;
   text-anchor: middle;
   alignment-baseline: middle;
+  pointer-events: none;
 }
