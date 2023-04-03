@@ -41,6 +41,18 @@ Git은 `분산 버전 관리 시스템`이라 불립니다. 풀어서 설명하�
 <li>git pull  </li>
 </ol>
 
+<h3>새로운 Repo로 작업물 옮기기</h3>
+<ol>
+<li>.git 폴더 삭제
+<li>git bash 열기
+<li>git init(git 생성)
+<li>git remote add origin "https://github.com/..." (깃허브 저장소 링크 추가)
+<li>git add .
+<li>git commit -m "commit message"
+<li>git branch -M main
+<li>git push -u origin main
+<li>또는 새로운 폴더에 git clone하여 해당 폴더에 작업물 옮기기
+</ol>
 <hr>
 
 <h3>기타 참고사항</h3>
