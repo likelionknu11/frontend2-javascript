@@ -21,26 +21,38 @@ Git은 `분산 버전 관리 시스템`이라 불립니다. 풀어서 설명하�
 <h3>GIT 복사하기</h3>
 <ol>
 <li>https://git-scm.com/downloads Git 설치하기.  
-<li>오른쪽위 <span style="color: #fff; background-color:#238636"><> CODE</span> 클릭하고, https://github ... 복사하기  
+<li>오른쪽위 <span style="color: #238636;"><> CODE</span> 클릭하고, https://github ... 복사하기  
 <li>작업하고 싶은 폴더로 가서 우클릭 > Git Bash Here 클릭하기.  
-<li>명령어창에 $git clone '복사한 링크' 입력하기 (우클릭하여 붙여넣기 가능) (ex: $git clone https://github.com/...)  
+<li>명령어창에 $git clone "복사한 링크" 입력하기 (우클릭하여 붙여넣기 가능) (ex: $git clone https://github.com/...)  
 <li>해당 폴더에서 작업하기.
 </ol>
 
 <h3>GIT 업로드하기</h3>
 <ol>
 <li>git bash 열기  
-<li>git add .  
-<li>git commit -m 'commit message 입력하기'  
-<li>git push
+<li>git add .  (git 모든 변경사항 Staging Area에 저장)
+<li>git commit -m "commit message" 입력하기 (Staging Area 확정)
+<li>git push (GitHub로 전송하기)
 </ol>
 
 <h3>GIT 파일 최신버전 받아오기</h3>
 <ol>
-<li>git bash 열기  </li>
+<li>git bash 열기</li>
 <li>git pull  </li>
 </ol>
 
+<h3>새로운 Repo로 작업물 옮기기</h3>
+<ol>
+<li>git bash 열기
+<li>rm -rf .git 입력 (해당 폴더 git 삭제)
+<li>git init(git 생성)
+<li>git remote add origin "https://github.com/..." (깃허브 저장소 링크 추가)
+<li>git add .
+<li>git commit -m "commit message"
+<li>git branch -M main(branch를 메인을 설정)
+<li>git push -u origin main
+<li>또는 새로운 폴더에 git clone하여 해당 폴더에 작업물 옮기기
+</ol>
 <hr>
 
 <h3>기타 참고사항</h3>
@@ -48,11 +60,13 @@ Git은 `분산 버전 관리 시스템`이라 불립니다. 풀어서 설명하�
 <li> Notion 참고사항 읽어보기  </li>
 <li> css, js는 최대한 구분하여 파일로 작성하기  </li>
 <li> html 작성 시 주석 이용하여 구분하기  </li>
+<li> 틈틈히 깃허브 , 노션 업데이트 하기  </li>
+<li> 어렵거나 모르는 부분이 있으면 운영진이나 팀장에게 질문하기  </li>
 </ul>
 
 <hr>
 
-<h3> LiveServer 이용해서 httml 화면 보기 </h3>
+<h3> LiveServer 이용해서 html 화면 보기 </h3>
 <ol>
 <li> 왼쪽 확장 프로그램에서 LiveServer 검색  </li>
 <li> 설치 후 html 파일 우클릭 > Open With Live Server or 오른쪽 아래 Go Live 클릭  </li>
