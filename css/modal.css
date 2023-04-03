@@ -1,16 +1,22 @@
-#modal{
-    width: 1100px;
-    height: 800px;
-    left: 20%;
-    top: 20%;
-    background-color: white;
-    position: absolute;
-    z-index: 10;
-    box-sizing: border-box;
-    padding: 30px 20px;
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid #000;
+#modal {
+  width: 1100px;
+  height: 800px;
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #000;
+  margin: 0 auto;
+
+  /* 화면에 꽉 차게 하는 코드(여기서는 너비를 꽉 채우는 용도) */
+  top: 50%;
+  left: 50%;
+
+  /* 위아래 너비를 준 상태에서 가로 50%, 세로 50%를 이동시킬 수 있다 (= 한가운데 배치) */
+  transform: translate(-50%, -50%);
 }
 
 /* #modal.modal-overlay{
@@ -23,74 +29,78 @@
 }*/
 /*특정 버튼을 틀릭하면 모달창이 나오도록*/
 
-#modal .title{
-    width: 100%;
-    height: 40px;
-    box-sizing: border-box;
+#modal .title {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
 }
 
-#modal .title h2{ /*지역명*/
-    height: 40px;
-    box-sizing: border-box;
-    margin: 0;
-    text-align: center;
+#modal .title h2 {
+  /*지역명*/
+  height: 40px;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
 }
 
-#modal .close-modal-btn{
-    box-sizing: border-box;
-    height: 20px;
+#modal .close-modal-btn {
+  box-sizing: border-box;
+  height: 20px;
 }
 
-.close-modal-btn:hover{ /*마우스가 닫기 버튼에 있는 경우*/
-    color: red;
-    cursor: pointer;
+.close-modal-btn:hover {
+  /*마우스가 닫기 버튼에 있는 경우*/
+  color: red;
+  cursor: pointer;
 }
 
-.card-section{
-    width: 100%;
-    height: 710px;
-    box-sizing: border-box;
-    padding: 137px 20px;
-    position: relative;
+.card-section {
+  width: 100%;
+  height: 710px;
+  box-sizing: border-box;
+  padding: 137px 20px;
+  position: relative;
 }
 
-.card1, .card3{ /*전체 카드 속상*/
-    width: 300px;
-    height: 430px;
-    position: absolute;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px #999;
-    background-color: #fff;
-    opacity: 0.6;
+.card1,
+.card3 {
+  /*전체 카드 속상*/
+  width: 300px;
+  height: 430px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #999;
+  background-color: #fff;
+  opacity: 0.6;
 }
 
-.card1{
-    right: 715px;
-    margin: 0px 15px 0px 0px;
+.card1 {
+  right: 715px;
+  margin: 0px 15px 0px 0px;
 }
 
-.card2{
-    width: 430px;
-    height: 560px;
-    position: absolute;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px #999;
-    right: 306px;
-    top: 68px;
-    margin: 0px 7px;
-    z-index: 1;
-    background-color: #fff;
+.card2 {
+  width: 430px;
+  height: 560px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #999;
+  right: 306px;
+  top: 68px;
+  margin: 0px 7px;
+  z-index: 1;
+  background-color: #fff;
 }
 
-.card3{
-    right: 25px;
-    margin: 0px 0px 0px 15px;
+.card3 {
+  right: 25px;
+  margin: 0px 0px 0px 15px;
 }
 
-
-.card-contents{ /*카드 내용*/
-    list-style: none;
-    box-sizing: border-box;
+.card-contents {
+  /*카드 내용*/
+  list-style: none;
+  box-sizing: border-box;
 }
