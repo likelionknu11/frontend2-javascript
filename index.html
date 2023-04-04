@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+
+    <!-- Reset Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <!-- Nanum Gothic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="js/map.js"></script>
+    <script defer src="./js/modal.js"></script>
+
+    <title>JavaScript-Project</title>
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <div class="nav">
+          <div>
+            <p>LOGO</p>
+          </div>
+          <div class="region">
+            <p>서울</p>
+            <p>수도권</p>
+            <p>강원도</p>
+            <p>충청도</p>
+            <p>경상도</p>
+            <p>전라도</p>
+            <p>제주도</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- 지도 시작 -->
+    <object type="image/svg+xml" data="./map.svg" class="map"></object>
+    <!-- 지도 종료 -->
+    <div id="modal" class="modal-overlay">
+      <!--모달 창 시작-->
+      <div class="modal-window">
+        <div class="title">
+          <h2>지역명</h2>
+        </div>
+        <div class="close-modal-btn">X</div>
+        <!--모달 창 닫기 버튼-->
+        <div class="modal-content">
+          <div class="card-section">
+            <!--카드 시작-->
+
+            <div class="card1">
+              <!--카드1-->
+              <h2>축제 제목</h2>
+              <img src="" alt="축제 사진" />
+              <ul class="card-contents">
+                <!--카드 내용-->
+                <li>
+                  <span class="festival-term">축제 기간</span
+                  ><a class="date">2023.00.00</a>
+                </li>
+                <li>
+                  <span class="festival-ins">축제 설명</span
+                  ><span class="festival-contents">축제 설명 내용</span>
+                </li>
+                <li><span class="hashtag">해시태그</span></li>
+              </ul>
+            </div>
+
+            <div class="card2">
+              <!--카드2-->
+              <h2>축제 제목</h2>
+              <img src="" alt="축제 사진" />
+              <ul class="card-contents">
+                <!--카드 내용-->
+                <li>
+                  <span class="festival-term">축제 기간</span
+                  ><a class="date">2023.00.00</a>
+                </li>
+                <li>
+                  <span class="festival-ins">축제 설명</span
+                  ><span class="festival-contents">축제 설명 내용</span>
+                </li>
+                <li><span class="hashtag">해시태그</span></li>
+              </ul>
+            </div>
+
+            <div class="card3">
+              <!--카드3-->
+              <h2>축제 제목</h2>
+              <img src="" alt="축제 사진" />
+              <ul class="card-contents">
+                <!--카드 내용-->
+                <li>
+                  <span class="festival-term">축제 기간</span
+                  ><a class="date">2023.00.00</a>
+                </li>
+                <li>
+                  <span class="festival-ins">축제 설명</span
+                  ><span class="festival-contents">축제 설명 내용</span>
+                </li>
+                <li><span class="hashtag">해시태그</span></li>
+              </ul>
+            </div>
+          </div>
+          <!--카드 종료-->
+        </div>
+      </div>
+    </div>
+    <!--모달 창 종료-->
+    <footer>
+      <div class="inner">
+        <div class="container">
+          <div class="info">
+            <div class="leader">
+              <h2>팀장</h2>
+              <p>신홍기</p>
+              <p>hin6150@gmail.com</p>
+            </div>
+            <div class="crew-tab">
+              <div><h2>팀원</h2></div>
+              <div class="crew-info">
+                <div class="crew">
+                  <p>이서현</p>
+                  <p>uimi7625@kangnam.ac.kr</p>
+                </div>
+                <div class="crew">
+                  <p>김재연</p>
+                  <p>bigpidture@kangnam.ac.kr</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="logo-img">
+            <img src="./LikeLion.png" alt="LikeLionLogo" />
+            <p>X</p>
+            <img src="/KangNam.png" alt="KangNamLogo" />
+          </div>
+          <p>ⓒ 2023 LIKELION KANGNAM. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
