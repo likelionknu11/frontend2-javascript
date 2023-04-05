@@ -39,24 +39,26 @@
 }*/
 /*특정 버튼을 틀릭하면 모달창이 나오도록*/
 
-#modal .title {
-  width: 100%;
-  height: 40px;
-  box-sizing: border-box;
-}
-
-#modal .title h2 {
-  /*지역명*/
-  height: 40px;
-  box-sizing: border-box;
-  margin: 0;
+.area-name{ /*지역명*/
+  padding-top: 28px;
   text-align: center;
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+  display: inline-block;
+  top: 1px;
+  font-weight: bold;
 }
 
 #modal .close-modal-btn {
   box-sizing: border-box;
   height: 20px;
+  width: 17px;
+  right: 41px;
+  top: 34px;
+  position: absolute;
 }
+
 
 .close-modal-btn:hover {
   /*마우스가 닫기 버튼에 있는 경우*/
@@ -64,53 +66,72 @@
   cursor: pointer;
 }
 
+/* 카드 설정 */
+
 .card-section {
   width: 100%;
-  height: 710px;
+  height: 689px;
   box-sizing: border-box;
-  padding: 137px 20px;
+  padding: 128px 20px;
   position: relative;
 }
 
-.card1,
-.card3 {
-  /*전체 카드 속상*/
-  width: 300px;
-  height: 430px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 5px #999;
-  background-color: #fff;
-  opacity: 0.6;
-}
-
-.card1 {
+.card1 { /* 카드 1 위치 설정 */
   right: 715px;
   margin: 0px 15px 0px 0px;
 }
 
-.card2 {
+.card2 { /* 메인 카드 속성 */
   width: 430px;
   height: 560px;
   position: absolute;
   border: 1px solid black;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #999;
+  box-sizing: border-box;
   right: 306px;
-  top: 68px;
+  top: 59px;
   margin: 0px 7px;
+  padding: 30px 30px;
   z-index: 1;
   background-color: #fff;
 }
 
-.card3 {
+.card3 { /* 카드 3 위치 설정 */
   right: 25px;
   margin: 0px 0px 0px 15px;
 }
 
-.card-contents {
-  /*카드 내용*/
+.card1 img,
+.card3 img{ /* 축제 이미지 */
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.card2 img{
+  width: 350px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.card1,
+.card3 { /* 카드 1, 3 크기 및 흐림 효과 */
+  width: 300px;
+  height: 430px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #999;
+  box-sizing: border-box;
+  padding: 23px 20px;
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+.card-contents { /*카드 내용*/
   list-style: none;
   box-sizing: border-box;
 }
+
+/* 카드 설정 */
