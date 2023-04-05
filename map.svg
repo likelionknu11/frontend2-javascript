@@ -1,5 +1,5 @@
 <!-- 출처: http://www.gisdeveloper.co.kr/?p=8555 -->
-<?xml-stylesheet type="text/css" href="/css/map.css"?> 
+<?xml-stylesheet type="text/css" href="css/map.css"?> 
 <!-- /* 외부 스타일시트 연결 */ -->
 <svg
         style="background: #fff; overflow: visible"
