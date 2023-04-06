@@ -64,65 +64,58 @@ footer p {
   font-size: 16px;
 }
 
-footer .container {
+/* flex 가운데 정렬 */
+footer .flex-center {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+/* flex 왼편 정렬 */
+footer .flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+footer .container {
+  flex-direction: column;
   padding: 20px 0;
   gap: 20px;
 }
 
 footer .info {
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 10px 0px;
   gap: 20px;
 }
 
-footer .leader {
-  display: flex;
+footer .info .leader {
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
   gap: 10px;
 }
 
-footer .crew-tab {
-  display: flex;
+footer .info .crew-tab {
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 0px;
   gap: 10px;
 }
 
-footer .crew-tab .crew-info {
-  display: flex;
+footer .info .crew-tab .crew-info {
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
+  gap: 10px;
 }
 
 footer .crew-tab .crew {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
   gap: 10px;
 }
+
 footer hr {
   width: 100%;
   border: 1px solid #fff;
 }
 
 footer .logo-img {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 0px;
   gap: 50px;
 }
