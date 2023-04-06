@@ -1,30 +1,30 @@
-'use strict';
+"use strict";
 
 class Carousel {
   constructor(el) {
     this.el = el;
-    this.carouselOptions = ['previous', 'next'];
+    this.carouselOptions = ["previous", "next"];
     this.carouselData = [
       {
-        'id': '1',
-        'src': '1.jpg',
+        id: "1",
+        src: "../img/축제사진/Jong-ro.jpg",
       },
       {
-        'id': '2',
-        'src': '2.jpg',
+        id: "2",
+        src: "../img/축제사진/Kangnam.jpg",
       },
       {
-        'id': '3',
-        'src': '3.jpg',
+        id: "3",
+        src: "../img/축제사진/Blossom.png",
       },
       {
-        'id': '4',
-        'src': '4.jpg',
+        id: "4",
+        src: "../img/축제사진/Namhae-beer.jpg",
       },
       {
-        'id': '5',
-        'src': '5.jpg',
-      }
+        id: "5",
+        src: "../img/축제사진/Namhae-galic.jpg",
+      },
     ];
     this.carouselInView = [1, 2, 3, 4, 5];
     this.carouselContainer;
@@ -37,40 +37,44 @@ class Carousel {
 
   // Build carousel html
   setupCarousel() {
-    const container = document.createElement('div');
-    const controls = document.createElement('div');
+    const container = document.createElement("div");
+    const controls = document.createElement("div");
 
     // Add container for carousel items and controls
+    // .append()	선택된 요소의 마지막에 새로운 요소나 콘텐츠를 추가한다.
     this.el.append(container, controls);
-    container.className = 'carousel-container';
-    controls.className = 'carousel-controls';
+    container.className = "carousel-container";
+    controls.className = "carousel-controls";
 
     // Take dataset array and append items to container
     this.carouselData.forEach((item, index) => {
-      const carouselItem = item.src ? document.createElement('img') : document.createElement('div');
+      const carouselItem = item.src
+        ? document.createElement("img")
+        : document.createElement("div");
 
       container.append(carouselItem);
 
       // Add item attributes
       carouselItem.className = `carousel-item carousel-item-${index + 1}`;
       carouselItem.src = item.src;
-      carouselItem.setAttribute('loading', 'lazy');
+      // .setAttribute()는 선택한 요소(element)의 속성(attribute) 값을 정합니다.
+      carouselItem.setAttribute("loading", "lazy");
       // Used to keep track of carousel items, infinite items possible in carousel however min 5 items required
-      carouselItem.setAttribute('data-index', `${index + 1}`);
+      carouselItem.setAttribute("data-index", `${index + 1}`);
     });
 
     this.carouselOptions.forEach((option) => {
-      const btn = document.createElement('button');
-      const axSpan = document.createElement('span');
+      const btn = document.createElement("button");
+      const axSpan = document.createElement("span");
 
       // Add accessibilty spans to button
       axSpan.innerText = option;
-      axSpan.className = 'ax-hidden';
+      axSpan.className = "ax-hidden";
       btn.append(axSpan);
 
       // Add button attributes
       btn.className = `carousel-control carousel-control-${option}`;
-      btn.setAttribute('data-name', option);
+      btn.setAttribute("data-name", option);
 
       // Add carousel control options
       controls.append(btn);
@@ -84,7 +88,7 @@ class Carousel {
   }
 
   setControls(controls) {
-    controls.forEach(control => {
+    controls.forEach((control) => {
       control.onclick = (event) => {
         event.preventDefault();
 
@@ -95,10 +99,10 @@ class Carousel {
   }
 
   controlManager(control) {
-    if (control === 'previous') return this.previous();
-    if (control === 'next') return this.next();
-    if (control === 'add') return this.add();
-    if (control === 'play') return this.play();
+    if (control === "previous") return this.previous();
+    if (control === "next") return this.next();
+    if (control === "add") return this.add();
+    if (control === "play") return this.play();
 
     return;
   }
@@ -112,7 +116,9 @@ class Carousel {
 
     // Update the css class for each carousel item in view
     this.carouselInView.forEach((item, index) => {
-      this.carouselContainer.children[index].className = `carousel-item carousel-item-${item}`;
+      this.carouselContainer.children[
+        index
+      ].className = `carousel-item carousel-item-${item}`;
     });
 
     // Using the first 5 items in data array update content of carousel items in view
@@ -130,7 +136,9 @@ class Carousel {
 
     // Update the css class for each carousel item in view
     this.carouselInView.forEach((item, index) => {
-      this.carouselContainer.children[index].className = `carousel-item carousel-item-${item}`;
+      this.carouselContainer.children[
+        index
+      ].className = `carousel-item carousel-item-${item}`;
     });
 
     // Using the first 5 items in data array update content of carousel items in view
@@ -138,11 +146,10 @@ class Carousel {
       document.querySelector(`.carousel-item-${index + 1}`).src = data.src;
     });
   }
-
 }
 
 // Refers to the carousel root element you want to target, use specific class selectors if using multiple carousels
-const el = document.querySelector('.carousel');
+const el = document.querySelector(".carousel");
 // Create a new carousel object
 const exampleCarousel = new Carousel(el);
 // Setup carousel and methods

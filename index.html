@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" href="./css/modal.css" />
-    <link rel="stylesheet" href="./css/carousel.css">
-
     <!-- Reset Css -->
     <link
       rel="stylesheet"
@@ -21,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/carousel.css">
 
     <script defer src="js/map.js"></script>
     <script defer src="./js/modal.js"></script>
@@ -76,36 +76,41 @@
     <!--캐러셀 시작-->
     <div class="carousel"></div>
     <!--캐러셀 종료-->
+
     <footer>
       <div class="inner">
-        <div class="container">
-          <div class="info">
-            <div class="leader">
+        <div class="container flex-center">
+          <!-- 팀원 정보 시작 -->
+          <div class="info flex-start">
+            <div class="leader flex-center">
               <h2>팀장</h2>
               <p>신홍기</p>
               <p>hin6150@gmail.com</p>
             </div>
-            <div class="crew-tab">
+            <div class="crew-tab flex-start">
               <div><h2>팀원</h2></div>
-              <div class="crew-info">
-                <div class="crew">
+              <div class="crew-info flex-start">
+                <div class="crew flex-center">
                   <p>이서현</p>
                   <p>uimi7625@kangnam.ac.kr</p>
                 </div>
-                <div class="crew">
+                <div class="crew flex-center">
                   <p>김재연</p>
                   <p>bigpidture@kangnam.ac.kr</p>
                 </div>
               </div>
             </div>
           </div>
+          <!-- 팀원 정보 종료 -->
           <hr />
-          <div class="logo-img">
-            <img src="./LikeLion.png" alt="LikeLionLogo" />
+          <!-- 로고 시작 -->
+          <div class="logo-img flex-center">
+            <img src="./img/logo/LikeLion.png" alt="LikeLionLogo" />
             <p>X</p>
-            <img src="/KangNam.png" alt="KangNamLogo" />
+            <img src="./img/logo/KangNam.png" alt="KangNamLogo" />
           </div>
           <p>ⓒ 2023 LIKELION KANGNAM. All Rights Reserved.</p>
+          <!-- 로고 종료 -->
         </div>
       </div>
     </footer>
