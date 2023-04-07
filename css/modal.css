@@ -1,8 +1,8 @@
 #modal {
-  width: 1100px;
-  height: 600px;
+  width: 830px;
+  height: 500px;
   background-color: white;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   box-sizing: border-box;
   padding: 30px 20px;
@@ -39,11 +39,17 @@
 }*/
 /*특정 버튼을 틀릭하면 모달창이 나오도록*/
 
-.area {
+#modal-title{ 
+/*area와 close-btn*/
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.area{
   /*지역명*/
-  padding-top: 28px;
   text-align: center;
-  font-size: 36px;
+  font-size: 24px;
   font-family: "Courier New", Courier, monospace;
   box-sizing: border-box;
   display: inline-block;
@@ -69,69 +75,49 @@
 /* 카드 설정 */
 
 .card-section {
-  width: 100%;
-  height: 689px;
+  /* card1, 2, 3 */
+  width: 755px;
+  height: 388px;
   box-sizing: border-box;
-  padding: 128px 20px;
-  position: relative;
+  position: absolute;
+  margin: 0px 16px;
 }
 
-.card1 {
-  /* 카드 1 위치 설정 */
-  right: 715px;
-  margin: 0px 15px 0px 0px;
-}
-
-.card2 {
-  /* 메인 카드 속성 */
-  width: 430px;
-  height: 560px;
+.card{ 
+  /*전체 카드 크기 설정*/
+  width: 260px;
+  height: 370px;
   position: absolute;
   border: 1px solid black;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #999;
   box-sizing: border-box;
   right: 306px;
-  top: 59px;
-  margin: 0px 7px;
   padding: 30px 30px;
   z-index: 1;
   background-color: #fff;
 }
 
+.card img{
+  /* 축제 이미지 */
+  width: 200px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.card1 {
+  /* 카드 1 위치 설정 */
+  left: 0px;
+}
+
+.card2{
+  right: 246px;
+  z-index: 10;
+}
+
 .card3 {
   /* 카드 3 위치 설정 */
-  right: 25px;
-  margin: 0px 0px 0px 15px;
-}
-
-.card1 img,
-.card3 img {
-  /* 축제 이미지 */
-  width: 250px;
-  height: 300px;
-  margin: 0 auto;
-}
-
-.card2 img {
-  width: 350px;
-  height: 400px;
-  margin: 0 auto;
-}
-
-.card1,
-.card3 {
-  /* 카드 1, 3 크기 및 흐림 효과 */
-  width: 300px;
-  height: 430px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 5px #999;
-  box-sizing: border-box;
-  padding: 23px 20px;
-  background-color: #fff;
-  opacity: 0.6;
+  right: 0px;
 }
 
 .card-contents {

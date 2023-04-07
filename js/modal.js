@@ -1,3 +1,9 @@
+const $img = document.createElement("img"); //이미지 생성
+const $card1 = document.querySelector('.card1'); //카드1 가져오기
+const $card2 = document.querySelector('.card2'); //카드2 가져오기
+const $card3 = document.querySelector('.card3'); //카드3 가져오기
+
+
 const closeBtn = modal.querySelector(".close-modal-btn"); //모달 창 닫기 버튼
 closeBtn.addEventListener("click", (e) => {
   modal.style.display = "none"; //닫기 버튼 클릭 시 화면에서 안보이게 된다
@@ -14,6 +20,9 @@ class cardInput extends HTMLElement { //사용자 정의 함수
     cardInput.appendChild(festivalTitle);
     let festivalImg = document.createElement('img'); //축제 메인 이미지
     cardInput.appendChild(festivalImg);
+
+    //$img.src = "../img/축제사진/Jong-ro.jpg";
+    //$card1.appendChild($img);
 
     let cardContents = document.createElement('ul'); //카드 내용을 담을 ul
     cardInput.appendChild(cardContents);
