@@ -7,23 +7,23 @@ class Carousel {
     this.carouselData = [
       {
         id: "1",
-        src: "../img/축제사진/Jong-ro.jpg",
+        src: "./img/축제사진/Jong-ro.jpg",
       },
       {
         id: "2",
-        src: "../img/축제사진/Kangnam.jpg",
+        src: "./img/축제사진/Kangnam.jpg",
       },
       {
         id: "3",
-        src: "../img/축제사진/Blossom.png",
+        src: "./img/축제사진/Blossom.png",
       },
       {
         id: "4",
-        src: "../img/축제사진/Namhae-beer.jpg",
+        src: "./img/축제사진/Namhae-beer.jpg",
       },
       {
         id: "5",
-        src: "../img/축제사진/Namhae-galic.jpg",
+        src: "./img/축제사진/Namhae-galic.jpg",
       },
     ];
     this.carouselInView = [1, 2, 3, 4, 5];
