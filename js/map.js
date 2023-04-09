@@ -7,9 +7,18 @@ window.addEventListener("load", () => {
   const cityList = svgDoc.querySelectorAll(".OUTLINE");
 
   // 배열을 forEach문을 통해 각각의 요소(city)로 분해 후 각각의 요소에 click EventLintener을 장착
-  cityList.forEach((city) =>
+  cityList.forEach((city) => {
     city.addEventListener("click", (e) => {
       alert("도시 ID는 " + city.id);
-    })
-  );
+    });
+    city.addEventListener("mouseover", () => {
+      const hoverCity = svgDoc.querySelector(`#${city.id}`);
+      const hoverText = svgDoc.querySelector(`#L${city.id}`);
+      const poly = svgDoc.querySelector(".polyG");
+      const text = svgDoc.querySelector(".textG");
+
+      poly.appendChild(hoverCity);
+      text.appendChild(hoverText);
+    });
+  });
 });

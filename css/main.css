@@ -46,18 +46,25 @@ header {
   height: 100px;
 }
 
+header .upper {
+  z-index: 10;
+}
+
 header .nav {
   display: flex;
   height: 100px;
   align-items: center;
   justify-content: space-between;
 }
+header .nav p {
+  height: 100px;
+}
 
 header p {
   display: flex;
   width: 120px;
   height: 50px;
-  font-size: 18px;
+  font-size: 20px;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
@@ -66,39 +73,46 @@ header p {
 header p:hover {
   cursor: pointer;
   color: blue;
-  text-decoration: underline;
-}
-
-header .move-right {
-  position: relative;
-  top: -10px;
-  right: 120px;
+  font-weight: bold;
 }
 
 header .nav-area {
+  position: absolute;
   background-color: #d9d9d9;
   border-radius: 0 0 10px 10px;
-  visibility: hidden;
+  padding-top: 100px;
+  top: -100px;
+  display: none;
 }
 
 header .area-1 {
+  right: calc(120px * 5);
   height: 110px;
 }
 
 header .area-2 {
+  right: calc(120px * 3);
   height: 210px;
 }
 
 header .area-3 {
+  right: calc(120px * 2);
   height: 160px;
 }
 
 header .area-4 {
+  right: calc(120px * 1);
   height: 260px;
 }
 
 .map {
   margin-top: 60px;
+  height: 1150px;
+  width: 700px;
+}
+
+.map svg {
+  padding: 20px;
 }
 
 footer {
