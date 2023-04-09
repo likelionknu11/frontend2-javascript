@@ -20,11 +20,12 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" href="./css/modal.css" />
-    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/carousel.css" />
 
     <script defer src="js/map.js"></script>
     <script defer src="./js/modal.js"></script>
     <script defer src="./js/carousel.js"></script>
+    <script defer src="./js/main.js"></script>
 
     <title>JavaScript-Project</title>
   </head>
@@ -37,14 +38,40 @@
           <div>
             <p>LOGO</p>
           </div>
-          <div class="region">
+          <div class="flex-center">
             <p>서울</p>
-            <p>수도권</p>
+            <p class="nav-action">수도권</p>
             <p>강원도</p>
-            <p>충청도</p>
-            <p>경상도</p>
-            <p>전라도</p>
+            <p class="nav-action">충청도</p>
+            <p class="nav-action">전라도</p>
+            <p class="nav-action">경상도</p>
             <p>제주도</p>
+          </div>
+        </div>
+      </div>
+      <div class="inner">
+        <div class="flex-right move-right">
+          <div class="move-right nav-area area-1">
+            <p>경기도</p>
+            <p>인천광역시</p>
+          </div>
+          <div class="nav-area area-2">
+            <p>충청북도</p>
+            <p>충청남도</p>
+            <p>세종특별시</p>
+            <p>대전광역시</p>
+          </div>
+          <div class="nav-area area-3">
+            <p>전라북도</p>
+            <p>전라남도</p>
+            <p>광주광역시</p>
+          </div>
+          <div class="nav-area area-4">
+            <p>경상북도</p>
+            <p>경상남도</p>
+            <p>대구광역시</p>
+            <p>울산광역시</p>
+            <p>부산광역시</p>
           </div>
         </div>
       </div>
@@ -58,9 +85,12 @@
       <div id="modal" class="modal-overlay">
         <!--모달 창 시작-->
         <div class="modal-window">
-          <div id="modal-title"> <!--모달 화면 1-->
-            <h2 class="area">서울</h2> <!--지역명 설정-->
-            <div class="close-modal-btn">X</div> <!--모달창 닫기 버튼-->
+          <div id="modal-title">
+            <!--모달 화면 1-->
+            <h2 class="area">서울</h2>
+            <!--지역명 설정-->
+            <div class="close-modal-btn">X</div>
+            <!--모달창 닫기 버튼-->
           </div>
           <!--모달 창 닫기 버튼-->
           <div class="modal-content">
@@ -70,6 +100,7 @@
               <card-input class="card card2"></card-input>
               <card-input class="card card3"></card-input>
               <!--카드 종료-->
+            </div>
           </div>
         </div>
       </div>
