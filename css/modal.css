@@ -1,6 +1,6 @@
 #modal {
   width: 830px;
-  height: 500px;
+  height: 535px;
   background-color: white;
   position: fixed;
   z-index: 10;
@@ -93,16 +93,17 @@
   box-shadow: 5px 5px 5px 5px #999;
   box-sizing: border-box;
   right: 306px;
-  padding: 30px 30px;
+  padding: 20px 10px;
   z-index: 1;
   background-color: #fff;
 }
 
 .card img{
   /* 축제 이미지 */
-  width: 200px;
-  height: 280px;
+  width: 220px;
+  height: 290px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .card1 {
@@ -110,14 +111,32 @@
   left: 0px;
 }
 
+.card1 img{
+  content: url(/img/축제사진/Blossom.png);
+}
+
+.card1 > ul > li >span{ /*축제 명*/
+  width: 220px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
 .card2{
   right: 246px;
   z-index: 10;
 }
 
+.card2 img{
+  content: url(/img/축제사진/Jong-ro.jpg);
+}
+
 .card3 {
   /* 카드 3 위치 설정 */
   right: 0px;
+}
+
+.card3 img{
+  content: url(/img/축제사진/Kangnam.jpg);
 }
 
 .card-contents {

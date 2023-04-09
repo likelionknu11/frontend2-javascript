@@ -1,7 +1,8 @@
-const $img = document.createElement("img"); //이미지 생성
-const $card1 = document.querySelector('.card1'); //카드1 가져오기
-const $card2 = document.querySelector('.card2'); //카드2 가져오기
-const $card3 = document.querySelector('.card3'); //카드3 가져오기
+const $card1 = document.querySelector('.card1'); //카드1 이미지 가져오기
+const $card2 = document.querySelector('.card2'); //카드2 이미지 가져오기
+const $card3 = document.querySelector('.card3'); //카드3 이미지 져오기
+const $cardImg= document.querySelector('.card img'); //카드3 이미지 져오기
+
 
 
 const closeBtn = modal.querySelector(".close-modal-btn"); //모달 창 닫기 버튼
@@ -20,9 +21,25 @@ class cardInput extends HTMLElement { //사용자 정의 함수
     cardInput.appendChild(festivalTitle);
     let festivalImg = document.createElement('img'); //축제 메인 이미지
     cardInput.appendChild(festivalImg);
+    $card1.festivalImg = [
+      {
+        id: "card1Img1",
+        src : "./img/축제사진/Jong-ro.jpg",
+      },
+      {
+        id: "card1Img2",
+        src : "./img/축제사진/Kangnam.jpg",
+      },
+      {
+        id: "card1Img3",
+        src : "./img/축제사진/Blossom.png",
+      },
+    ];
+    $card1.cardImgView = [1, 2, 3];
 
-    //$img.src = "../img/축제사진/Jong-ro.jpg";
-    //$card1.appendChild($img);
+$cardImg.addEventListener("click", (e) => { //card img 클릭 시
+  //$card.style.css = background: rgba(0, 0, 0, 0.35);;
+});
 
     let cardContents = document.createElement('ul'); //카드 내용을 담을 ul
     cardInput.appendChild(cardContents);
@@ -36,6 +53,7 @@ class cardInput extends HTMLElement { //사용자 정의 함수
 
     let festivalArea = document.createElement('li'); //카드 내용 / 축제 장소
     cardContents.appendChild(festivalArea);
+    $card1.festivalArea
     let festivalAreaTitle = document.createElement('span'); //카드 내용 / 축제 장소을 작성한 타이틀
     festivalArea.appendChild(festivalAreaTitle);
     let festivalAreaIns = document.createElement('a'); //카드 내용 / 축제 장소를 알려줌
