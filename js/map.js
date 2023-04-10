@@ -13,12 +13,9 @@ window.addEventListener("load", () => {
     });
     city.addEventListener("mouseover", () => {
       const hoverCity = svgDoc.querySelector(`#${city.id}`);
-      const hoverText = svgDoc.querySelector(`#L${city.id}`);
       const poly = svgDoc.querySelector(".polyG");
-      const text = svgDoc.querySelector(".textG");
 
       poly.appendChild(hoverCity);
-      text.appendChild(hoverText);
     });
   });
 });
