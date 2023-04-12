@@ -28,13 +28,13 @@
 //   cardContents.display = "block";
 // })
 
-// import { festivalContents } from "./festivaList";
+import { festivalDataList } from "./festivaList.js";
 
 class cardInput extends HTMLElement {
   //사용자 정의 함수
   //사용자 정의 함수의 장점 = 소스 재활용에 용이, 효율적인 코딩 가능 등등
   connectedCallback() {
-    const festivalData = festivalContents[0];
+    const festivalData = festivalDataList[0];
     //만든 태그가 HTML에 장착될 때 실행할 코드를 적는 곳
     //super(); //항상 super를 생성자에서 먼저 호출
     const cardTitle = document.createElement("div"); //카드 내용 태그
@@ -42,7 +42,7 @@ class cardInput extends HTMLElement {
     this.appendChild(cardTitle);
 
     const festivalTitle = document.createElement("h2"); //축제 이름
-    festivalTitle.innerHTML = "festivalData.festivalTitle"; //축제 이름 설정
+    festivalTitle.innerHTML = festivalData.festivalTitle; //축제 이름 설정
     cardTitle.appendChild(festivalTitle);
 
     const cardClose = document.createElement("span"); //축제 이름
