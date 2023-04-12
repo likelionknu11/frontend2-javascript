@@ -26,11 +26,12 @@
     <script defer src="./js/modal.js"></script>
     <script defer src="./js/carousel.js"></script>
     <script defer src="./js/main.js"></script>
+    <script type="module" src="./js/festivaList.js"></script>
 
     <title>JavaScript-Project</title>
   </head>
   <body>
-    <div id="overlay" class="modal-background"></div>
+    <!-- <div id="overlay" class="modal-background"></div> -->
     <!-- <img src="../frontend2-javascript/img/축제사진/Blossom.png"> -->
     <header>
       <div class="inner upper">
@@ -82,28 +83,7 @@
     <!-- 지도 종료 -->
 
     <section>
-      <div id="modal" class="modal-overlay">
-        <!--모달 창 시작-->
-        <div class="modal-window">
-          <div id="modal-title">
-            <!--모달 화면 1-->
-            <h2 class="area">서울</h2>
-            <!--지역명 설정-->
-            <div class="close-modal-btn">X</div>
-            <!--모달창 닫기 버튼-->
-          </div>
-          <!--모달 창 닫기 버튼-->
-          <div class="modal-content">
-            <div class="card-section">
-              <!--카드 시작-->
-              <card-input class="card card1"></card-input>
-              <card-input class="card card2"></card-input>
-              <card-input class="card card3"></card-input>
-              <!--카드 종료-->
-            </div>
-          </div>
-        </div>
-      </div>
+      <card-input class="card" data-data="festivalContents[0]"></card-input>
     </section>
     <!--모달 창 종료-->
     <!--캐러셀 시작-->
