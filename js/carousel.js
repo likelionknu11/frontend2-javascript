@@ -40,28 +40,36 @@ class Carousel {
     const container = document.createElement("div");
     const controls = document.createElement("div");
 
+    const cardList = document.querySelectorAll(".card");
+    console.log(cardList);
+    cardList.forEach((card, index) => {
+      container.append(card);
+      card.setAttribute("loading", "lazy");
+      card.setAttribute("data-index", `${index + 1}`);
+    });
+
     // Add container for carousel items and controls
     // .append()	선택된 요소의 마지막에 새로운 요소나 콘텐츠를 추가한다.
     this.el.append(container, controls);
     container.className = "carousel-container";
     controls.className = "carousel-controls";
 
-    // Take dataset array and append items to container
-    this.carouselData.forEach((item, index) => {
-      const carouselItem = item.src
-        ? document.createElement("img")
-        : document.createElement("div");
+    // //Take dataset array and append items to container
+    // this.carouselData.forEach((item, index) => {
+    //   const carouselItem = item.src
+    //     ? document.createElement("img")
+    //     : document.createElement("div");
 
-      container.append(carouselItem);
+    //   container.append(carouselItem);
 
-      // Add item attributes
-      carouselItem.className = `carousel-item carousel-item-${index + 1}`;
-      carouselItem.src = item.src;
-      // .setAttribute()는 선택한 요소(element)의 속성(attribute) 값을 정합니다.
-      carouselItem.setAttribute("loading", "lazy");
-      // Used to keep track of carousel items, infinite items possible in carousel however min 5 items required
-      carouselItem.setAttribute("data-index", `${index + 1}`);
-    });
+    //   // Add item attributes
+    //   carouselItem.className = `carousel-item carousel-item-${index + 1}`;
+    //   carouselItem.src = item.src;
+    //   // .setAttribute()는 선택한 요소(element)의 속성(attribute) 값을 정합니다.
+    //   carouselItem.setAttribute("loading", "lazy");
+    //   // Used to keep track of carousel items, infinite items possible in carousel however min 5 items required
+    //   carouselItem.setAttribute("data-index", `${index + 1}`);
+    // });
 
     this.carouselOptions.forEach((option) => {
       const btn = document.createElement("button");

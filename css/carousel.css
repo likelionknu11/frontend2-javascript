@@ -210,33 +210,43 @@
 
 .card-carousel-content {
   text-align: center;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 .card-carousel-content img {
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
   border-radius: 30px;
   transition: 0.5s;
-  width: 250px;
-  height: 450px;
+  width: 80%;
+  height: 90%;
 }
 
-.card-carousel-content img:hover card-carousel-content2 {
-  opacity: 0.2;
+.card-carousel-contentText:hover {
+  opacity: 1;
 }
 
-.card-carousel-content2 {
+.card-carousel-contentText {
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
   opacity: 0;
-  padding-top: 10px;
+  width: 80%;
+  height: 90%;
   position: absolute;
   transition: 0.5s;
 }
 
-.card-carousel-content2:hover {
-  opacity: 1;
+.card-carousel-contentText p {
+  margin: 20px;
 }
-
+.card-carousel-contentText h2 {
+  margin-top: 25px;
+}
 /*
 1. 이미지 가운데 정렬이 안 됨 + 크기이슈
 2. 이미지와 텍스트가 겹쳐져 있음 + 호버이슈 
