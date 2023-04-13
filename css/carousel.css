@@ -52,7 +52,9 @@
 }
 
 .carousel-item-3 {
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25),
+    0 0 100px rgba(255, 255, 255, 0.1);
   height: calc(var(--carousel-item-height) * 2);
   opacity: 1;
   left: 50%;
@@ -98,11 +100,11 @@
 .carousel-control-previous::after,
 .carousel-control-previous::before {
   box-sizing: border-box;
-  content: '';
+  content: "";
   display: block;
   height: 8px;
   position: absolute;
-  top: 5px
+  top: 5px;
 }
 .carousel-control-previous::before {
   background: currentColor;
@@ -126,7 +128,7 @@
   display: block;
   height: 8px;
   position: absolute;
-  top: 5px
+  top: 5px;
 }
 .carousel-control-next::before {
   background: currentColor;
@@ -193,3 +195,49 @@
   top: 4px;
   width: 2px;
 }
+
+.card-carousel {
+  background-color: #aaa;
+  width: 300px;
+  height: 500px;
+}
+
+.card-carousel-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-carousel-content {
+  text-align: center;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.card-carousel-content img {
+  position: absolute;
+  border-radius: 30px;
+  transition: 0.5s;
+  width: 250px;
+  height: 450px;
+}
+
+.card-carousel-content img:hover card-carousel-content2 {
+  opacity: 0.2;
+}
+
+.card-carousel-content2 {
+  opacity: 0;
+  padding-top: 10px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.card-carousel-content2:hover {
+  opacity: 1;
+}
+
+/*
+1. 이미지 가운데 정렬이 안 됨 + 크기이슈
+2. 이미지와 텍스트가 겹쳐져 있음 + 호버이슈 
+ */
