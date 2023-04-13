@@ -33,8 +33,9 @@ import { festivalDataList } from "./festivaList.js";
 class cardInput extends HTMLElement {
   //사용자 정의 함수
   //사용자 정의 함수의 장점 = 소스 재활용에 용이, 효율적인 코딩 가능 등등
+
   connectedCallback() {
-    const festivalData = festivalDataList[0];
+    const festivalData = festivalDataList[0]; //datalist에 있는 첫 번째 배열을 가져왔다
     //만든 태그가 HTML에 장착될 때 실행할 코드를 적는 곳
     //super(); //항상 super를 생성자에서 먼저 호출
     const cardTitle = document.createElement("div"); //카드 내용 태그
@@ -62,11 +63,23 @@ class cardInput extends HTMLElement {
     cardContents.classList.add("card-contents");
     festivalContents.appendChild(cardContents);
 
-    for (let i = 0; i <= 5; i++) {
-      const contentsText = document.createElement("p");
-      contentsText.innerHTML = "예시";
+    // class festivalArr {
+    //   constructor(data) {
+    //     this.data = data;
+    //   }
+
+    //   generateContents() {
+    //     const cardContents = document.querySelector(".card_conte");
+
+    for (const [key, value] of Object.entries(festivalData)) {
+      //object.entries메서드는 속성 key, value값을 반환
+      console.log(`${key}:${value}`);
+      const contentsText = document.createElement("p"); //반복문을 이용해 p태그 5개 생성
+      contentsText.innerHTML = value;
       cardContents.appendChild(contentsText);
     }
+    // }
+    // }
   }
 }
 
