@@ -28,12 +28,17 @@
   align-items: center;
 }
 
+.card-close-btn:hover {
+  cursor: pointer; /*hover시 커서가 손모양으로 바뀜*/
+}
+
 .festival-contents {
   position: relative;
   margin: 0px 15px 20px;
 }
 
 .festival-contents img {
+  /*축제 사진*/
   width: 100%;
   height: 100%;
   position: relative;
@@ -41,7 +46,7 @@
 }
 
 .card-contents {
-  /* display: none; */
+  /*카드 내용*/
   position: absolute;
   top: 0;
   width: 100%;
@@ -50,11 +55,12 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
-  gap: 20px;
+  /* gap: 5px; */
   flex-direction: column;
   border-radius: 10px;
+  font-size: 13px;
 }
 
 .card-contents p {
-  margin: 10px 20px;
+  margin: 12px 20px; /*위, 아래 / 왼쪽 오른쪽*/
 }

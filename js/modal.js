@@ -18,15 +18,13 @@
 </div>
 </div> */
 
-// const closeBtn = modal.querySelector(".close-modal-btn"); //모달 창 닫기 버튼
-// closeBtn.addEventListener("click", (e) => {
-//   modal.style.display = "none"; //닫기 버튼 클릭 시 화면에서 안보이게 된다
-//   overlay.style.display = "none";
-// });
-
-// cardImg.addEventListener("hover", (e) => { //카드 이미지에 마우스 hover 시
-//   cardContents.display = "block";
-// })
+const card = document.querySelector("card-input");
+card.addEventListener("click", (event) => {
+  //카드 닫기 버튼
+  if (event.target.classList.contains("card-close-btn")) {
+    card.style.display = "none";
+  }
+});
 
 import { festivalDataList } from "./festivaList.js";
 
@@ -38,6 +36,7 @@ class cardInput extends HTMLElement {
     const festivalData = festivalDataList[0]; //datalist에 있는 첫 번째 배열을 가져왔다
     //만든 태그가 HTML에 장착될 때 실행할 코드를 적는 곳
     //super(); //항상 super를 생성자에서 먼저 호출
+
     const cardTitle = document.createElement("div"); //카드 내용 태그
     cardTitle.classList.add("card-title");
     this.appendChild(cardTitle);
@@ -46,8 +45,9 @@ class cardInput extends HTMLElement {
     festivalTitle.innerHTML = festivalData.festivalTitle; //축제 이름 설정
     cardTitle.appendChild(festivalTitle);
 
-    const cardClose = document.createElement("span"); //축제 이름
+    const cardClose = document.createElement("span"); //카드 닫기 버튼
     cardClose.innerHTML = "X";
+    cardClose.classList.add("card-close-btn");
     cardTitle.appendChild(cardClose);
 
     const festivalContents = document.createElement("div"); //축제 이름
@@ -63,14 +63,6 @@ class cardInput extends HTMLElement {
     cardContents.classList.add("card-contents");
     festivalContents.appendChild(cardContents);
 
-    // class festivalArr {
-    //   constructor(data) {
-    //     this.data = data;
-    //   }
-
-    //   generateContents() {
-    //     const cardContents = document.querySelector(".card_conte");
-
     for (const [key, value] of Object.entries(festivalData)) {
       //object.entries메서드는 속성 key, value값을 반환
       console.log(`${key}:${value}`);
@@ -78,8 +70,6 @@ class cardInput extends HTMLElement {
       contentsText.innerHTML = value;
       cardContents.appendChild(contentsText);
     }
-    // }
-    // }
   }
 }
 
