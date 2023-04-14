@@ -32,6 +32,7 @@
   transition: all 0.3s ease-in-out;
   width: var(--carousel-item-width);
   z-index: 0;
+  background-color: #eee;
 }
 
 .carousel-item-1 {
@@ -193,3 +194,62 @@
   top: 4px;
   width: 2px;
 }
+<<<<<<< HEAD
+=======
+
+.card-carousel {
+  background-color: #aaa;
+  width: 300px;
+  height: 500px;
+}
+
+.card-carousel-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-carousel-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.card-carousel-content img {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-radius: 30px;
+  transition: 0.5s;
+  width: 80%;
+  height: 90%;
+}
+
+.card-carousel-contentText:hover {
+  opacity: 1;
+}
+
+.card-carousel-contentText {
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  opacity: 0;
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.card-carousel-contentText p {
+  margin: 20px;
+}
+.card-carousel-contentText h2 {
+  margin-top: 25px;
+}
+/*
+1. �̹��� ��� ������ �� �� + ũ���̽�
+2. �̹����� �ؽ�Ʈ�� ������ ���� + ȣ���̽� 
+ */
+>>>>>>> 52b3ce735e15f71a30cc1943b574832c939c6390
