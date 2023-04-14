@@ -6,31 +6,8 @@ class Carousel {
   constructor(el) {
     this.el = el;
     this.carouselOptions = ["previous", "next"];
-    // this.carouselData = [
-    //   {
-    //     id: "1",
-    //     src: "./img/축제사진/Jong-ro.jpg",
-    //   },
-    //   {
-    //     id: "2",
-    //     src: "./img/축제사진/Kangnam.jpg",
-    //   },
-    //   {
-    //     id: "3",
-    //     src: "./img/축제사진/Blossom.png",
-    //   },
-    //   {
-    //     id: "4",
-    //     src: "./img/축제사진/Namhae-beer.jpg",
-    //   },
-    //   {
-    //     id: "5",
-    //     src: "./img/축제사진/Namhae-galic.jpg",
-    //   },
-    // ];
     this.carouselInView = [1, 2, 3, 4, 5];
     this.carouselContainer;
-    this.carouselPlayState;
   }
 
   mounted() {
@@ -100,9 +77,6 @@ class Carousel {
   }
 
   previous() {
-    // Update order of items in data array to be shown in carousel
-    // this.carouselData.unshift(this.carouselData.pop());
-
     // Push the first item to the end of the array so that the previous item is front and center
     this.carouselInView.push(this.carouselInView.shift());
 
@@ -112,17 +86,9 @@ class Carousel {
         index
       ].className = `carousel-item carousel-item-${item}`;
     });
-
-    // Using the first 5 items in data array update content of carousel items in view
-    // this.carouselData.slice(0, 5).forEach((data, index) => {
-    //   document.querySelector(`.carousel-item-${index + 1}`).src = data.src;
-    // });
   }
 
   next() {
-    // Update order of items in data array to be shown in carousel
-    // this.carouselData.push(this.carouselData.shift());
-
     // Take the last item and add it to the beginning of the array so that the next item is front and center
     this.carouselInView.unshift(this.carouselInView.pop());
 
@@ -132,11 +98,6 @@ class Carousel {
         index
       ].className = `carousel-item carousel-item-${item}`;
     });
-
-    // Using the first 5 items in data array update content of carousel items in view
-    // this.carouselData.slice(0, 5).forEach((data, index) => {
-    //   document.querySelector(`.carousel-item-${index + 1}`).src = data.src;
-    // });
   }
 }
 
