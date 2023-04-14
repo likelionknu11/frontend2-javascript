@@ -49,10 +49,12 @@ export class cardInput extends HTMLElement {
     cardTitle.appendChild(cardClose);
 
     const allCard = document.querySelector(".carousel");
+    const overlay = document.querySelector("#overlay");
     const card = document.querySelector("card-input");
     cardClose.addEventListener("click", (event) => {
       //카드 닫기 버튼
       allCard.style.display = "none";
+      overlay.style.display = "none";
     });
 
     const festivalContents = document.createElement("div"); //축제 이름
