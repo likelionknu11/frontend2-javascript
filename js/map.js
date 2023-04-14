@@ -17,6 +17,14 @@ window.addEventListener("load", () => {
       const poly = svgDoc.querySelector(".polyG");
 
       poly.appendChild(hoverCity);
+
+      poly.addEventListener("click", (event) => {
+        const allCard = document.querySelector(".carousel");
+        const overlay = document.querySelector("#overlay");
+
+        allCard.style.display = "block";
+        overlay.style.display = "block";
+      });
     });
   });
 });
