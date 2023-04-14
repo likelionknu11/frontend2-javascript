@@ -1,30 +1,10 @@
-/* <div class="card">
-<!--카드1-->
-<div class="card-title">
-  <h2>궁중문화축전</h2>
-  <span>X</span>
-</div>
-<div class="festival-contents">
-  <img src="./img/축제사진/Blossom.png" alt="축제 사진" />
-  <div class="card-contents">
-    <!--카드 내용-->
-    <p>축제명</p>
-    <p>장소 : 경복궁, 창덕궁, 창경궁, 덕수궁, 경희궁, 종묘, 사직단</p>
-    <p>23.04.29. (토) ~ 23.05.07. (일)</p>
-    <p>축제 내용</p>
-    <p class="hashtag">해시태그</p>
-    <a>바로가기</a>
-  </div>
-</div>
-</div> */
-
-const card = document.querySelector("card-input");
-card.addEventListener("click", (event) => {
-  //카드 닫기 버튼
-  if (event.target.classList.contains("card-close-btn")) {
-    card.style.display = "none";
-  }
-});
+// const card = document.querySelector("card-input");
+// card.addEventListener("click", (event) => {
+//   //카드 닫기 버튼
+//   if (event.target.classList.contains("card-close-btn")) {
+//     card.style.display = "none";
+//   }
+// });
 
 import { festivalDataList } from "./festivaList.js";
 
@@ -40,7 +20,6 @@ export class cardInput extends HTMLElement {
 
   connectedCallback() {
     const festivalData = festivalDataList[this.dataIndex]; //datalist에 있는 첫 번째 배열을 가져왔다
-    console.log(this.dataIndex);
     //만든 태그가 HTML에 장착될 때 실행할 코드를 적는 곳
     //super(); //항상 super를 생성자에서 먼저 호출
 

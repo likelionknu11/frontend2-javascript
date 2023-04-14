@@ -11,16 +11,9 @@ export const festivalDataList = [
       "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=c3c8b79f-14e4-4f19-8f9b-e9b3826ee4ea&big_category=undefined&mid_category=undefined&big_area=undefined&referrer=https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bk00&pkid=110&os=1908132&qvt=0&query=%EC%84%9D%EC%B4%8C%ED%98%B8%EC%88%98%20%EB%B2%9A%EA%BD%83%EC%B6%95%EC%A0%9C", //축제 사이트
   },
   {
-<<<<<<< HEAD
-    festivalTitle: "축제명 : 궁중문화축전", //축제 이름
-    festivalAreaIns:
-      "장소 : 경복궁, 창덕궁, 창경궁, 덕수궁, 경희궁, 종묘, 사직단", //축제 장소
-    festivalDate: "기간 : 2023.04.29. (토) ~ 2023.05.07. (일)", //축제 날짜
-=======
     festivalTitle: "궁중문화축전", //축제 이름
     festivalAreaIns: "경복궁, 창덕궁, 창경궁, 덕수궁, 경희궁, 종묘, 사직단", //축제 장소
     festivalDate: "2023.04.29. (토) ~ 2023.05.07. (일)", //축제 날짜
->>>>>>> 52b3ce735e15f71a30cc1943b574832c939c6390
     festivalMainIns:
       "축제 소개 : ‘궁중문화축전’은 대한민국의 대표 문화유산인 경복궁, 창덕궁, 덕수궁, 창경궁, 경희궁 5대궁과 종묘, 사직단을 배경으로 펼쳐지는 국내 최대 문화유산 축제이다. 2014년 시범사업을 거쳐 2015년부터 정식 개최된 궁중문화축전은 '오늘, 궁을 만나다'라는 슬로건 아래 매년 각 고궁의 장소성과 역사성을 활용한 공연, 전시, 체험, 의례 등의 문화예술프로그램을 선보이고 있다. 2020년부터 축제 공간을 고궁 밖으로 확장하여 비대면, 온라인 특화 콘텐츠를 함께 공개하고 있으며, 2021년부터 오프라인 행사 기간을 확대하여 매년 5월 ‘봄 궁중문화축전’과 10월 ‘가을 궁중문화축전’으로 연 2회 관람객에게 특별한 시간을 선사한다.", //축제 설명
     festivalTag: "#경복궁 #광화문 #도심여행 #문화유산", //축제 해시태그

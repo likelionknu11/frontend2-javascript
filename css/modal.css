@@ -50,11 +50,7 @@
 }
 
 .card-contents {
-<<<<<<< HEAD
-  /*카드 내용*/
-=======
   visibility: hidden;
->>>>>>> 52b3ce735e15f71a30cc1943b574832c939c6390
   position: absolute;
   top: 0;
   width: 100%;
@@ -66,15 +62,11 @@
   /* gap: 5px; */
   flex-direction: column;
   border-radius: 10px;
-<<<<<<< HEAD
-  font-size: 13px;
-=======
   overflow: hidden;
 }
 
 .card-contents:hover {
   visibility: visible;
->>>>>>> 52b3ce735e15f71a30cc1943b574832c939c6390
 }
 
 .card-contents p {
