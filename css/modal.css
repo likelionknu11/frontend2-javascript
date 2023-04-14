@@ -45,7 +45,9 @@
   position: relative;
   border-radius: 10px;
 }
+
 .festival-contents img:hover ~ .card-contents {
+  /*~은 왼쪽 요소를 hover했을 때 오른쪽 요소에 css를 부여*/
   visibility: visible;
 }
 
@@ -63,6 +65,7 @@
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
+  font-size: 12px;
 }
 
 .card-contents:hover {
