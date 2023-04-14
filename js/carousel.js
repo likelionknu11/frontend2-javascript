@@ -21,7 +21,11 @@ class Carousel {
 
     const cardList = document.querySelectorAll(".carousel .card");
     cardList.forEach((data, index) => {
-      const card = new cardInput(data.dataset.index, "seoul", data.dataset.src);
+      const card = new cardInput(
+        data.dataset.index,
+        data.dataset.city,
+        data.dataset.src
+      );
       container.append(card);
       card.className = `carousel-item carousel-item-${index + 1}`;
       card.setAttribute("loading", "lazy");

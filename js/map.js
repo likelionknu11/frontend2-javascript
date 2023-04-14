@@ -9,7 +9,11 @@ window.addEventListener("load", () => {
   // 배열을 forEach문을 통해 각각의 요소(city)로 분해 후 각각의 요소에 click EventLintener을 장착
   cityList.forEach((city) => {
     city.addEventListener("click", (e) => {
-      alert(city.dataset.id);
+      const allCard = document.querySelector(".carousel");
+      const overlay = document.querySelector("#overlay");
+
+      allCard.style.display = "block";
+      overlay.style.display = "block";
     });
 
     city.addEventListener("mouseover", () => {
@@ -17,14 +21,6 @@ window.addEventListener("load", () => {
       const poly = svgDoc.querySelector(".polyG");
 
       poly.appendChild(hoverCity);
-
-      poly.addEventListener("click", (event) => {
-        const allCard = document.querySelector(".carousel");
-        const overlay = document.querySelector("#overlay");
-
-        allCard.style.display = "block";
-        overlay.style.display = "block";
-      });
     });
   });
 });

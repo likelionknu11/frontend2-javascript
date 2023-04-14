@@ -5,9 +5,10 @@
 //     festivalTag: "", //축제 해시태그
 //     festivalSite: "", //축제 사이트
 
-export const festivalDataList = [
-  //카드 이미지 hover했을 때 나올 카드 내용
-  //서울
+//카드 이미지 hover했을 때 나올 카드 내용
+//서울
+
+const festivalSeoul = [
   {
     festivalTitle: "석촌호수 벚꽃축제", //축제 이름
     festivalAreaIns: "장소 : 서울 송파구 석촌호수", //축제 장소
@@ -59,3 +60,10 @@ export const festivalDataList = [
       "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=07fd5131-66e8-4be9-b111-546570827ba1&big_category=undefined&mid_category=undefined&big_area=undefined&referrer=https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bk00&pkid=110&os=24775060&qvt=0&query=%EC%84%9C%EC%9A%B8%EB%A6%B4%EB%9E%99%EC%8A%A4%EC%9C%84%ED%81%AC", //축제 사이트
   },
 ];
+
+const festivalGangWon = [];
+
+export const festivalDataList = {
+  seoul: festivalSeoul,
+  gangWon: festivalGangWon,
+};
