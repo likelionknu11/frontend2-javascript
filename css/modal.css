@@ -31,6 +31,7 @@
 .festival-contents {
   position: relative;
   margin: 0px 15px 20px;
+  height: 80%;
 }
 
 .festival-contents img {
@@ -39,9 +40,12 @@
   position: relative;
   border-radius: 10px;
 }
+.festival-contents img:hover ~ .card-contents {
+  visibility: visible;
+}
 
 .card-contents {
-  /* display: none; */
+  visibility: hidden;
   position: absolute;
   top: 0;
   width: 100%;
@@ -53,6 +57,11 @@
   gap: 20px;
   flex-direction: column;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-contents:hover {
+  visibility: visible;
 }
 
 .card-contents p {
