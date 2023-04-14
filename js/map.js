@@ -9,10 +9,15 @@ window.addEventListener("load", () => {
   // 배열을 forEach문을 통해 각각의 요소(city)로 분해 후 각각의 요소에 click EventLintener을 장착
   cityList.forEach((city) => {
     city.addEventListener("click", (e) => {
-      const allCard = document.querySelector(".carousel");
+      const carousel = document.querySelector(".carousel");
+      const allCard = document.querySelectorAll(".carousel .carousel-card");
+
       const overlay = document.querySelector("#overlay");
 
-      allCard.style.display = "block";
+      allCard.forEach((card) => {
+        card.setAttribute("data-city", city.dataset.id);
+      });
+      carousel.style.display = "block";
       overlay.style.display = "block";
     });
 

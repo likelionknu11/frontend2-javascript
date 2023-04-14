@@ -19,18 +19,14 @@ class Carousel {
     const container = document.createElement("div");
     const controls = document.createElement("div");
 
-    const cardList = document.querySelectorAll(".carousel .card");
-    cardList.forEach((data, index) => {
-      const card = new cardInput(
-        data.dataset.index,
-        data.dataset.city,
-        data.dataset.src
-      );
+    // const cardList = document.querySelectorAll(".carousel .card");
+    for (let i = 0; i < 5; i++) {
+      const card = new cardInput(i, "Seoul");
       container.append(card);
-      card.className = `carousel-item carousel-item-${index + 1}`;
+      card.className = `carousel-card carousel-item carousel-item-${i + 1}`;
       card.setAttribute("loading", "lazy");
-      card.setAttribute("data-index", `${index + 1}`);
-    });
+      card.setAttribute("data-index", `${i + 1}`);
+    }
 
     // Add container for carousel items and controls
     // .append()	선택된 요소의 마지막에 새로운 요소나 콘텐츠를 추가한다.

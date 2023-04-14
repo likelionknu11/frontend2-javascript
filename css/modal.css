@@ -7,6 +7,8 @@
   background: rgba(0, 0, 0, 0.35);
   /* 검정 도화지로 덮어 씌우기 */
   z-index: 10;
+
+  display: none;
 }
 
 .card {

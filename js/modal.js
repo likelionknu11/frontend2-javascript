@@ -1,21 +1,24 @@
 import { festivalDataList } from "./festivaList.js";
 
 export class cardInput extends HTMLElement {
-  constructor(dataIndex, city, imgSrc) {
+  constructor(dataIndex, city) {
     super();
     this.dataIndex = dataIndex;
     this.city = city;
-    this.imgSrc = imgSrc;
+  }
+
+  setCity(city) {
+    this.city = city;
   }
   //사용자 정의 함수
   //사용자 정의 함수의 장점 = 소스 재활용에 용이, 효율적인 코딩 가능 등등
 
   connectedCallback() {
     const festivalData = festivalDataList[this.city][this.dataIndex]; //datalist에 있는 첫 번째 배열을 가져왔다
-    console.log(festivalData);
     //만든 태그가 HTML에 장착될 때 실행할 코드를 적는 곳
     //super(); //항상 super를 생성자에서 먼저 호출
 
+    console.log(this.dataIndex);
     const cardTitle = document.createElement("div"); //카드 내용 태그
     cardTitle.classList.add("card-title");
     this.appendChild(cardTitle);
@@ -31,7 +34,7 @@ export class cardInput extends HTMLElement {
 
     const allCard = document.querySelector(".carousel");
     const overlay = document.querySelector("#overlay");
-    const card = document.querySelector("card-input");
+    // const card = document.querySelector("card-input");
     cardClose.addEventListener("click", (event) => {
       //카드 닫기 버튼
       allCard.style.display = "none";
@@ -43,7 +46,10 @@ export class cardInput extends HTMLElement {
     this.appendChild(festivalContents);
 
     const festivalImg = document.createElement("img"); //축제 메인 이미지
-    festivalImg.setAttribute("src", `./img/축제사진/${this.imgSrc}.jpg`); //각각의 이미지
+    festivalImg.setAttribute(
+      "src",
+      `./img/축제사진/${this.city}/${this.dataIndex}.jpg`
+    ); //각각의 이미지
     festivalImg.setAttribute("alt", "축제사진");
     festivalContents.appendChild(festivalImg);
 
@@ -55,7 +61,31 @@ export class cardInput extends HTMLElement {
       //object.entries메서드는 속성 key, value값을 반환
       const contentsText = document.createElement("p"); //반복문을 이용해 p태그 5개 생성
       contentsText.innerHTML = value;
+      contentsText.className = key;
       cardContents.appendChild(contentsText);
+    }
+  }
+  static get observedAttributes() {
+    return ["data-city"];
+  }
+  attributeChangedCallback() {
+    this.setCity(this.dataset.city);
+    const festivalData = festivalDataList[this.city][this.dataIndex]; //datalist에 있는 첫 번째 배열을 가져왔다
+
+    const festivalTitle = this.querySelector(".card-title h2"); //축제 이름
+    festivalTitle.innerHTML = festivalData.festivalTitle; //축제 이름 설정
+
+    const festivalImg = this.querySelector(".festival-contents img");
+
+    festivalImg.setAttribute(
+      "src",
+      `./img/축제사진/${this.city}/${this.dataIndex}.jpg`
+    ); //각각의 이미지
+
+    for (const [key, value] of Object.entries(festivalData)) {
+      //object.entries메서드는 속성 key, value값을 반환
+      const contentsText = this.querySelector(`.card-contents .${key}`);
+      contentsText.innerHTML = value;
     }
   }
 }
