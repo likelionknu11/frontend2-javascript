@@ -18,14 +18,6 @@
 </div>
 </div> */
 
-const card = document.querySelector("card-input");
-card.addEventListener("click", (event) => {
-  //카드 닫기 버튼
-  if (event.target.classList.contains("card-close-btn")) {
-    card.style.display = "none";
-  }
-});
-
 import { festivalDataList } from "./festivaList.js";
 
 export class cardInput extends HTMLElement {
@@ -56,6 +48,13 @@ export class cardInput extends HTMLElement {
     cardClose.innerHTML = "X";
     cardClose.classList.add("card-close-btn");
     cardTitle.appendChild(cardClose);
+
+    const allCard = document.querySelector(".carousel");
+    const card = document.querySelector("card-input");
+    cardClose.addEventListener("click", (event) => {
+      //카드 닫기 버튼
+      allCard.style.display = "none";
+    });
 
     const festivalContents = document.createElement("div"); //축제 이름
     festivalContents.classList.add("festival-contents");
