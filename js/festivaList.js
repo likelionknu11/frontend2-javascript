@@ -691,12 +691,12 @@ const festivalNorth_Gyeongsang = [
     festivalSite: "url",
   },
   {
-    festivalTitle: "무주산청축제",
+    festivalTitle: "무주반딧불축제",
     festivalAreaIns: "장소: 경상북도 무주군",
     festivalDate: "기간: 23.09.29. (금) ~ 23.10.09. (월)",
     festivalMainIns:
       "The Muju Sancheong Festival, where you can experience traditional Korean culture and natural beauty.",
-    festivalTag: "#축제 #무주 #산청축제 #한국전통문화 #자연축제",
+    festivalTag: "#축제 #무주 #반딧불축제 #한국전통문화 #자연축제",
     festivalSite: "url",
   },
   {
@@ -720,7 +720,7 @@ const festivalSouth_Gyeongsang = [
     festivalSite: "url",
   },
   {
-    festivalTitle: "거제어촌마실축제",
+    festivalTitle: "어기야디어차",
     festivalAreaIns: "장소 : 경상남도 거제시 거제해안로 527",
     festivalDate: "기간 : 23.05.27. (토) ~ 23.05.30. (화)",
     festivalMainIns:
@@ -729,12 +729,12 @@ const festivalSouth_Gyeongsang = [
     festivalSite: "url",
   },
   {
-    festivalTitle: "통영국제유화축제",
+    festivalTitle: "통영국제음악제",
     festivalAreaIns: "장소 : 경상남도 통영시 중앙로 50",
     festivalDate: "기간 : 23.04.05. (수) ~ 23.04.09. (일)",
     festivalMainIns:
       "Experience the beauty of art and nature at the Tongyeong International Flower Festival, where vibrant blooms and scenic landscapes come together.",
-    festivalTag: "#Tongyeong #FlowerFestival #ArtAndNature #Spring",
+    festivalTag: "#Tongyeong #MusicFestival #ArtAndNature #Spring",
     festivalSite: "url",
   },
   {
