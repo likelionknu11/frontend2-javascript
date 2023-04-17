@@ -67,7 +67,7 @@
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .card-contents:hover {
@@ -75,5 +75,9 @@
 }
 
 .card-contents p {
-  margin: 12px 20px; /*위, 아래 / 왼쪽 오른쪽*/
+  margin: 6px 20px; /*위, 아래 / 왼쪽 오른쪽*/
+}
+
+.card-contents a {
+  margin: 6px 20px; /*위, 아래 / 왼쪽 오른쪽*/
 }

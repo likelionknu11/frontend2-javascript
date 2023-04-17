@@ -58,10 +58,19 @@ export class cardInput extends HTMLElement {
 
     for (const [key, value] of Object.entries(festivalData)) {
       //object.entries메서드는 속성 key, value값을 반환
-      const contentsText = document.createElement("p"); //반복문을 이용해 p태그 5개 생성
-      contentsText.innerHTML = value;
-      contentsText.className = key;
-      cardContents.appendChild(contentsText);
+      if (key == "festivalSite") {
+        const contentsText = document.createElement("a");
+        contentsText.innerHTML = "바로가기";
+        contentsText.setAttribute("href", value);
+        contentsText.className = key;
+        cardContents.appendChild(contentsText);
+      } else {
+        const contentsText = document.createElement("p"); //반복문을 이용해 p태그 5개 생성
+
+        contentsText.innerHTML = value;
+        contentsText.className = key;
+        cardContents.appendChild(contentsText);
+      }
     }
   }
   static get observedAttributes() {
@@ -84,7 +93,9 @@ export class cardInput extends HTMLElement {
     for (const [key, value] of Object.entries(festivalData)) {
       //object.entries메서드는 속성 key, value값을 반환
       const contentsText = this.querySelector(`.card-contents .${key}`);
-      contentsText.innerHTML = value;
+      key == "festivalSite"
+        ? contentsText.setAttribute("href", value)
+        : (contentsText.innerHTML = value);
     }
   }
 }

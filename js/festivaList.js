@@ -24,7 +24,7 @@ const festivalSeoul = [
     festivalAreaIns: "경복궁, 창덕궁, 창경궁, 덕수궁, 경희궁, 종묘, 사직단", //축제 장소
     festivalDate: "기간 : 23.04.29. (토) ~ 23.05.07. (일)", //축제 날짜
     festivalMainIns:
-      "축제 소개 : ‘궁중문화축전’은 대한민국의 대표 문화유산인 경복궁, 창덕궁, 덕수궁, 창경궁, 경희궁 5대궁과 종묘, 사직단을 배경으로 펼쳐지는 국내 최대 문화유산 축제이다. 궁중문화축전은 '오늘, 궁을 만나다'라는 슬로건 아래 매년 각 고궁의 장소성과 역사성을 활용한 공연, 전시, 체험, 의례 등의 문화예술프로그램을 선보이고 있다. ", //축제 설명
+      "축제 소개 : ‘궁중문화축전’은 대한민국의 대표 문화유산인 경복궁, 창덕궁, 덕수궁, 창경궁, 경희궁 5대궁과 종묘, 사직단을 배경으로 펼쳐지는 국내 최대 문화유산 축제이다.", //축제 설명
     festivalTag: "#경복궁 #광화문 #도심여행 #문화유산", //축제 해시태그
     festivalSite:
       "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=1bb9ef3a-65ba-44c2-87f9-9ce04a8ee02f&big_category=undefined&mid_category=undefined&big_area=undefined&referrer=https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bk00&pkid=110&os=3515656&qvt=0&query=%EA%B6%81%EC%A4%91%EB%AC%B8%ED%99%94%EC%B6%95%EC%A0%84", //축제 사이트
@@ -34,7 +34,7 @@ const festivalSeoul = [
     festivalAreaIns: "장소 : 서울무역전시컨벤션센터(SETEC) 컨벤션홀", //축제 장소
     festivalDate: "기간 : 23.03.01. (수) ~ 23.04.30. (일)", //축제 날짜
     festivalMainIns:
-      "축제 소개 : 서울릴랙스위크는 누구나 방문하여 몸과 마음을 돌볼 수 있는 '마음이 쉬는 곳'으로 구성되어 있는 서울 도시 축제이자, 멘탈 힐링 축제이다. 명상을 통한 시민들의 스트레스 완화와 치유, 행복을 도모하는 담마토크 및 수행주간 등 시민참여형 프로그램으로 일상 속 소소하고 편안한 휴식을 제공한다.", //축제 설명
+      "축제 소개 : 서울릴랙스위크는 누구나 방문하여 몸과 마음을 돌볼 수 있는 '마음이 쉬는 곳'으로 구성되어 있는 서울 도시 축제이자, 멘탈 힐링 축제이다.", //축제 설명
     festivalTag: "#힐링축제 #휴식 #스트레스완화 #위로 #강남", //축제 해시태그
     festivalSite:
       "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=07fd5131-66e8-4be9-b111-546570827ba1&big_category=undefined&mid_category=undefined&big_area=undefined&referrer=https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bk00&pkid=110&os=24775060&qvt=0&query=%EC%84%9C%EC%9A%B8%EB%A6%B4%EB%9E%99%EC%8A%A4%EC%9C%84%ED%81%AC", //축제 사이트
@@ -474,7 +474,7 @@ const festivalGangwon = [
     festivalSite: "url",
   },
   {
-    festivalTitle: "강원도 화천 철우회관 벚꽃축제",
+    festivalTitle: "강원도 화천 벚꽃축제",
     festivalAreaIns: "장소: 강원도 화천군 화천읍 철원로 59-14 철우회관",
     festivalDate: "기간: 23.04.16. (토) ~ 23.04.24. (일)",
     festivalMainIns: "Spring festival with beautiful cherry blossoms.",
@@ -516,11 +516,11 @@ const festivalNorth_Chungcheong = [
     festivalSite: "url",
   },
   {
-    festivalTitle: "제천세계산악영화제",
-    festivalAreaIns: "장소 : 충청북도 제천시",
-    festivalDate: "기간 : 23.09.xx. (일정 미정)",
-    festivalMainIns: "Jecheon International Mountain Film Festival",
-    festivalTag: "#산악영화 #영화제 #제천 #국제이벤트",
+    festivalTitle: "청풍호 벚꽃 축제",
+    festivalAreaIns: "장소 :  충청북도 제천시 청풍면 청풍호로 2048",
+    festivalDate: "기간 : 23.04.xx. (일정 미정)",
+    festivalMainIns: "Jecheon International flower Festival",
+    festivalTag: "#연인과 #벚꽃 #제천 #국제이벤트",
     festivalSite: "url",
   },
 ];
@@ -645,6 +645,7 @@ const festivalSouth_Jeolla = [
     festivalTag: "#굴뚝축제 #해돋이 #야간불꽃놀이 #봄나들이 #완도",
     festivalSite: "url",
   },
+
   {
     festivalTitle: "장흥세계비자림축제",
     festivalAreaIns: "장소: 전라남도 장흥군 장흥읍 비자림로 600",

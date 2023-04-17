@@ -84,7 +84,7 @@ class Carousel {
     this.carouselInView.forEach((item, index) => {
       this.carouselContainer.children[
         index
-      ].className = `carousel-item carousel-item-${item}`;
+      ].className = `carousel-card carousel-item carousel-item-${item}`;
     });
   }
 
@@ -96,7 +96,7 @@ class Carousel {
     this.carouselInView.forEach((item, index) => {
       this.carouselContainer.children[
         index
-      ].className = `carousel-item carousel-item-${item}`;
+      ].className = `carousel-card carousel-item carousel-item-${item}`;
     });
   }
 }
