@@ -629,20 +629,20 @@ const festivalSouth_Jeolla = [
     festivalSite: "url",
   },
   {
-    festivalTitle: "완도굴뚝축제",
-    festivalAreaIns: "장소: 전라남도 완도군 완도읍 금당리 1416-14",
-    festivalDate: "기간: 23.05.05.(금) ~ 23.05.08.(월)",
-    festivalMainIns: "Wando brick chimney festival",
-    festivalTag: "#굴뚝축제 #해돋이 #야간불꽃놀이 #봄나들이 #완도",
-    festivalSite: "url",
-  },
-  {
     festivalTitle: "무안초록우체국제화제",
     festivalAreaIns: "장소: 전라남도 무안군 삼향읍 청곡로 1622",
     festivalDate: "기간: 23.06.09.(금) ~ 23.06.11.(일)",
     festivalMainIns:
       "Green post office international flower exhibition in Mu-an",
     festivalTag: "#국제화제 #국화 #여름축제 #전통문화 #무안",
+    festivalSite: "url",
+  },
+  {
+    festivalTitle: "완도굴뚝축제",
+    festivalAreaIns: "장소: 전라남도 완도군 완도읍 금당리 1416-14",
+    festivalDate: "기간: 23.05.05.(금) ~ 23.05.08.(월)",
+    festivalMainIns: "Wando brick chimney festival",
+    festivalTag: "#굴뚝축제 #해돋이 #야간불꽃놀이 #봄나들이 #완도",
     festivalSite: "url",
   },
   {
