@@ -43,7 +43,7 @@ a {
 
 header {
   --nav-text-width: 80px;
-  --nav-input-width: 150px;
+  --nav-input-width: 0px;
 
   background-color: #0081a7;
   height: 100px;
