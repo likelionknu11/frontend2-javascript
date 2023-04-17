@@ -1,5 +1,5 @@
 body {
-  color: #333;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nanum Gothic", "Yu Gothic", sans-serif;
@@ -42,8 +42,11 @@ a {
 }
 
 header {
-  background-color: #d9d9d9;
+  background-color: #0081a7;
   height: 100px;
+  width: 100%;
+  position: fixed;
+  opacity: 0.8;
 }
 
 header .upper {
@@ -72,13 +75,13 @@ header p {
 
 header p:hover {
   cursor: pointer;
-  color: blue;
+  color: #f07167;
   font-weight: bold;
 }
 
 header .nav-area {
   position: absolute;
-  background-color: #d9d9d9;
+  background-color: #0081a7;
   border-radius: 0 0 10px 10px;
   padding-top: 100px;
   top: -100px;
@@ -116,7 +119,8 @@ header .area-4 {
 }
 
 footer {
-  background-color: #d9d9d9;
+  background-color: #0081a7;
+  opacity: 0.8;
 }
 footer h2 {
   font-size: 20px;

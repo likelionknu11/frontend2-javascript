@@ -1,7 +1,8 @@
 .OUTLINE {
   stroke-linejoin: round;
-  stroke: #ffffff;
+  stroke: #fed9b7;
   stroke-width: 2;
+  fill: #fdfcdc;
 }
 
 .test {
@@ -14,7 +15,9 @@
 }
 
 .OUTLINE:hover {
-  transition: transform 1s;
+  fill: #f07167;
+  transition: transform 1s, fill 1s;
+
   transform-origin: center center;
   transform-box: fill-box;
   transform: scale(1.13);
@@ -31,7 +34,7 @@
   -webkit-transform: scale(1.5);
 }
 path {
-  fill: #ccc;
+  fill: #fed9b7;
 }
 path:hover {
   cursor: pointer;
