@@ -18,7 +18,6 @@ export class cardInput extends HTMLElement {
     //만든 태그가 HTML에 장착될 때 실행할 코드를 적는 곳
     //super(); //항상 super를 생성자에서 먼저 호출
 
-    console.log(this.dataIndex);
     const cardTitle = document.createElement("div"); //카드 내용 태그
     cardTitle.classList.add("card-title");
     this.appendChild(cardTitle);

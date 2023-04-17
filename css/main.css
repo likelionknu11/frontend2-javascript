@@ -42,6 +42,8 @@ a {
 }
 
 header {
+  --nav-text-width: 100px;
+
   background-color: #0081a7;
   height: 100px;
   width: 100%;
@@ -65,7 +67,7 @@ header .nav p {
 
 header p {
   display: flex;
-  width: 120px;
+  width: var(--nav-text-width);
   height: 50px;
   font-size: 20px;
   box-sizing: border-box;
@@ -75,8 +77,12 @@ header p {
 
 header p:hover {
   cursor: pointer;
-  color: #f07167;
+  color: #000;
   font-weight: bold;
+}
+
+header .nav-area p:hover {
+  background-color: #00afb9;
 }
 
 header .nav-area {
@@ -89,23 +95,37 @@ header .nav-area {
 }
 
 header .area-1 {
-  right: calc(120px * 5);
+  right: calc(var(--nav-text-width) * 4.75);
   height: 110px;
 }
 
+header .area-1 p {
+  width: calc(var(--nav-text-width) * 1.5);
+}
+
 header .area-2 {
-  right: calc(120px * 3);
+  right: calc(var(--nav-text-width) * 2.75);
   height: 210px;
 }
 
+header .area-2 p {
+  width: calc(var(--nav-text-width) * 1.5);
+}
+
 header .area-3 {
-  right: calc(120px * 2);
+  right: calc(var(--nav-text-width) * 1.75);
   height: 160px;
+}
+header .area-3 p {
+  width: calc(var(--nav-text-width) * 1.5);
 }
 
 header .area-4 {
-  right: calc(120px * 1);
+  right: calc(var(--nav-text-width) * 0.75);
   height: 260px;
+}
+header .area-4 p {
+  width: calc(var(--nav-text-width) * 1.5);
 }
 
 .map {
