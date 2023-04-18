@@ -6,6 +6,8 @@
 축제 소개 : 
 
 
+
+
 -------------------------------수도권
 
 
@@ -22,7 +24,6 @@ https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=099d665b-72db-4795-87
 장소 : 한국민속촌
 기간 : 2023.04.01. (토) ~ 2023.06.18. (일)
 축제 소개 : 한국민속촌은 봄 시즌 축제인 '웰컴 투 조선'을 오는 26일부터 6월 26일까지 진행한다. 행사 기간 주말과 공휴일에는 무고한 백성을 괴롭힌 사또를 벌하는 내용의 마당극 '사또의 생일잔치'가, 평일에는 민속 마을 사람들이 잔치를 준비하며 일어나는 이야기를 다룬 마당극 '지금 우리 고을은'이 펼쳐져 관람객들에게 볼거리를 제공할 예정이다.
-또 입고 온 옷에 따라 신분이 정해지는 '노비 7부제'가 시행돼 노비가 된 관람객과 추노꾼 캐릭터의 추격전이 펼쳐진다. 추노꾼에게 잡힌 노비는 감옥에 갇히는 상황극을 함께 하게 된다.
 #전통역사문화체험 #용인 #나들이 #아이와함께 #이색체험
 https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=845c2a70-6d11-4bda-b286-7f6a6b3569c2
 
@@ -32,8 +33,7 @@ https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=845c2a70-6d11-4bda-b2
 축제명 : 양평딸기송어축제
 장소 : 수미마을일원
 기간 : 2023.02.27. (월) ~ 2023.06.06. (화)
-축제 소개 : 양평은 대한민국에서 맑은 물로 유명한 곳이다. 그 곳에서도 수미마을은 365일축제로 유명한 곳으로 2013년 대한민국 농촌마을대상에서 대통령상을 수상하고 각종 매스컴에 100번 이상 소개된 곳이다.
-양평의 맑은 물과 농촌관광의 메카인 수미마을의 딸기와 송어의 우수성을 알리고자 봄을 맞이해서 ‘양평딸기송어축제’을 기획하였으며, 대한민국을 대표하는 축제로 발전해 나아가고자 한다.
+축제 소개 : 양평의 맑은 물과 농촌관광의 메카인 수미마을의 딸기와 송어의 우수성을 알리고자 봄을 맞이해서 ‘양평딸기송어축제’을 기획하였으며, 대한민국을 대표하는 축제로 발전해 나아가고자 한다.
 #딸기축제 #농촌체험 #기차여행 #가족나들이
 https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=e2154174-89d4-41b6-901f-5df91f038883&big_category=undefined&mid_category=undefined&big_area=undefined&referrer=https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bk00&pkid=110&os=29815805&qvt=0&query=%EC%96%91%ED%8F%89%EB%94%B8%EA%B8%B0%EC%86%A1%EC%96%B4%EC%B6%95%EC%A0%9C
 
@@ -49,9 +49,30 @@ https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=e2154174-89d4-41b6-90
 #도자기 #체험학습 #전통역사문화체험 #이천도자기축제
 https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=4a778800-9e22-4b71-a8a2-c84f35879226
 
+    const cardList = 
+document.querySelectorAll(".carousel .card");
 
+      const card = new cardInput(
+        data.dataset.index,
+        data.dataset.city,
+        data.dataset.src
+      );
 
+  constructor(dataIndex, city, imgSrc) {
+    super();
+    this.dataIndex = dataIndex;
+    this.city = city;
+    this.imgSrc = imgSrc;
+  }
 
+const festivalData = festivalDataList[this.city][this.dataIndex];
+festivalImg.setAttribute("src", `./img/축제사진/${this.imgSrc}.jpg`);
+for (const [key, value] of Object.entries(festivalData)) {
+      //object.entries메서드는 속성 key, value값을 반환
+      const contentsText = document.createElement("p"); //반복문을 이용해 p태그 5개 생성
+      contentsText.innerHTML = value;
+      cardContents.appendChild(contentsText);
+    }
 -------------------------------------- 강원도
 
 

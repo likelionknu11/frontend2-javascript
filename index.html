@@ -19,6 +19,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="css/startPage.css" />
     <link rel="stylesheet" href="./css/modal.css" />
     <link rel="stylesheet" href="./css/carousel.css" />
 
@@ -26,16 +27,32 @@
     <script defer type="module" src="./js/modal.js"></script>
     <script defer type="module" src="./js/carousel.js"></script>
     <script defer src="./js/main.js"></script>
+    <script defer src="./js/startPage.js"></script>
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo/logo.png"> <!--아이콘 적용-->
 
     <title>JavaScript-Project</title>
   </head>
   <body>
+
+    <div class="start-page">
+      <a class="train"><img src="./img/start-page/기차 배경.png" alt="train"></a>
+      <!-- <div class="start-page-background">
+        <ul class="outside-view">
+          <li><img src="./img/start-page/outside1.png" alt="outside1"></li>
+          <li><img src="./img/start-page/outside2.png" alt="outside2"></li>
+          <li><img src="./img/start-page/outside3.png" alt="outside3"></li>
+        </ul>
+      </div> -->
+    </div>
+
     <div id="overlay" class="modal-background"></div>
     <header>
       <div class="inner upper">
         <div class="nav">
           <div>
-            <p>LOGO</p>
+            <img class="main-logo" src="./img/logo/logo.png" alt="main-logo"></img>
           </div>
           <div class="flex-center">
             <p class="nav-click" value="Seoul">서울</p>

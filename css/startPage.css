@@ -1,0 +1,34 @@
+.train img {
+  position: fixed;
+  z-index: 30;
+  width: 100%;
+  height: 100%;
+  /* display: none; */
+}
+
+.start-page-background {
+  /*div*/
+  position: relative;
+  /* overflow: hidden; */
+  width: 1920px;
+  height: 1080px;
+  z-index: 20;
+}
+
+.outside-view {
+  /*ul*/
+  z-index: 99;
+  position: absolute;
+  width: 5760px;
+  height: 1080px;
+  transition: left 0.5s ease-out;
+}
+
+.outside-view li {
+  float: left;
+}
+
+.outside-view li img {
+  width: 100%;
+  height: 100%;
+}

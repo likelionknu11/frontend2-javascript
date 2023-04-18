@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+.main-logo {
+  width: 80px;
+  height: 80px;
+}
+
 .inner {
   width: 1000px;
   margin: 0 auto;
