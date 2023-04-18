@@ -22,7 +22,7 @@ a {
 }
 
 .inner {
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
   position: relative;
 }
@@ -107,18 +107,43 @@ header .nav-area p:hover {
   background-color: #00afb9;
 }
 
-header input {
-  width: 80px;
-  height: 20px;
-  padding: 0;
-  border: 0;
-  border-radius: 5px;
+header .nav .search {
+  height: 34px;
+  position: relative;
 }
 
-header span {
+header .nav .search input {
+  width: 36px;
+  height: 34px;
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #777;
+  transition: width 0.4s;
+  font-size: 12px;
+}
+
+header .nav .search input:focus {
+  width: 150px;
+  border-color: #690;
+}
+
+header .nav .search .material-icons {
+  color: #000;
+  height: 24px;
   position: absolute;
-  right: 0;
-  color: black;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
+  transition: 0.4s;
+}
+
+header .nav .search.focused .material-icons {
+  opacity: 0;
 }
 
 .map {
@@ -185,4 +210,27 @@ footer .logo-img {
   flex-direction: row;
   padding: 0px;
   gap: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    --nav-text-width: 70px;
+  }
+
+  .inner {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  header .nav .search input:focus {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
 }

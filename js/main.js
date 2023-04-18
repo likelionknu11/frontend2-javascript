@@ -1,3 +1,24 @@
+const searchEL = document.querySelector(".search");
+const searchInputEL = searchEL.querySelector("input");
+
+searchEL.addEventListener("click", function () {
+  searchInputEL.focus();
+});
+
+searchInputEL.addEventListener("focus", function () {
+  searchEL.classList.add("focused");
+  searchInputEL.setAttribute("placeholder", "통합검색");
+});
+
+searchInputEL.addEventListener("focusout", function () {
+  searchInputEL.value = "";
+});
+
+searchInputEL.addEventListener("blur", function () {
+  searchEL.classList.remove("focused");
+  searchInputEL.setAttribute("placeholder", "");
+});
+
 const navList = document.querySelectorAll(".nav-action");
 
 navList.forEach((nav, idx) => {
@@ -50,4 +71,11 @@ clickList.forEach((text) => {
   });
 });
 
-const clickText = (e) => {};
+const allCard = document.querySelector(".carousel");
+const overlay = document.querySelector("#overlay");
+// const card = document.querySelector("card-input");
+overlay.addEventListener("click", (event) => {
+  //카드 닫기 버튼
+  allCard.style.display = "none";
+  overlay.style.display = "none";
+});

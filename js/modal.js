@@ -27,8 +27,9 @@ export class cardInput extends HTMLElement {
     cardTitle.appendChild(festivalTitle);
 
     const cardClose = document.createElement("span"); //카드 닫기 버튼
-    cardClose.innerHTML = "X";
+    cardClose.innerHTML = "close";
     cardClose.classList.add("card-close-btn");
+    cardClose.classList.add("material-symbols-outlined");
     cardTitle.appendChild(cardClose);
 
     const allCard = document.querySelector(".carousel");

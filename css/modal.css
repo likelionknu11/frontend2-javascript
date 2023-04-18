@@ -28,6 +28,7 @@
   justify-content: space-between;
   padding: 15px;
   align-items: center;
+  font-weight: bold;
 }
 
 .card-close-btn:hover {
@@ -52,7 +53,10 @@
   /*~은 왼쪽 요소를 hover했을 때 오른쪽 요소에 css를 부여*/
   visibility: visible;
 }
-
+.festival-contents a {
+  color: #87ceeb;
+  text-decoration: underline;
+}
 .card-contents {
   visibility: hidden;
   position: absolute;
