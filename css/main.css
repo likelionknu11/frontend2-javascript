@@ -17,7 +17,7 @@ a {
 }
 
 .main-logo {
-  width: 80px;
+  width: 170px;
   height: 80px;
 }
 
@@ -127,8 +127,8 @@ header .nav .search input {
 }
 
 header .nav .search input:focus {
-  width: 150px;
-  border-color: #690;
+  width: 180px;
+  border-color: #f07167;
 }
 
 header .nav .search .material-icons {
@@ -144,6 +144,60 @@ header .nav .search .material-icons {
 
 header .nav .search.focused .material-icons {
   opacity: 0;
+}
+
+header .nav .menu {
+  display: none;
+}
+header .nav .menu .material-icons {
+  height: 24px;
+  font-size: 32px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+header .nav .menu .material-icons:hover {
+  color: #000;
+}
+
+section .right-menu {
+  position: fixed;
+  right: 0;
+  background-color: #fff;
+  width: 30%;
+  height: 100%;
+  color: #000;
+  z-index: 11;
+  display: none;
+}
+
+section .right-menu .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0081a7;
+  opacity: 0.8;
+  box-sizing: border-box;
+  height: 100px;
+  color: #fff;
+}
+
+section .right-menu .top .close-btn {
+  cursor: pointer;
+}
+section .right-menu .content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .right-menu .content li {
+  width: 50%;
+  padding: 20px 0;
+}
+section .right-menu .content li:hover {
+  cursor: pointer;
+  background-color: #f07167;
+  color: #fff;
 }
 
 .map {
@@ -219,22 +273,60 @@ footer .logo-img {
 
   .inner {
     width: 700px;
-    margin: 0 auto;
-    position: relative;
   }
 
-  header .nav .search input:focus {
-    width: 100px;
+  header .nav .flex-center {
+    display: none;
+  }
+
+  header .nav .search input:focus,
+  header .nav .search input {
+    width: 400px;
+    transition: width 0;
+  }
+
+  header .nav .menu {
+    display: block;
   }
 }
 @media screen and (max-width: 768px) {
   .inner {
-    width: 600px;
-    margin: 0 auto;
-    position: relative;
+    width: 400px;
   }
   .map {
-    width: 500px;
+    width: 400px;
     height: auto;
+  }
+
+  header .nav .flex-center {
+    display: none;
+  }
+
+  header .nav .search {
+    position: absolute;
+    right: 44px;
+  }
+
+  header .nav .search .material-icons {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  header .nav .search .material-icons:hover {
+    color: #000;
+  }
+
+  header .nav .search input {
+    background-color: #0081a7;
+    border: none;
+    width: 36px;
+  }
+  header .nav .search input:focus {
+    background-color: #fff;
+    width: 140px;
+  }
+
+  footer .logo-img span {
+    display: none;
   }
 }

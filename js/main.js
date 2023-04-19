@@ -56,26 +56,53 @@ const clickList = document.querySelectorAll(".nav-click");
 
 clickList.forEach((text) => {
   text.addEventListener("click", (e) => {
-    const city = text.getAttribute("value");
-
-    const carousel = document.querySelector(".carousel");
-    const allCard = document.querySelectorAll(".carousel .carousel-card");
-
-    const overlay = document.querySelector("#overlay");
-
-    allCard.forEach((card) => {
-      card.setAttribute("data-city", city);
-    });
-    carousel.style.display = "block";
-    overlay.style.display = "block";
+    openCity(text);
   });
 });
 
-const allCard = document.querySelector(".carousel");
+const card = document.querySelector(".carousel");
 const overlay = document.querySelector("#overlay");
 // const card = document.querySelector("card-input");
 overlay.addEventListener("click", (event) => {
   //카드 닫기 버튼
-  allCard.style.display = "none";
+  card.style.display = "none";
   overlay.style.display = "none";
+  menu.style.display = "none";
 });
+
+const menuButton = document.querySelector(".menu");
+const menu = document.querySelector(".right-menu");
+
+menuButton.addEventListener("click", () => {
+  overlay.style.display = "block";
+  menu.style.display = "block";
+});
+
+const menuClose = document.querySelector(".top .close-btn");
+menuClose.addEventListener("click", () => {
+  overlay.style.display = "none";
+  menu.style.display = "none";
+});
+
+const menuClick = document.querySelectorAll(".right-menu .content li");
+menuClick.forEach((text) => {
+  text.addEventListener("click", () => {
+    openCity(text);
+    menu.style.display = "none";
+  });
+});
+
+function openCity(text) {
+  const city = text.getAttribute("value");
+
+  const carousel = document.querySelector(".carousel");
+  const allCard = document.querySelectorAll(".carousel .carousel-card");
+
+  const overlay = document.querySelector("#overlay");
+
+  allCard.forEach((card) => {
+    card.setAttribute("data-city", city);
+  });
+  carousel.style.display = "block";
+  overlay.style.display = "block";
+}
