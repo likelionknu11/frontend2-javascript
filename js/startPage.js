@@ -1,18 +1,16 @@
 let outsideView = document.querySelector(".outside-view");
+let num = 0;
 
 $(document).ready(function () {
-  let num = 0;
-
   setInterval(function () {
     if (num < 2) {
-      num++;
-
       outsideView.animate(
         {
           left: "-=1200",
         },
         "slow"
       );
+      num++;
     } else {
       num = 0;
 
@@ -25,4 +23,3 @@ $(document).ready(function () {
     }
   }, 3000);
 });
-//이미지슬라이드 좌 우
