@@ -10,7 +10,7 @@ participationBtn.addEventListener("click", () => {
   audio.play(); //기차 bgm 재생
   setTimeout(() => {
     startPage.style.transition = "opacity 1s ease-in-out";
-    startPage.style.opacity = 0; // startPage를 fadeOut
+    startPage.style.display = "none"; // startPage를 fadeOut
   }, 4000); // 4초 후에 실행
   setInterval(() => {
     //기차 밖 풍경 이미지슬라이드
