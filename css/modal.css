@@ -54,11 +54,11 @@
   visibility: visible;
 }
 .festival-contents a {
-  color: #87ceeb;
+  color: white;
   text-decoration: underline;
 }
 .card-contents {
-  visibility: hidden;
+  opacity: 0%;
   position: absolute;
   top: 0;
   width: 100%;
@@ -71,11 +71,12 @@
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .card-contents:hover {
-  visibility: visible;
+  opacity: 95%;
+  transition: 0.75s;
 }
 
 .card-contents p {

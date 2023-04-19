@@ -14,7 +14,6 @@
   --carousel-width: 1000px;
   --carousel-item-height: 200px;
   --carousel-item-width: 150px;
-
   width: 100%;
   z-index: 10;
 }
@@ -36,7 +35,7 @@
   transition: all 0.3s ease-in-out;
   width: var(--carousel-item-width);
   z-index: 0;
-  background-color: #eee;
+  background-color: white;
   border-radius: 10px;
 }
 .carousel-item .card-close-btn {
