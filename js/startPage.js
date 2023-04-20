@@ -5,6 +5,13 @@ const outside = document.querySelector(".start-page-background"); //기차 밖 �
 const outsideView = document.querySelector(".outside-view"); //기차 밖 픙경 ul
 let num = 0;
 
+window.onload = function () {
+  //새로고침 시 스크롤 맨 위로
+  setTimeout(function () {
+    scrollTo(0, 0);
+  }, 100);
+};
+
 participationBtn.addEventListener("click", () => {
   participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
   audio.play(); //기차 bgm 재생
@@ -14,13 +21,14 @@ participationBtn.addEventListener("click", () => {
     setTimeout(() => {
       startPage.style.display = "none"; // startPage를 삭제
     }, 1000);
-  }, 4000); // 4초 후에 실행
-  setInterval(() => {
+  }, 4000); // 4초 후에 전체 애니메이션 사라지도록
+
+  let slideInterval = setInterval(() => {
     //기차 밖 풍경 이미지슬라이드
     if (num < 2) {
       outsideView.animate(
         {
-          left: "-=1200",
+          left: "-=1900",
         },
         1000 /* duration in milliseconds */
       );
@@ -36,4 +44,10 @@ participationBtn.addEventListener("click", () => {
       );
     }
   }, 3000);
+
+  setTimeout(() => {
+    clearInterval(slideInterval); // 3초 후에 이미지 슬라이드 정지
+  }, 3000);
+
+  body.classList.remove("stop-scrolling");
 });

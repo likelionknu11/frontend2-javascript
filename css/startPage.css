@@ -27,15 +27,13 @@
 .start-page-background {
   /*div*/
   position: relative;
-  /* overflow: hidden; */
-  width: 1920px;
+  overflow: hidden;
+  width: 1900px;
   height: 1080px;
-  z-index: 20;
 }
 
 .outside-view {
   /*ul*/
-  z-index: 99;
   position: absolute;
   width: 5760px;
   height: 1080px;
@@ -49,8 +47,11 @@
 .outside-view li img {
   width: 100%;
   height: 100%;
+  z-index: 20;
 }
 
-/* .audio {
-  display: none;
-} */
+.stop-scrolling {
+  /*스크롤 막기*/
+  height: 1080px;
+  overflow: hidden;
+}
