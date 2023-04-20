@@ -1,4 +1,5 @@
 const startPage = document.querySelector(".start-page"); //기차 애니메이션 div
+const festivalMap = document.querySelector(".festival-map"); //페스티벌 지도 메인 페이지
 const participationBtn = document.querySelector(".participation-btn"); //축제 참여 버튼
 const audio = document.querySelector(".audio"); //기차 달리는 bgm
 const outside = document.querySelector(".start-page-background"); //기차 밖 픙경 div
@@ -49,5 +50,12 @@ participationBtn.addEventListener("click", () => {
     clearInterval(slideInterval); // 3초 후에 이미지 슬라이드 정지
   }, 3000);
 
+  setTimeout(() => {
+    festivalMap.style.display = "block"; // 축제 지도 페이지가 다시 나타나도록
+  }, 4000);
+});
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  const body = document.querySelector("body");
   body.classList.remove("stop-scrolling");
 });
