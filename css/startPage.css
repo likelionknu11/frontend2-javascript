@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+.festival-map {
+  /*메인 페이지*/
+  display: none;
+}
+
 .participation-btn {
   /* 축제 참여하기 버튼 */
   z-index: 40;
@@ -43,8 +48,8 @@
   /*div*/
   position: relative;
   overflow: hidden;
-  width: 1903px;
-  height: 1080px;
+  width: 1920px;
+  height: 700px;
 }
 
 .outside-view {
