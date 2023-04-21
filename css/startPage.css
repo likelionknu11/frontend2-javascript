@@ -1,3 +1,38 @@
+@font-face {
+  /*넥슨 Lv.2 고딕*/
+  font-family: "NEXON Lv2 Gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.festival-map {
+  /*메인 페이지*/
+  display: none;
+}
+
+.participation-btn {
+  /* 축제 참여하기 버튼 */
+  z-index: 40;
+  width: 125px;
+  height: 60px;
+  border-radius: 20px;
+  top: 80%; /* 수직 정 가운데 위치 */
+  left: 48.6%; /* 수평 정 가운데 위치 */
+  transform: translate(-50%, -50%); /* 위치 중심으로 이동 */
+  position: fixed;
+  opacity: 1; /* 처음에는 보이도록 설정 */
+  transition: opacity 0.5s ease-in-out; /* 부드럽게 페이드아웃 되도록 설정 */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+  color: #1e6b7b;
+  border: 3px solid aliceblue;
+  font-family: "NEXON Lv2 Gothic";
+  font-weight: 200px;
+  font-size: 14px;
+}
+
 .train img {
   position: fixed;
   z-index: 30;
@@ -12,15 +47,13 @@
 .start-page-background {
   /*div*/
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 1920px;
-  height: 1080px;
-  z-index: 20;
+  height: 700px;
 }
 
 .outside-view {
   /*ul*/
-  z-index: 99;
   position: absolute;
   width: 5760px;
   height: 1080px;
@@ -34,4 +67,11 @@
 .outside-view li img {
   width: 100%;
   height: 100%;
+  z-index: 20;
+}
+
+.stop-scrolling {
+  /*스크롤 막기*/
+  height: 1080px;
+  overflow: hidden;
 }
