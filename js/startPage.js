@@ -1,3 +1,4 @@
+const body = document.querySelector("body");
 const startPage = document.querySelector(".start-page"); //기차 애니메이션 div
 const festivalMap = document.querySelector(".festival-map"); //페스티벌 지도 메인 페이지
 const participationBtn = document.querySelector(".participation-btn"); //축제 참여 버튼
@@ -22,40 +23,29 @@ participationBtn.addEventListener("click", () => {
     setTimeout(() => {
       startPage.style.display = "none"; // startPage를 삭제
     }, 1000);
-  }, 4000); // 4초 후에 전체 애니메이션 사라지도록
-
-  let slideInterval = setInterval(() => {
-    //기차 밖 풍경 이미지슬라이드
-    if (num < 2) {
-      outsideView.animate(
-        {
-          left: "-=1900",
-        },
-        1000 /* duration in milliseconds */
-      );
-      num++;
-    } else {
-      num = 0;
-
-      outsideView.animate(
-        {
-          left: 0,
-        },
-        1000 /* duration in milliseconds */
-      );
-    }
-  }, 3000);
+  }, 5000); // 4초 후에 전체 애니메이션 사라지도록
 
   setTimeout(() => {
-    clearInterval(slideInterval); // 3초 후에 이미지 슬라이드 정지
-  }, 3000);
+    let num = 0;
+    let slideInterval = setInterval(() => {
+      //기차 밖 풍경 이미지슬라이드
+      if (num < 2) {
+        // 이미지의 개수가 3개 미만일 경우
+        outsideView.style.transform = `translateX(-${(num + 1) * 1920}px)`;
+        num++;
+      } //1.2초마다 1장의 이미지가 왼쪽으로 이동하도록
+    }, 1200);
 
-  setTimeout(() => {
-    festivalMap.style.display = "block"; // 축제 지도 페이지가 다시 나타나도록
-  }, 4000);
+    setTimeout(() => {
+      clearInterval(slideInterval); // 3초 후에 이미지 슬라이드 정지
+    }, 3000);
+
+    setTimeout(() => {
+      festivalMap.style.display = "block"; // 축제 지도 페이지가 다시 나타나도록
+    }, 5000);
+  }, 1000); // 버튼 클릭 후 1초 후에 실행
 });
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  const body = document.querySelector("body");
   body.classList.remove("stop-scrolling");
 });
