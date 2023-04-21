@@ -1,5 +1,6 @@
 "use strict";
 
+import { festivalDataList } from "./festivaList.js";
 import { cardInput } from "./modal.js";
 
 class Carousel {
@@ -12,6 +13,7 @@ class Carousel {
 
   mounted() {
     this.setupCarousel();
+    console.log(festivalDataList.Busan[0].festivalTitle);
   }
 
   // Build carousel html

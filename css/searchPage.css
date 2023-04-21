@@ -17,3 +17,29 @@
   width: 75%;
   height: 100%;
 }
+
+.searchList {
+  text-align: left;
+  font-size: 50px;
+  padding-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.searchList li {
+  text-align: center;
+  margin-top: 20px;
+  transform: translateX(15%);
+  background-color: #f2f2f2;
+  width: 75%;
+  height: 50px;
+  font-size: 30px;
+  color: black;
+  border-left: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.searchList :hover {
+  border-color: aqua;
+  transition: 0.3s;
+}
