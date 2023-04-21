@@ -2,6 +2,13 @@ import { festivalDataList } from "./festivaList.js";
 
 console.log(festivalDataList);
 
+document.querySelector("#searchInput").addEventListener("keypress", (event) => {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    searchEvt();
+  }
+});
+
 function searchEvt() {
   const searchText = document.getElementById("searchInput");
   alert(searchText.value + "해당 키워드가 포함된 내용띄우기");
