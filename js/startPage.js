@@ -50,9 +50,9 @@ participationBtn.addEventListener("click", () => {
     clearInterval(slideInterval); // 3초 후에 이미지 슬라이드 정지
   }, 3000);
 
-  setTimeout(() => {
-    festivalMap.style.display = "block"; // 축제 지도 페이지가 다시 나타나도록
-  }, 4000);
+  // setTimeout(() => {
+  //   festivalMap.style.display = "block"; // 축제 지도 페이지가 다시 나타나도록
+  // }, 4000);
 });
 
 document.addEventListener("DOMContentLoaded", function (event) {
