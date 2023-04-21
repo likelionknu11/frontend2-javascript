@@ -42,7 +42,7 @@ participationBtn.addEventListener("click", () => {
 
     setTimeout(() => {
       festivalMap.style.display = "block"; // 축제 지도 페이지가 다시 나타나도록
-    }, 5000);
+    }, 4500);
   }, 1000); // 버튼 클릭 후 1초 후에 실행
 });
 
