@@ -18,6 +18,28 @@ window.onload = function () {
   }, 100);
 };
 
+function changeOutsideImages() {
+  const IMG_COUNT = 12;
+  const imgSrcs = Array.from(
+    { length: IMG_COUNT },
+    (_, i) => `./img/start-page/outside${i + 1}.png`
+  );
+  const outsideImgs = document.querySelectorAll(".outside-img img");
+  const usedIndexes = []; // 이전에 선택된 인덱스를 추적하는 배열
+
+  outsideImgs.forEach((img) => {
+    let randomIndex = Math.floor(Math.random() * IMG_COUNT);
+    while (usedIndexes.includes(randomIndex)) {
+      // 중복 검사를 위한 반복문
+      randomIndex = Math.floor(Math.random() * IMG_COUNT);
+    }
+    usedIndexes.push(randomIndex); // 선택된 인덱스를 usedIndexes 배열에 추가
+    img.src = imgSrcs[randomIndex];
+  });
+}
+
+changeOutsideImages(); // 기차 밖 풍경이 랜덤으로 나타나도록 하는 함수 호출
+
 participationBtn.addEventListener("click", () => {
   participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
   audio.play(); //기차 bgm 재생
@@ -51,4 +73,4 @@ participationBtn.addEventListener("click", () => {
 
 setTimeout(() => {
   body.classList.remove("stop-scrolling");
-}, 7000); //전체 애니메이션이 끝나는 6초 후에 stop-scrolling 클래스 제거
+}, 6900); //전체 애니메이션이 끝나는 6.8초 후에 stop-scrolling 클래스 제거
