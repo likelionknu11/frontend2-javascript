@@ -63,6 +63,7 @@ export class cardInput extends HTMLElement {
         const contentsText = document.createElement("a");
         contentsText.innerHTML = "바로가기";
         contentsText.setAttribute("href", value);
+        contentsText.setAttribute("target", "_blank");
         contentsText.className = key;
         cardContents.appendChild(contentsText);
       } else {
