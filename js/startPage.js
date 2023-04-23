@@ -15,31 +15,34 @@ window.onload = function () {
 };
 
 participationBtn.addEventListener("click", () => {
-  participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
-  audio.play(); //기차 bgm 재생
+  participationBtn.style.opacity = 0;
+  audio.play();
   setTimeout(() => {
     startPage.style.transition = "opacity 1s ease-in-out";
-    startPage.style.opacity = 0; // startPage를 fadeOut
+    startPage.style.opacity = 0;
     setTimeout(() => {
-      startPage.style.display = "none"; // startPage를 삭제
+      startPage.style.display = "none";
     }, 1000);
-  }, 5000); // 4초 후에 전체 애니메이션 사라지도록
+  }, 5000);
 
   setTimeout(() => {
-    let num = 0;
-    let slideInterval = setInterval(() => {
-      //기차 밖 풍경 이미지슬라이드
-      if (num < 2) {
-        // 이미지의 개수가 3개 미만일 경우
-        outsideView.style.transform = `translateX(-${(num + 1) * 1920}px)`;
-        num++;
-      } //1.2초마다 1장의 이미지가 왼쪽으로 이동하도록
-    }, 1200);
+    const slideInterval = setInterval(() => {
+      //setInterval 정해진 시간동안 특정한 함수 호출
+      const currentLeft = parseInt(
+        //ul이 왼쪽으로 이동하도록
+        getComputedStyle(outsideView).getPropertyValue("left")
+      );
 
-    setTimeout(() => {
-      clearInterval(slideInterval); // 3초 후에 이미지 슬라이드 정지
-    }, 3000);
-  }, 1000); // 버튼 클릭 후 1초 후에 실행
+      const nextPosition = currentLeft - 1920; //현재 위치에서 -1920px만큼 왼쪽으로 이동
+      outsideView.style.left = `${nextPosition}px`;
+      num++;
+
+      if (num >= 2) {
+        //num이 2 이하일 경우
+        clearInterval(slideInterval); //함수 즉시 종료
+      }
+    }, 1200); //1.2초 간격으로 반복
+  }, 1000);
 });
 
 document.addEventListener("DOMContentLoaded", function (event) {
