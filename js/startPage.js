@@ -8,6 +8,9 @@ const outsideView = document.querySelector(".outside-view"); //기차 밖 픙경
 const outsideImg = document.querySelector(".outside-img"); //기차 밖 픙경 li
 let num = 0;
 
+// 1번째 사진이 먼저 보이도록 초기값 설정
+outsideView.style.left = "-1920px";
+
 window.onload = function () {
   //새로고침 시 스크롤 맨 위로
   setTimeout(function () {
@@ -46,6 +49,6 @@ participationBtn.addEventListener("click", () => {
   }, 1000);
 });
 
-document.addEventListener("DOMContentLoaded", function (event) {
+setTimeout(() => {
   body.classList.remove("stop-scrolling");
-});
+}, 7000); //전체 애니메이션이 끝나는 6초 후에 stop-scrolling 클래스 제거
