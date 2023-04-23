@@ -5,6 +5,7 @@ const participationBtn = document.querySelector(".participation-btn"); //축제 
 const audio = document.querySelector(".audio"); //기차 달리는 bgm
 const outside = document.querySelector(".start-page-background"); //기차 밖 픙경 div
 const outsideView = document.querySelector(".outside-view"); //기차 밖 픙경 ul
+const outsideImg = document.querySelector(".outside-img"); //기차 밖 픙경 li
 let num = 0;
 
 window.onload = function () {
@@ -15,15 +16,15 @@ window.onload = function () {
 };
 
 participationBtn.addEventListener("click", () => {
-  participationBtn.style.opacity = 0;
-  audio.play();
+  participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
+  audio.play(); //기차 bgm 재생
   setTimeout(() => {
     startPage.style.transition = "opacity 1s ease-in-out";
-    startPage.style.opacity = 0;
+    startPage.style.opacity = 0; // startPage를 fadeOut
     setTimeout(() => {
-      startPage.style.display = "none";
+      startPage.style.display = "none"; // startPage를 삭제
     }, 1000);
-  }, 5000);
+  }, 5000); // 5초 후에 전체 애니메이션 사라지도록
 
   setTimeout(() => {
     const slideInterval = setInterval(() => {
