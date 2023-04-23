@@ -18,14 +18,25 @@ window.onload = function () {
   }, 100);
 };
 
+function changeTrainImage() {
+  //기차 이미지가 랜덤으로 뜨도록
+  const IMG_COUNT = 3;
+  const trainImg = document.querySelector(".train img");
+  const randomIndex = Math.floor(Math.random() * IMG_COUNT) + 1;
+  trainImg.src = `./img/start-page/기차배경${randomIndex}.png`;
+}
+
+changeTrainImage(); //기차 이미지가 랜덤으로 뜨도록하는 함수 호출
+
 function changeOutsideImages() {
+  //기차 풍경 이미지가 랜덤으로 뜨도록
   const IMG_COUNT = 12;
   const imgSrcs = Array.from(
     { length: IMG_COUNT },
     (_, i) => `./img/start-page/outside${i + 1}.png`
   );
   const outsideImgs = document.querySelectorAll(".outside-img img");
-  const usedIndexes = []; // 이전에 선택된 인덱스를 추적하는 배열
+  const usedIndexes = []; // 이전에 선택된 인덱스를 추적하는 배열 / 이미지 중복 방지
 
   outsideImgs.forEach((img) => {
     let randomIndex = Math.floor(Math.random() * IMG_COUNT);
@@ -73,4 +84,4 @@ participationBtn.addEventListener("click", () => {
 
 setTimeout(() => {
   body.classList.remove("stop-scrolling");
-}, 6900); //전체 애니메이션이 끝나는 6.8초 후에 stop-scrolling 클래스 제거
+}, 6900); //전체 애니메이션이 끝나는 6.9초 후에 stop-scrolling 클래스 제거
