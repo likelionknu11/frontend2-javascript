@@ -26,8 +26,6 @@ function changeTrainImage() {
   trainImg.src = `./img/start-page/기차배경${randomIndex}.png`;
 }
 
-changeTrainImage(); //기차 이미지가 랜덤으로 뜨도록하는 함수 호출
-
 function changeOutsideImages() {
   //기차 풍경 이미지가 랜덤으로 뜨도록
   const IMG_COUNT = 12;
@@ -39,6 +37,7 @@ function changeOutsideImages() {
   const usedIndexes = []; // 이전에 선택된 인덱스를 추적하는 배열 / 이미지 중복 방지
 
   outsideImgs.forEach((img) => {
+    //기차 풍경 이미지가 중복으로 뜨지 않도록
     let randomIndex = Math.floor(Math.random() * IMG_COUNT);
     while (usedIndexes.includes(randomIndex)) {
       // 중복 검사를 위한 반복문
@@ -49,9 +48,11 @@ function changeOutsideImages() {
   });
 }
 
+changeTrainImage(); //기차 이미지가 랜덤으로 뜨도록하는 함수 호출
 changeOutsideImages(); // 기차 밖 풍경이 랜덤으로 나타나도록 하는 함수 호출
 
 participationBtn.addEventListener("click", () => {
+  // 축제 참여 버튼 클릭 시
   participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
   audio.play(); //기차 bgm 재생
   setTimeout(() => {
@@ -80,8 +81,8 @@ participationBtn.addEventListener("click", () => {
       }
     }, 1200); //1.2초 간격으로 반복
   }, 1000);
-});
 
-setTimeout(() => {
-  body.classList.remove("stop-scrolling");
-}, 6900); //전체 애니메이션이 끝나는 6.9초 후에 stop-scrolling 클래스 제거
+  setTimeout(() => {
+    body.classList.remove("stop-scrolling");
+  }, 6000); //전체 애니메이션이 끝나고 6초 후에 stop-scrolling 클래스 제거
+});
