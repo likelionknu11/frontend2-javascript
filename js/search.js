@@ -1,7 +1,5 @@
 import { festivalDataList } from "./festivaList.js";
 
-console.log(festivalDataList);
-
 document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
     event.preventDefault();
