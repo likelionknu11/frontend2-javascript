@@ -1,15 +1,10 @@
 const body = document.querySelector("body");
 const startPage = document.querySelector(".start-page"); //기차 애니메이션 div
-const festivalMap = document.querySelector(".festival-map"); //페스티벌 지도 메인 페이지
 const participationBtn = document.querySelector(".participation-btn"); //축제 참여 버튼
 const audio = document.querySelector(".audio"); //기차 달리는 bgm
 const outside = document.querySelector(".start-page-background"); //기차 밖 픙경 div
 const outsideView = document.querySelector(".outside-view"); //기차 밖 픙경 ul
-const outsideImg = document.querySelector(".outside-img"); //기차 밖 픙경 li
 let num = 0;
-
-// 1번째 사진이 먼저 보이도록 초기값 설정
-outsideView.style.left = "-1920px";
 
 window.onload = function () {
   //새로고침 시 스크롤 맨 위로
@@ -66,13 +61,11 @@ participationBtn.addEventListener("click", () => {
 
   setTimeout(() => {
     const slideInterval = setInterval(() => {
-      //setInterval 정해진 시간동안 특정한 함수 호출
       const currentLeft = parseInt(
-        //ul이 왼쪽으로 이동하도록
         getComputedStyle(outsideView).getPropertyValue("left")
       );
 
-      const nextPosition = currentLeft - 1920; //현재 위치에서 -1920px만큼 왼쪽으로 이동
+      const nextPosition = currentLeft - 960; // 이미지 하나씩 이동하도록 변경
       outsideView.style.left = `${nextPosition}px`;
       num++;
 
@@ -80,7 +73,7 @@ participationBtn.addEventListener("click", () => {
         //num이 2 이하일 경우
         clearInterval(slideInterval); //함수 즉시 종료
       }
-    }, 1400); //1.2초 간격으로 반복
+    }, 1400); //1.4초 간격으로 반복
   }, 400);
 
   setTimeout(() => {
