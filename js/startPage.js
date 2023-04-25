@@ -55,6 +55,7 @@ participationBtn.addEventListener("click", () => {
   // 축제 참여 버튼 클릭 시
   participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
   audio.play(); //기차 bgm 재생
+
   setTimeout(() => {
     startPage.style.transition = "opacity 1s ease-in-out";
     startPage.style.opacity = 0; // startPage를 fadeOut
@@ -79,8 +80,8 @@ participationBtn.addEventListener("click", () => {
         //num이 2 이하일 경우
         clearInterval(slideInterval); //함수 즉시 종료
       }
-    }, 1200); //1.2초 간격으로 반복
-  }, 1000);
+    }, 1400); //1.2초 간격으로 반복
+  }, 400);
 
   setTimeout(() => {
     body.classList.remove("stop-scrolling");
