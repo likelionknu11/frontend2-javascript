@@ -165,7 +165,6 @@ section .right-menu {
   right: 0;
   background-color: #fff;
   width: 30%;
-  min-width: 250px;
   height: 100%;
   color: #000;
   z-index: 11;
@@ -202,7 +201,6 @@ section .right-menu .content li:hover {
 }
 
 .map {
-  transition: 0.5s;
   margin-top: 100px;
   height: 1150px;
   width: 700px;

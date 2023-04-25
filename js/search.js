@@ -11,7 +11,6 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
 
 function searchEvt() {
   const searchText = document.getElementById("searchInput");
-  alert(searchText.value + "해당 키워드가 포함된 내용띄우기");
   const mapElement = document.getElementsByClassName("map");
   mapElement[0].style.display = "none";
 
@@ -22,21 +21,21 @@ function searchEvt() {
 
   const searchList = document.createElement("ul");
   searchList.className = "searchList";
-  const searchIn = document.createElement("li");
-  const searchIn2 = document.createElement("li");
-
-  searchIn.id = "in";
-  searchIn2.id = "in";
   searchList.id = "list";
-
   searchList.innerHTML = "Festivals";
-  searchIn.innerHTML = "서울 축제";
-  searchIn2.innerHTML = "부산 축제";
-
-  searchBoard.appendChild(searchList);
-  searchList.appendChild(searchIn);
-  searchList.appendChild(searchIn2);
 
   searchContainer.appendChild(searchBoard);
   document.body.insertBefore(searchContainer, mapElement[0]);
+  for (var i = 0; i < festivalDataList.Busan.length; i++) {
+    for (let a in festivalDataList.Busan[i]) {
+      if (festivalDataList.Busan[0][a].includes(searchText.value)) {
+        const searchIn = document.createElement("li");
+        searchIn.id = "in";
+        searchIn.innerHTML = festivalDataList.Busan[i].festivalTitle;
+        searchList.appendChild(searchIn);
+        break;
+      }
+    }
+    searchBoard.appendChild(searchList);
+  }
 }
