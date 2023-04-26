@@ -34,7 +34,7 @@
   font-size: 0.7vw; /*뷰포트 너비의 4%에 해당하는 크기로 글꼴 크기를 조정*/
 }
 
-.train img {
+.train {
   position: fixed;
   z-index: 30;
   width: 100%;

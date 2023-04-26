@@ -17,7 +17,7 @@ window.onload = function () {
 function changeTrainImage() {
   //기차 이미지가 랜덤으로 뜨도록
   const IMG_COUNT = 3;
-  const trainImg = document.querySelector(".train img");
+  const trainImg = document.querySelector(".train");
   const randomIndex = Math.floor(Math.random() * IMG_COUNT) + 1;
   trainImg.src = `./img/start-page/기차배경${randomIndex}.png`;
 }
