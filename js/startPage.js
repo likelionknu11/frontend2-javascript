@@ -47,18 +47,6 @@ function changeOutsideImages() {
 changeTrainImage(); //기차 이미지가 랜덤으로 뜨도록하는 함수 호출
 changeOutsideImages(); // 기차 밖 풍경이 랜덤으로 나타나도록 하는 함수 호출
 
-function moveOutsideImages() {
-  //이미지가 하나씩 이동되도록
-  const imgWidth = outsideView.querySelector("li").clientWidth;
-  const nextPosition = -(num * imgWidth);
-  outsideView.style.transform = `translateX(${nextPosition}px)`;
-  num++;
-
-  if (num >= IMG_COUNT) {
-    clearInterval(slideInterval);
-  }
-}
-
 participationBtn.addEventListener("click", () => {
   // 축제 참여 버튼 클릭 시
   participationBtn.style.opacity = 0; // 페이드아웃 되도록 opacity 값 변경
