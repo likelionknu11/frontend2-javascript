@@ -51,6 +51,8 @@ export class cardInput extends HTMLElement {
       `./img/축제사진/${this.city}/${this.dataIndex}.jpg`
     ); //각각의 이미지
     festivalImg.setAttribute("alt", "축제사진");
+    festivalImg.setAttribute("loding", "lazy");
+
     festivalContents.appendChild(festivalImg);
 
     const cardContents = document.createElement("div");
