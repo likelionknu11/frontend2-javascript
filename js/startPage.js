@@ -46,8 +46,10 @@ function changeOutsideImages() {
 
 function moveOutsideImages() {
   //이미지가 하나씩 이동되도록
+  const IMG_COUNT = 12;
   const imgWidth = outsideView.querySelector("li").clientWidth;
   const nextPosition = -(num * imgWidth);
+  outsideView.style.transition = "transform 0.5s ease-in-out"; // 전환 효과를 추가
   outsideView.style.transform = `translateX(${nextPosition}px)`;
   num++;
 
@@ -70,13 +72,14 @@ participationBtn.addEventListener("click", () => {
     setTimeout(() => {
       startPage.style.display = "none"; // startPage를 삭제
     }, 1000);
-  }, 5000); // 5초 후에 전체 애니메이션 사라지도록
+  }, 4700); // 4.7초 후에 전체 애니메이션 사라지도록
 
   setTimeout(() => {
     setInterval(() => {
+      //기차 이미지가 하나씩 이동하는 함수 호출
       moveOutsideImages();
     }, 1400);
-  }, 400);
+  });
 
   setTimeout(() => {
     body.classList.remove("stop-scrolling");
