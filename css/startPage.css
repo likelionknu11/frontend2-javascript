@@ -54,31 +54,28 @@
 
 .outside-view {
   position: absolute;
-  width: auto;
-  height: 100%; /* 부모 요소의 높이를 참조하여 설정 */
+  width: 100%;
+  height: 100%;
   left: 0;
   list-style: none;
   margin: 0;
   padding: 0;
-  transition: left 0.5s ease-out;
+  display: flex;
+  transition: transform 0.5s ease-out;
 }
 
 .outside-view li {
-  position: relative;
-  float: left;
+  flex-shrink: 0;
   width: 100%;
   height: 100%;
-  left: 50%;
-  top: 50%;
-  z-index: 15;
-  transform: translate(-50%, -50%);
+  position: relative;
+  z-index: 20;
 }
 
 .outside-view li img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 이미지 비율 유지하면서 창에 꽉 채우도록 설정 */
-  z-index: 20;
+  object-fit: cover;
   border: none;
 }
 
