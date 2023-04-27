@@ -32,6 +32,11 @@
   font-family: "NEXON Lv2 Gothic";
   font-weight: 200px;
   font-size: 0.7vw; /*뷰포트 너비의 4%에 해당하는 크기로 글꼴 크기를 조정*/
+  cursor: pointer;
+}
+.participation-btn:hover {
+  background-color: #1e6b7b;
+  color: #fff;
 }
 
 .train {
