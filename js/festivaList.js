@@ -46,7 +46,8 @@ const festivalSeoul = [
     festivalMainIns:
       "Celebrate spring with stunning cherry blossoms along the Han River at the annual Han River Cherry Blossom Festival, held from April 8 to 10 in Yongsan-gu, Seoul.",
     festivalTag: "#한강 #벚꽃 #축제 #봄나들이 #인생샷",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "서울국제빈티지페어",
@@ -55,7 +56,8 @@ const festivalSeoul = [
     festivalMainIns:
       "Discover unique vintage finds and retro treasures at the Seoul International Vintage Fair, held on May 6-7 in Yongsan-gu, Seoul.",
     festivalTag: "#서울국제빈티지페어 #빈티지 #레트로 #유니크한물건 #감성",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalBusan = [
@@ -66,7 +68,8 @@ const festivalBusan = [
     festivalMainIns:
       "Asia's largest film festival, Busan International Film Festival",
     festivalTag: "#영화제 #부산 #국제이벤트",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "해운대 청년 수련축제",
@@ -74,7 +77,8 @@ const festivalBusan = [
     festivalDate: "기간 : 23.08.01. (화) ~ 23.08.05. (토)",
     festivalMainIns: "Youth Training Festival at Haeundae Beach in Busan",
     festivalTag: "#수련 #축제 #해운대",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "부산국제불빛축제",
@@ -82,7 +86,8 @@ const festivalBusan = [
     festivalDate: "기간 : 23.11.01. (수) ~ 23.11.11. (토)",
     festivalMainIns: "Busan International Fireworks Festival",
     festivalTag: "#불꽃놀이 #축제 #부산 #해운대",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "해운대 바닷가국제트라이애슬론",
@@ -90,7 +95,8 @@ const festivalBusan = [
     festivalDate: "기간 : 23.06.xx. (일정 미정)",
     festivalMainIns: "Haeundae Beach International Triathlon",
     festivalTag: "#트라이애슬론 #해운대 #스포츠",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "부산국제모터쇼",
@@ -98,7 +104,8 @@ const festivalBusan = [
     festivalDate: "기간 : 23.05.25. (목) ~ 23.06.03. (토)",
     festivalMainIns: "Busan International Motor Show",
     festivalTag: "#모터쇼 #부산 #국제이벤트",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalDaegu = [
@@ -109,7 +116,8 @@ const festivalDaegu = [
     festivalMainIns:
       "Film Festival introducing a variety of short films from around the world, showcasing the creativity and artistry of filmmakers.",
     festivalTag: "#영화제 #단편영화 #영화 #아시아 #문화",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대구 어린이 대축제",
@@ -118,7 +126,8 @@ const festivalDaegu = [
     festivalMainIns:
       "Children's festival featuring interactive exhibitions, performances, and educational activities for young visitors.",
     festivalTag: "#어린이 #축제 #교육 #체험 #가족",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대구 서문시장 먹거리 축제",
@@ -127,7 +136,8 @@ const festivalDaegu = [
     festivalMainIns:
       "Food festival featuring local street vendors selling a variety of traditional Korean snacks and dishes.",
     festivalTag: "#먹거리 #축제 #서문시장 #한식 #음식",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대구 국제 무용제",
@@ -136,7 +146,8 @@ const festivalDaegu = [
     festivalMainIns:
       "International dance festival featuring a range of dance styles and performances from renowned dance companies and choreographers around the world.",
     festivalTag: "#무용 #축제 #댄스 #국제 #예술",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대구 국제 달빛마당영화제",
@@ -145,7 +156,8 @@ const festivalDaegu = [
     festivalMainIns:
       "Outdoor film festival featuring a variety of international films screened under the moonlight in a beautiful park setting.",
     festivalTag: "#영화제 #달빛마당 #야외영화 #국제 #문화",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalIncheon = [
@@ -156,7 +168,8 @@ const festivalIncheon = [
     festivalMainIns:
       "Introducing Incheon International Music Festival - A celebration of diverse music and cultures featuring performances by talented artists from around the world. Come and enjoy the harmony of music!",
     festivalTag: "#음악제 #국제음악제 #다양한공연 #인천 #문화축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -166,7 +179,8 @@ const festivalIncheon = [
     festivalMainIns:
       "Introducing Incheon International Airport Culture Festival - A unique festival that takes place inside one of Korea's busiest airports, featuring a variety of cultural performances, exhibitions, and activities. Come and experience the excitement of the airport!",
     festivalTag: "#공항축제 #문화체험 #국제공항 #인천 #이색축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -176,7 +190,8 @@ const festivalIncheon = [
     festivalMainIns:
       "Introducing Incheon Makgeolli Festival - A celebration of Korea's traditional rice wine, featuring a variety of makgeolli tastings, food pairings, and cultural performances. Come and enjoy the unique flavors of Korea!",
     festivalTag: "#마실축제 #막걸리 #음주 #인천 #먹거리축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -186,7 +201,8 @@ const festivalIncheon = [
     festivalMainIns:
       "Introducing Incheon Urban Agriculture Expo - A global exhibition showcasing the latest trends in urban farming and sustainable agriculture. Come and learn about the future of food and agriculture!",
     festivalTag: "#도시농업박람회 #농업 #지속가능성 #인천 #세계박람회",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "인천 차이나타운 축제",
@@ -195,7 +211,8 @@ const festivalIncheon = [
     festivalMainIns:
       "축제 소개: 인천 차이나타운 축제는 추석 연휴 기간 중 개최되며,\n 다양한 문화행사와 음식, 상품 등이 있는 중국 문화 축제입니다.",
     festivalTag: "#추석연휴 #인천 #차이나타운 #중국문화 #먹거리축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalGwangju = [
@@ -206,7 +223,8 @@ const festivalGwangju = [
     festivalMainIns:
       "Introducing Gwangju Biennale - A world-renowned contemporary art festival featuring works from international artists. Don't miss this opportunity to experience the cutting-edge of art!",
     festivalTag: "#비엔날레 #현대미술 #국제축제 #광주 #문화축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -216,7 +234,8 @@ const festivalGwangju = [
     festivalMainIns:
       "Introducing Gwangju World Swimming Championships - The world's top swimmers will gather in Gwangju to compete in this exciting event. Don't miss your chance to witness world records being broken!",
     festivalTag: "#수영대회 #세계최고선수 #광주 #스포츠축제 #국제대회",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -226,7 +245,8 @@ const festivalGwangju = [
     festivalMainIns:
       "Introducing Gwangju World Beer Festival - A celebration of beer and good times! Come enjoy a variety of brews from around the world and experience the lively atmosphere of this festival.",
     festivalTag: "#맥주축제 #국제맥주 #광주 #음주문화 #축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -236,7 +256,8 @@ const festivalGwangju = [
     festivalMainIns:
       "Introducing Gwangju Martial Arts Festival - A showcase of martial arts from around the world! Come witness amazing feats of strength and agility and experience the excitement of this festival.",
     festivalTag: "#무예축제 #격투기 #국제축제 #광주 #스포츠",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "광주전남 대학생 영화제",
@@ -245,7 +266,8 @@ const festivalGwangju = [
     festivalMainIns:
       "Film festival for university students in Gwangju and Jeonnam province.",
     festivalTag: "#영화제 #학생영화제 #광주 #전라남도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalDaejeon = [
@@ -256,7 +278,8 @@ const festivalDaejeon = [
     festivalMainIns:
       "The Daejeon International Music Festival brings together renowned musicians from around the world to showcase a variety of music genres, from classical to contemporary. The festival offers a unique opportunity to experience the beauty and diversity of music, and to appreciate the talents of musicians from diverse cultural backgrounds.",
     festivalTag: "#음악제 #클래식음악 #콘서트 #대전 #문화예술",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대전국제청소년영화제",
@@ -266,7 +289,8 @@ const festivalDaejeon = [
     festivalMainIns:
       "The Daejeon International Youth Film Festival celebrates young filmmakers and the art of cinema. The festival showcases a range of films made by young directors from around the world, offering a unique opportunity to explore different perspectives and cultures through the lens of youth.",
     festivalTag: "#영화제 #청소년 #영화 #다양한문화 #국제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대전장터한마당",
@@ -275,7 +299,8 @@ const festivalDaejeon = [
     festivalMainIns:
       "대전장터한마당 is a traditional market festival that takes place in the heart of Daejeon. The festival showcases local produce, crafts, and food, offering visitors a unique opportunity to experience the rich cultural heritage of the city.",
     festivalTag: "#장터 #축제 #문화 #대전 #한국전통",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대전광역시 희망축제",
@@ -284,7 +309,8 @@ const festivalDaejeon = [
     festivalMainIns:
       "The Daejeon Hope Festival is a charity event that aims to raise awareness and support for people in need. The festival features a range of activities and performances, and all proceeds go to local charities.",
     festivalTag: "#희망 #축제 #선물 #나눔 #대전",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "대전국제영화제",
@@ -293,7 +319,8 @@ const festivalDaejeon = [
     festivalMainIns:
       "Introducing Daejeon International Film Festival - A celebration of cinema and culture featuring screenings of diverse films from around the world. Don't miss out!",
     festivalTag: "#영화제 #다양한작품 #문화축제 #대전 #국제영화제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalUlsan = [
@@ -304,7 +331,8 @@ const festivalUlsan = [
     festivalMainIns:
       "Listen to the sound of the sea and enjoy various seafood dishes at Ulsan's largest seafood festival.",
     festivalTag: "#바다소리축제 #울산 #해물축제 #음식축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "울산 불빛축제",
@@ -313,7 +341,8 @@ const festivalUlsan = [
     festivalMainIns:
       "Experience the beautiful autumn night with the fantastic light shows and exhibitions in Ulsan city.",
     festivalTag: "#울산불빛축제 #불빛축제 #울산 #가을축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "울산 국제모터쇼",
@@ -322,7 +351,8 @@ const festivalUlsan = [
     festivalMainIns:
       "Experience the latest trends in the automotive industry and test-drive various cars at Ulsan International Motor Show.",
     festivalTag: "#모터쇼 #울산 #자동차축제 #테스트드라이브",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "울산 천하제일북부제전",
@@ -331,7 +361,8 @@ const festivalUlsan = [
     festivalMainIns:
       "Experience the traditional martial arts and cultural performances from all over the country at Ulsan's largest traditional festival.",
     festivalTag: "#천하제일북부제전 #울산 #무예축제 #문화축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "울산 대천제",
@@ -340,7 +371,8 @@ const festivalUlsan = [
     festivalMainIns:
       "Enjoy the hot summer nights with the exciting performances and fireworks at Ulsan Daecheonje Festival.",
     festivalTag: "#대천제 #울산 #축제 #불꽃놀이",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalSejong = [
@@ -351,7 +383,8 @@ const festivalSejong = [
     festivalMainIns:
       "Experience the spectacular light installations and performances in the winter night.",
     festivalTag: "#불빛축제 #세종시 #겨울축제 #조명아트",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "세종 문화예술축제",
@@ -360,7 +393,8 @@ const festivalSejong = [
     festivalMainIns:
       "Experience various cultural activities and performances in the city of Sejong.",
     festivalTag: "#문화예술축제 #세종시 #봄축제 #문화축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "세종 가을 축제",
@@ -369,7 +403,8 @@ const festivalSejong = [
     festivalMainIns:
       "Enjoy the autumn season with colorful leaves and various activities.",
     festivalTag: "#가을축제 #세종시 #놀이터축제 #체험활동",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "세종 체험 농업 축제",
@@ -378,7 +413,8 @@ const festivalSejong = [
     festivalMainIns:
       "Experience the farming culture and enjoy the fresh harvest in the countryside of Sejong.",
     festivalTag: "#체험농업 #세종시 #가을축제 #전통농업",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "세종 와인축제",
@@ -387,7 +423,8 @@ const festivalSejong = [
     festivalMainIns:
       "Taste and enjoy various wines from all over the world in Sejong city.",
     festivalTag: "#와인축제 #세종시 #푸드트럭 #와인시음",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalGyeonggi = [
@@ -397,7 +434,8 @@ const festivalGyeonggi = [
     festivalDate: "기간: 23.07.23. (토) ~ 23.07.31. (일)",
     festivalMainIns: "Enjoy the beautiful lotus flowers in the organic farm.",
     festivalTag: "#연꽃축제 #유기농농업 #파주 #경기도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "수원 화성박람회",
@@ -406,7 +444,8 @@ const festivalGyeonggi = [
     festivalMainIns:
       "Experience the Korean traditional culture at the Suwon Hwaseong Fortress.",
     festivalTag: "#화성박람회 #한국전통문화 #수원 #경기도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "이천 대추축제",
@@ -415,7 +454,8 @@ const festivalGyeonggi = [
     festivalMainIns:
       "Celebrate the harvest season with delicious jujubes in the traditional market.",
     festivalTag: "#대추축제 #이천 #경기도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "화성시 문화제",
@@ -424,7 +464,8 @@ const festivalGyeonggi = [
     festivalMainIns:
       "Experience various cultural activities and performances in the city of Hwaseong.",
     festivalTag: "#화성시문화제 #문화축제 #화성 #경기도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "평택 돼지꿀잼축제",
@@ -433,7 +474,8 @@ const festivalGyeonggi = [
     festivalMainIns:
       "Enjoy various pork dishes and activities with sweet honey flavor.",
     festivalTag: "#돼지꿀잼축제 #평택 #경기도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalGangwon = [
@@ -444,7 +486,8 @@ const festivalGangwon = [
     festivalMainIns:
       "Enjoy the beautiful autumn scenery and taste delicious potatoes at the Gangwon Potato Field Festival in Inje-gun, Gangwon Province.",
     festivalTag: "#강원감자밭 #감자축제 #가을농촌체험 #맛축제 #가을여행",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "양구 청정수산물축제",
@@ -453,7 +496,8 @@ const festivalGangwon = [
     festivalMainIns:
       "The Yanggu Clean Seafood Festival offers a variety of fresh seafood dishes and fun activities in the scenic town of Yanggu, Gangwon Province.",
     festivalTag: "#청정수산물 #수산물축제 #양구 #여름축제 #가족여행",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "춘천닭갈비축제",
@@ -462,7 +506,8 @@ const festivalGangwon = [
     festivalMainIns:
       "Indulge in the spicy and savory flavors of Chuncheon Dakgalbi (stir-fried spicy chicken) at the Chuncheon Dakgalbi Festival in Chuncheon, Gangwon Province.",
     festivalTag: "#닭갈비 #춘천 #음식축제 #가을여행 #맛있는축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "태백산국제눈썰매대회",
@@ -471,7 +516,8 @@ const festivalGangwon = [
     festivalMainIns:
       "Experience the thrill of sledding down Taebaeksan Mountain at the Taebaeksan International Snow Sledding Festival in Taebaek, Gangwon Province.",
     festivalTag: "#눈썰매 #태백산 #겨울축제 #스포츠 #눈놀이",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "강원도 화천 벚꽃축제",
@@ -479,7 +525,8 @@ const festivalGangwon = [
     festivalDate: "기간: 23.04.16. (토) ~ 23.04.24. (일)",
     festivalMainIns: "Spring festival with beautiful cherry blossoms.",
     festivalTag: "#꽃축제 #봄축제 #화천 #강원도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalNorth_Chungcheong = [
@@ -489,7 +536,8 @@ const festivalNorth_Chungcheong = [
     festivalDate: "기간 : 23.08.04. (금) ~ 23.08.09. (수)",
     festivalMainIns: "Jecheon International Music & Film Festival",
     festivalTag: "#음악영화 #영화제 #제천 #국제이벤트",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "청춘물총축제",
@@ -497,7 +545,8 @@ const festivalNorth_Chungcheong = [
     festivalDate: "기간 : 23.08.18. (금) ~ 23.08.20. (일)",
     festivalMainIns: "Youth Water Gun Festival",
     festivalTag: "#물총 #축제 #청춘 #충주",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "영동농산물직판장 축제",
@@ -505,7 +554,8 @@ const festivalNorth_Chungcheong = [
     festivalDate: "기간 : 23.09.08. (금) ~ 23.09.10. (일)",
     festivalMainIns: "Yeongdong Agricultural Product Market Festival",
     festivalTag: "#농산물 #직판장 #축제 #영동",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "단양국제치악송년설음악제",
@@ -513,7 +563,8 @@ const festivalNorth_Chungcheong = [
     festivalDate: "기간 : 23.02.xx. (일정 미정)",
     festivalMainIns: "Danyang International Winter Music Festival",
     festivalTag: "#칠악산 #음악제 #겨울 #단양",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "청풍호 벚꽃 축제",
@@ -521,7 +572,8 @@ const festivalNorth_Chungcheong = [
     festivalDate: "기간 : 23.04.xx. (일정 미정)",
     festivalMainIns: "Jecheon International flower Festival",
     festivalTag: "#연인과 #벚꽃 #제천 #국제이벤트",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalSouth_Chungcheong = [
@@ -532,7 +584,8 @@ const festivalSouth_Chungcheong = [
     festivalMainIns:
       "Enjoy nature and traditional culture at Taean Cheongsan Festival.",
     festivalTag: "#청산축제 #태안여행 #문화축제 #봄나들이",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "당진 천사랑축제",
@@ -541,7 +594,8 @@ const festivalSouth_Chungcheong = [
     festivalMainIns:
       "Experience the beauty of cosmos flowers at Dangjin Cheonsarang Festival.",
     festivalTag: "#천사랑축제 #당진여행 #꽃놀이 #가족축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "태안 대산갯벌 축제",
@@ -550,7 +604,8 @@ const festivalSouth_Chungcheong = [
     festivalMainIns:
       "Explore the wonders of the tidal flats at Taean Dae-san Gatbawi Festival.",
     festivalTag: "#대산갯벌축제 #태안여행 #자연축제 #가을나들이",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "공주 섬진강 문화축제",
@@ -559,7 +614,8 @@ const festivalSouth_Chungcheong = [
     festivalMainIns:
       "Experience traditional Korean culture and art at Gongju Seomjin River Cultural Festival.",
     festivalTag: "#섬진강문화축제 #공주여행 #한국전통문화 #가을축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "아산 천만송이 국화축제",
@@ -568,7 +624,8 @@ const festivalSouth_Chungcheong = [
     festivalMainIns:
       "Admire the beauty of millions of chrysanthemums at Asan Chrysanthemum Festival.",
     festivalTag: "#천만송이국화축제 #아산여행 #꽃구경 #가을나들이",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalNorth_Jeolla = [
@@ -579,7 +636,8 @@ const festivalNorth_Jeolla = [
     festivalMainIns:
       "Celebrating the beauty of traditional Korean paper, the Jeonju Hanji Culture Festival offers a wide range of activities and exhibits for visitors to enjoy.",
     festivalTag: "#전주한지문화축제 #전주한지 #문화축제 #전통공예 #한지작업",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "익산 천만송이 국화축제",
@@ -589,7 +647,8 @@ const festivalNorth_Jeolla = [
       "With over ten million chrysanthemums on display, the Iksan Chrysanthemum Festival is a breathtaking sight to behold.",
     festivalTag:
       "#익산천만송이국화축제 #천일산국화원 #국화축제 #가을여행 #자연경관",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "전주 막걸리와 전통주축제",
@@ -598,7 +657,8 @@ const festivalNorth_Jeolla = [
     festivalMainIns:
       "Sample a variety of traditional Korean liquors, including makgeolli, at the Jeonju Makgeolli and Traditional Liquor Festival.",
     festivalTag: "#전주막걸리와전통주축제 #전주한옥마을 #막걸리 #전통주 #음주",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "김제 가을 축제",
@@ -607,7 +667,8 @@ const festivalNorth_Jeolla = [
     festivalMainIns:
       "Featuring a variety of cultural performances and experiences, the Gimje Autumn Festival is a great way to enjoy the season.",
     festivalTag: "#김제가을축제 #김제시 #가을축제 #문화축제 #축제놀이",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "남원축제",
@@ -616,7 +677,8 @@ const festivalNorth_Jeolla = [
     festivalMainIns:
       "The Namwon Festival is a celebration of traditional Korean music and dance, with performances and events held throughout the city.",
     festivalTag: "#남원축제 #전통음악축제 #축제여행 #남원시 #문화축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalSouth_Jeolla = [
@@ -626,7 +688,8 @@ const festivalSouth_Jeolla = [
     festivalDate: "기간: 23.04.28.(금) ~ 23.05.01.(월)",
     festivalMainIns: "International seafood festival in Suncheon-man. ",
     festivalTag: "#수산물축제 #해산물 #전통시장 #해외방문객 #순천",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "무안초록우체국제화제",
@@ -635,7 +698,8 @@ const festivalSouth_Jeolla = [
     festivalMainIns:
       "Green post office international flower exhibition in Mu-an",
     festivalTag: "#국제화제 #국화 #여름축제 #전통문화 #무안",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "완도굴뚝축제",
@@ -643,7 +707,8 @@ const festivalSouth_Jeolla = [
     festivalDate: "기간: 23.05.05.(금) ~ 23.05.08.(월)",
     festivalMainIns: "Wando brick chimney festival",
     festivalTag: "#굴뚝축제 #해돋이 #야간불꽃놀이 #봄나들이 #완도",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 
   {
@@ -652,7 +717,8 @@ const festivalSouth_Jeolla = [
     festivalDate: "기간: 23.07.01.(토) ~ 23.07.03.(월)",
     festivalMainIns: "Jangheung World Bamboo Forest Festival",
     festivalTag: "#비자림축제 #대나무숲 #국제축제 #전통공연 #장흥",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "여수세계박람회",
@@ -660,7 +726,8 @@ const festivalSouth_Jeolla = [
     festivalDate: "기간: 23.07.14.(금) ~ 23.11.05.(일)",
     festivalMainIns: "Expo in Yeosu",
     festivalTag: "#세계박람회 #해양경제 #푸드트럭 #해외방문객 #여수",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalNorth_Gyeongsang = [
@@ -671,7 +738,8 @@ const festivalNorth_Gyeongsang = [
     festivalMainIns:
       "Introducing the Andong International Mask Dance Festival, which celebrates the culture of mask dances from all over the world.",
     festivalTag: "#축제 #안동 #문화축제 #한국전통문화 #국제축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "포항국제불빛축제",
@@ -680,7 +748,8 @@ const festivalNorth_Gyeongsang = [
     festivalMainIns:
       "The Pohang International Fireworks Festival, where you can enjoy beautiful fireworks and various cultural events.",
     festivalTag: "#축제 #불꽃축제 #포항 #문화축제 #해변축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "경주월드문화유산축제",
@@ -689,7 +758,8 @@ const festivalNorth_Gyeongsang = [
     festivalMainIns:
       "The Gyeongju World Culture Heritage Festival, where you can experience the cultural heritage of Korea and the world.",
     festivalTag: "#축제 #경주 #문화축제 #유네스코세계문화유산 #한국전통문화",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "무주반딧불축제",
@@ -698,7 +768,8 @@ const festivalNorth_Gyeongsang = [
     festivalMainIns:
       "The Muju Sancheong Festival, where you can experience traditional Korean culture and natural beauty.",
     festivalTag: "#축제 #무주 #반딧불축제 #한국전통문화 #자연축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "영덕낙사제",
@@ -707,7 +778,8 @@ const festivalNorth_Gyeongsang = [
     festivalMainIns:
       "Introducing the Yeongdeok Naksansa Festival, where you can enjoy various cultural events and the beautiful scenery of Naksan Beach.",
     festivalTag: "#축제 #영덕 #문화축제 #해변축제 #자연축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalSouth_Gyeongsang = [
@@ -718,7 +790,8 @@ const festivalSouth_Gyeongsang = [
     festivalMainIns:
       "Colorful lanterns, exciting performances, and delicious food await you at the Jinhae International Military Band & Mozzarella Festival.",
     festivalTag: "#Jinhae #Mozzarella #MilitaryBand #CherryBlossom",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "어기야디어차",
@@ -727,7 +800,8 @@ const festivalSouth_Gyeongsang = [
     festivalMainIns:
       "Savor the taste of the sea and enjoy the traditional fishing village atmosphere at the Geoje Eocheon Masil Festival.",
     festivalTag: "#Geoje #Eocheon #Seafood #FishingVillage",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "통영국제음악제",
@@ -736,7 +810,8 @@ const festivalSouth_Gyeongsang = [
     festivalMainIns:
       "Experience the beauty of art and nature at the Tongyeong International Flower Festival, where vibrant blooms and scenic landscapes come together.",
     festivalTag: "#Tongyeong #MusicFestival #ArtAndNature #Spring",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "진주남강유등축제",
@@ -745,7 +820,8 @@ const festivalSouth_Gyeongsang = [
     festivalMainIns:
       "See the beauty of the Namgang River come to life at the Jinju Namgang Yudeung Festival, with thousands of floating lanterns illuminating the night sky.",
     festivalTag: "#Jinju #NamgangRiver #LanternFestival #NightView",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "산청사과축제",
@@ -754,7 +830,8 @@ const festivalSouth_Gyeongsang = [
     festivalMainIns:
       "Taste the sweetness of autumn at the Sanchung Apple Festival, featuring a variety of apple-themed activities and delicious treats.",
     festivalTag: "#Sanchung #AppleFestival #Autumn #Food",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 const festivalJeju = [
@@ -765,7 +842,8 @@ const festivalJeju = [
     festivalMainIns:
       "Celebrating the culture of Jeju's female divers, the Jeju Haenyeo Festival features traditional performances, hands-on experiences, and fresh seafood.",
     festivalTag: "#해녀문화 #제주해녀축제 #제주여행 #먹거리축제 #제주바다",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "제주 벚꽃축제",
@@ -774,7 +852,8 @@ const festivalJeju = [
     festivalMainIns:
       "Experience the beauty of spring in Jeju with the Jeju Cherry Blossom Festival, featuring a variety of events and activities amidst blooming cherry blossoms.",
     festivalTag: "#벚꽃축제 #봄여행 #제주도 #나들이 #데이트",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "제주 바다처럼 깊은 이야기, 제주 드라마제",
@@ -783,7 +862,8 @@ const festivalJeju = [
     festivalMainIns:
       "Celebrate the beauty and culture of Jeju Island through film and television at the Jeju Drama Festival.",
     festivalTag: "#제주드라마제 #제주영화제 #제주여행 #문화축제 #한류",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "제주 불꽃축제",
@@ -792,7 +872,8 @@ const festivalJeju = [
     festivalMainIns:
       "Ring in the new year with the spectacular fireworks display at the Jeju Fire Festival.",
     festivalTag: "#불꽃축제 #제주여행 #카운트다운 #신년축하불 #파이어웍스",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
     festivalTitle: "제주 산방산 등반축제",
@@ -801,7 +882,8 @@ const festivalJeju = [
     festivalMainIns:
       "Hike the scenic Mt. Sanbang and enjoy cultural performances and local food at the Jeju Sanbangsan Climbing Festival.",
     festivalTag: "#산방산등반축제 #제주여행 #아웃도어 #자연체험 #문화축제",
-    festivalSite: "url",
+    festivalSite:
+      "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
 ];
 
