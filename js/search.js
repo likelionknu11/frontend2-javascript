@@ -8,6 +8,10 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
 });
 
 function searchEvt() {
+  if (document.getElementsByClassName("searchContainer").length != 0) {
+    const searchContainer = getElementsByClassName("searchContainer");
+    searchContainer.remove();
+  }
   const searchText = document.getElementById("searchInput");
   const mapElement = document.getElementsByClassName("map");
   mapElement[0].style.display = "none";
@@ -26,7 +30,7 @@ function searchEvt() {
   document.body.insertBefore(searchContainer, mapElement[0]);
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
     for (let a in festivalDataList.Busan[i]) {
-      if (festivalDataList.Busan[0][a].includes(searchText.value)) {
+      if (festivalDataList.Busan[i][a].includes(searchText.value)) {
         const searchIn = document.createElement("li");
         searchIn.id = "in";
         searchIn.innerHTML = festivalDataList.Busan[i].festivalTitle;
@@ -79,7 +83,7 @@ function searchEvt() {
 
   for (var i = 0; i < festivalDataList.Seoul.length; i++) {
     for (let a in festivalDataList.Seoul[i]) {
-      if (festivalDataList.Seoul[0][a].includes(searchText.value)) {
+      if (festivalDataList.Seoul[i][a].includes(searchText.value)) {
         const searchIn = document.createElement("li");
         searchIn.id = "in";
         searchIn.innerHTML = festivalDataList.Seoul[i].festivalTitle;
@@ -132,7 +136,7 @@ function searchEvt() {
 
   for (var i = 0; i < festivalDataList.Daegu.length; i++) {
     for (let a in festivalDataList.Daegu[i]) {
-      if (festivalDataList.Daegu[0][a].includes(searchText.value)) {
+      if (festivalDataList.Daegu[i][a].includes(searchText.value)) {
         const searchIn = document.createElement("li");
         searchIn.id = "in";
         searchIn.innerHTML = festivalDataList.Daegu[i].festivalTitle;
@@ -184,7 +188,7 @@ function searchEvt() {
   }
   for (var i = 0; i < festivalDataList.Incheon.length; i++) {
     for (let a in festivalDataList.Incheon[i]) {
-      if (festivalDataList.Incheon[0][a].includes(searchText.value)) {
+      if (festivalDataList.Incheon[i][a].includes(searchText.value)) {
         const searchIn = document.createElement("li");
         searchIn.id = "in";
         searchIn.innerHTML = festivalDataList.Incheon[i].festivalTitle;
