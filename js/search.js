@@ -8,234 +8,42 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
 });
 
 function searchEvt() {
-  if (document.getElementsByClassName("searchContainer").length != 0) {
-    const searchContainer = getElementsByClassName("searchContainer");
-    searchContainer.remove();
+  var elements = document.querySelectorAll("h1"); // 검색전에 이전에 있던 모든 h1 제거.
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].remove();
   }
-  const searchText = document.getElementById("searchInput");
-  const mapElement = document.getElementsByClassName("map");
-  mapElement[0].style.display = "none";
 
-  const searchContainer = document.createElement("div");
-  searchContainer.className = "searchContainer";
-  const searchBoard = document.createElement("div");
-  searchBoard.className = "searchBoard";
+  var map = document.getElementsByClassName("map"); // 검색시 map은 안 보이고 숨겨져 있던 seacrhBox는 보이게 함.
+  map[0].style.visibility = "hidden";
+  map[0].style.opacity = 0;
+  var searchBox = document.getElementById("searchBox");
+  searchBox.style.visibility = "visible";
+  searchBox.style.opacity = 1;
 
-  const searchList = document.createElement("ul");
-  searchList.className = "searchList";
-  searchList.id = "list";
-  searchList.innerHTML = "Festivals";
+  var searchContainer = document.getElementById("searchContainer");
+  var searchInput = document.getElementById("searchInput");
 
-  searchContainer.appendChild(searchBoard);
-  document.body.insertBefore(searchContainer, mapElement[0]);
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
     for (let a in festivalDataList.Busan[i]) {
-      if (festivalDataList.Busan[i][a].includes(searchText.value)) {
-        const searchIn = document.createElement("li");
-        searchIn.id = "in";
-        searchIn.innerHTML = festivalDataList.Busan[i].festivalTitle;
+      if (festivalDataList.Busan[i][a].includes(searchInput.value)) {
         const festivalText = document.createElement("h1");
 
-        festivalText.innerHTML =
-          festivalDataList.Busan[i].festivalTitle +
-          "<br>" +
-          festivalDataList.Busan[i].festivalAreaIns +
-          "<br>" +
-          festivalDataList.Busan[i].festivalDate +
-          "<br>" +
-          festivalDataList.Busan[i].festivalMainIns +
-          "<br>" +
-          festivalDataList.Busan[i].festivalTag +
-          "<br>" +
-          festivalDataList.Busan[i].festivalSite;
-
-        searchList.appendChild(searchIn);
-        searchIn.addEventListener(
-          "click",
-          function () {
-            searchList.style.display = "none";
-            var newDiv = document.createElement("div");
-            // div의 내용을 채웁니다.
-            // div의 스타일을 지정합니다.
-            const divClose = document.createElement("span"); //카드 닫기 버튼
-            divClose.innerHTML = "X";
-            divClose.addEventListener("click", function () {
-              newDiv.style.display = "none";
-              searchList.style.display = "";
-            });
-            newDiv.style.borderRadius = "30px";
-            newDiv.style.border = "3px solid white";
-            newDiv.style.padding = "10px";
-            newDiv.style.margin = "20px";
-            // body 요소에 새로운 div를 추가합니다.
-            searchBoard.appendChild(newDiv);
-            newDiv.appendChild(divClose);
-            newDiv.appendChild(festivalText);
-          },
-          false
-        );
-
+        festivalText.innerHTML = festivalDataList.Busan[i].festivalTitle;
+        searchBox.appendChild(festivalText);
+        festivalText.addEventListener("click", function () {
+          searchContainer.style.visibility = "visible";
+          searchContainer.style.opacity = 1;
+          var elements = document.querySelectorAll("h1");
+          for (var i = 0; i < elements.length; i++) {
+            elements[i].style.transition = "0s";
+            elements[i].style.visibility = "hidden";
+          }
+          const festivalText2 = document.createElement("h2");
+          festivalText2.innerHTML = festivalText.innerHTML;
+          searchContainer.appendChild(festivalText2);
+        });
         break;
       }
     }
-    searchBoard.appendChild(searchList);
-  }
-
-  for (var i = 0; i < festivalDataList.Seoul.length; i++) {
-    for (let a in festivalDataList.Seoul[i]) {
-      if (festivalDataList.Seoul[i][a].includes(searchText.value)) {
-        const searchIn = document.createElement("li");
-        searchIn.id = "in";
-        searchIn.innerHTML = festivalDataList.Seoul[i].festivalTitle;
-        const festivalText = document.createElement("h1");
-
-        festivalText.innerHTML =
-          festivalDataList.Seoul[i].festivalTitle +
-          "<br>" +
-          festivalDataList.Seoul[i].festivalAreaIns +
-          "<br>" +
-          festivalDataList.Seoul[i].festivalDate +
-          "<br>" +
-          festivalDataList.Seoul[i].festivalMainIns +
-          "<br>" +
-          festivalDataList.Seoul[i].festivalTag +
-          "<br>" +
-          festivalDataList.Seoul[i].festivalSite;
-
-        searchList.appendChild(searchIn);
-        searchIn.addEventListener(
-          "click",
-          function () {
-            searchList.style.display = "none";
-            var newDiv = document.createElement("div");
-            // div의 내용을 채웁니다.
-            // div의 스타일을 지정합니다.
-            const divClose = document.createElement("span"); //카드 닫기 버튼
-            divClose.innerHTML = "X";
-            divClose.addEventListener("click", function () {
-              newDiv.style.display = "none";
-              searchList.style.display = "";
-            });
-            newDiv.style.borderRadius = "30px";
-            newDiv.style.border = "3px solid white";
-            newDiv.style.padding = "10px";
-            newDiv.style.margin = "20px";
-            // body 요소에 새로운 div를 추가합니다.
-            searchBoard.appendChild(newDiv);
-            newDiv.appendChild(divClose);
-            newDiv.appendChild(festivalText);
-          },
-          false
-        );
-
-        break;
-      }
-    }
-    searchBoard.appendChild(searchList);
-  }
-
-  for (var i = 0; i < festivalDataList.Daegu.length; i++) {
-    for (let a in festivalDataList.Daegu[i]) {
-      if (festivalDataList.Daegu[i][a].includes(searchText.value)) {
-        const searchIn = document.createElement("li");
-        searchIn.id = "in";
-        searchIn.innerHTML = festivalDataList.Daegu[i].festivalTitle;
-        const festivalText = document.createElement("h1");
-
-        festivalText.innerHTML =
-          festivalDataList.Daegu[i].festivalTitle +
-          "<br>" +
-          festivalDataList.Daegu[i].festivalAreaIns +
-          "<br>" +
-          festivalDataList.Daegu[i].festivalDate +
-          "<br>" +
-          festivalDataList.Daegu[i].festivalMainIns +
-          "<br>" +
-          festivalDataList.Daegu[i].festivalTag +
-          "<br>" +
-          festivalDataList.Daegu[i].festivalSite;
-
-        searchList.appendChild(searchIn);
-        searchIn.addEventListener(
-          "click",
-          function () {
-            searchList.style.display = "none";
-            var newDiv = document.createElement("div");
-            // div의 내용을 채웁니다.
-            // div의 스타일을 지정합니다.
-            const divClose = document.createElement("span"); //카드 닫기 버튼
-            divClose.innerHTML = "X";
-            divClose.addEventListener("click", function () {
-              newDiv.style.display = "none";
-              searchList.style.display = "";
-            });
-            newDiv.style.borderRadius = "30px";
-            newDiv.style.border = "3px solid white";
-            newDiv.style.padding = "10px";
-            newDiv.style.margin = "20px";
-            // body 요소에 새로운 div를 추가합니다.
-            searchBoard.appendChild(newDiv);
-            newDiv.appendChild(divClose);
-            newDiv.appendChild(festivalText);
-          },
-          false
-        );
-
-        break;
-      }
-    }
-    searchBoard.appendChild(searchList);
-  }
-  for (var i = 0; i < festivalDataList.Incheon.length; i++) {
-    for (let a in festivalDataList.Incheon[i]) {
-      if (festivalDataList.Incheon[i][a].includes(searchText.value)) {
-        const searchIn = document.createElement("li");
-        searchIn.id = "in";
-        searchIn.innerHTML = festivalDataList.Incheon[i].festivalTitle;
-        const festivalText = document.createElement("h1");
-
-        festivalText.innerHTML =
-          festivalDataList.Incheon[i].festivalTitle +
-          "<br>" +
-          festivalDataList.Incheon[i].festivalAreaIns +
-          "<br>" +
-          festivalDataList.Incheon[i].festivalDate +
-          "<br>" +
-          festivalDataList.Incheon[i].festivalMainIns +
-          "<br>" +
-          festivalDataList.Incheon[i].festivalTag +
-          "<br>" +
-          festivalDataList.Incheon[i].festivalSite;
-
-        searchList.appendChild(searchIn);
-        searchIn.addEventListener(
-          "click",
-          function () {
-            searchList.style.display = "none";
-            var newDiv = document.createElement("div");
-            // div의 내용을 채웁니다.
-            // div의 스타일을 지정합니다.
-            const divClose = document.createElement("span"); //카드 닫기 버튼
-            divClose.innerHTML = "X";
-            divClose.addEventListener("click", function () {
-              newDiv.style.display = "none";
-              searchList.style.display = "";
-            });
-            newDiv.style.borderRadius = "30px";
-            newDiv.style.border = "3px solid white";
-            newDiv.style.padding = "10px";
-            newDiv.style.margin = "20px";
-            // body 요소에 새로운 div를 추가합니다.
-            searchBoard.appendChild(newDiv);
-            newDiv.appendChild(divClose);
-            newDiv.appendChild(festivalText);
-          },
-          false
-        );
-
-        break;
-      }
-    }
-    searchBoard.appendChild(searchList);
   }
 }
