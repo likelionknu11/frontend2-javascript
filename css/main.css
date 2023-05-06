@@ -21,6 +21,10 @@ a {
   height: 80px;
 }
 
+.main-logo:hover {
+  cursor: pointer;
+}
+
 .inner {
   width: 1100px;
   margin: 0 auto;

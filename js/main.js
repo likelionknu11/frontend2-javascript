@@ -1,13 +1,19 @@
 const searchEL = document.querySelector(".search");
 const searchInputEL = searchEL.querySelector("input");
 
+function goToMainPage() {
+  //로고 클릭 시 메인페이지 이동
+  window.location.href =
+    "https://likelionknu11.github.io/frontend2-javascript/";
+}
+
 searchEL.addEventListener("click", function () {
   searchInputEL.focus();
 });
 
 searchInputEL.addEventListener("focus", function () {
   searchEL.classList.add("focused");
-  searchInputEL.setAttribute("placeholder", "통합검색");
+  searchInputEL.setAttribute("placeholder", "지역명을 입력하세요");
 });
 
 searchInputEL.addEventListener("focusout", function () {
