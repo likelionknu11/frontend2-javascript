@@ -72,7 +72,7 @@ participationBtn.addEventListener("click", () => {
     setTimeout(() => {
       startPage.style.display = "none"; // startPage를 삭제
     }, 1000);
-  }, 4700); // 4.7초 후에 전체 애니메이션 사라지도록
+  }, 470); // 4.7초 후에 전체 애니메이션 사라지도록
 
   setTimeout(() => {
     setInterval(() => {
@@ -83,5 +83,5 @@ participationBtn.addEventListener("click", () => {
 
   setTimeout(() => {
     body.classList.remove("stop-scrolling");
-  }, 6000); //전체 애니메이션이 끝나고 6초 후에 stop-scrolling 클래스 제거
+  }, 600); //전체 애니메이션이 끝나고 6초 후에 stop-scrolling 클래스 제거
 });

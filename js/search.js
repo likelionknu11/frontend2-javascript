@@ -7,16 +7,22 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   }
 });
 
-const scrollIndicator = document.getElementById("scroll-indicator");
+const scrollIndicator = document.getElementById("scroll-indicator"); //상태 표시바
 const windowHeight = window.innerHeight;
 const fullHeight = document.body.clientHeight;
 
-window.addEventListener("scroll", function () {
-  const scrolled = window.scrollY;
-  const percentScrolled = scrolled / (fullHeight - windowHeight);
-  const rightPosition = (1 - percentScrolled) * 50 - 50;
-  scrollIndicator.style.right = `${rightPosition}px`;
-});
+if (scrollIndicator) {
+  scrollIndicator.style.display = "block";
+  scrollIndicator.style.visibility = "visible";
+
+  window.addEventListener("scroll", function () {
+    //스크롤 할 때마다 기차 아이콘 오른쪽에서 왼쪽으로 이동
+    const scrolled = window.scrollY;
+    const percentScrolled = scrolled / (fullHeight - windowHeight);
+    const rightPosition = (1 - percentScrolled) * 95 - 20;
+    scrollIndicator.style.right = `${rightPosition}px`;
+  });
+}
 
 function elementVisible(elementID) {
   var visibleElement = document.getElementById(elementID);
