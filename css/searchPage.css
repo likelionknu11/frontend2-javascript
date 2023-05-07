@@ -52,6 +52,10 @@ h1:hover {
   content: "\00d7";
 }
 
+#searchSpan:hover {
+  cursor: pointer;
+}
+
 .searchBox h2 {
   font-weight: bold;
   font-size: 50px;

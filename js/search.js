@@ -1,8 +1,5 @@
 import { festivalDataList } from "./festivaList.js";
 
-const searchContainer = document.querySelector(".searchContainer"); //ì¶•ì œ ìƒì„¸ ì°½
-const searchSpan = document.querySelector("#searchSpan"); //ì¶•ì œ ìƒì„¸ ì°½ ë‹«ê¸° ë²„íŠ¼
-
 document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -10,35 +7,55 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   }
 });
 
+const searchContainer = document.querySelector(".searchContainer"); //ÃàÁ¦ »ó¼¼ Ã¢
+const searchSpan = document.querySelector("#searchSpan"); //ÃàÁ¦ »ó¼¼ Ã¢ ´İ±â ¹öÆ°
+
 searchSpan.addEventListener("click", (event) => {
-  //ìƒì„¸ ì°½ ë‹«ê¸° ë²„íŠ¼ í´ë¦­ ì‹œ ì¶•ì œ ë¦¬ìŠ¤íŠ¸ë¡œ ì´ë™
-  searchContainer.style.display = "none";
+  //»ó¼¼ Ã¢ ´İ±â ¹öÆ° Å¬¸¯ ½Ã ÃàÁ¦ ¸®½ºÆ®·Î ÀÌµ¿
+  searchContainer.style.opacity = 0;
+  searchContainer.style.transition = "0s";
+  searchContainer.style.visibility = "hidden";
+  var elements = document.querySelectorAll("h1");
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].style.transition = "1s";
+    elements[i].style.visibility = "visible";
+  }
 });
 
 function searchEvt() {
-  var elements = document.querySelectorAll("h1"); // ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ h1 ï¿½ï¿½ï¿½ï¿½.
+  var searchContainer = document.getElementById("searchContainer");
+  if (searchContainer.style.visibility === "visible") {
+    searchContainer.style.opacity = 0;
+    searchContainer.style.transition = "0s";
+    searchContainer.style.visibility = "hidden";
+  }
+  var elements = document.querySelectorAll("h1"); // °Ë»öÀü¿¡ ÀÌÀü¿¡ ÀÖ´ø ¸ğµç h1 Á¦°Å.
   for (var i = 0; i < elements.length; i++) {
     elements[i].remove();
   }
 
-  var map = document.getElementsByClassName("map"); // ï¿½Ë»ï¿½ï¿½ï¿½ mapï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ seacrhBoxï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½ï¿½.
+  var map = document.getElementsByClassName("map"); // °Ë»ö½Ã mapÀº ¾È º¸ÀÌ°í ¼û°ÜÁ® ÀÖ´ø seacrhBox´Â º¸ÀÌ°Ô ÇÔ.
   map[0].style.visibility = "hidden";
   map[0].style.opacity = 0;
   var searchBox = document.getElementById("searchBox");
   searchBox.style.visibility = "visible";
   searchBox.style.opacity = 1;
 
-  var searchContainer = document.getElementById("searchContainer");
-  var searchInput = document.getElementById("searchInput");
+  var searchContainer = document.getElementById("searchContainer"); // °Ë»ö ³»¿ë¿¡ ÇØ´çµÇ´Â ¿ä¼Ò¸¦ ´ãÀ» searchContainer
+  var searchInput = document.getElementById("searchInput"); // °Ë»ö ³»¿ëÀ» Ã£À» searchInput
 
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
+    // °Ë»ö ³»¿ëÀÌ ÇØ´çµÇ´Â festivalList ÀÖ´Â Áö Ã£±â À§ÇÑ ¹İº¹¹®
     for (let a in festivalDataList.Busan[i]) {
       if (festivalDataList.Busan[i][a].includes(searchInput.value)) {
+        // °Ë»ö ³»¿ëÀÌ Æ÷ÇÔµÇ¾ú´Ù¸é searchBox¿¡ ÇØ´ç ÃàÁ¦µéÀÇ Å¸ÀÌÆ²µéÀ» Ãß°¡
         const festivalText = document.createElement("h1");
 
         festivalText.innerHTML = festivalDataList.Busan[i].festivalTitle;
         searchBox.appendChild(festivalText);
         festivalText.addEventListener("click", function () {
+          // Å¸ÀÌÆ²À» °Ë»öÇÏ¸é °¡·ÁÁ® ÀÖ´ø searchContainer°¡ º¸ÀÌ°Ô µÇ°í ¸ğµç Å¸ÀÌÆ²µéÀ» °¡¸®±â
+          searchContainer.style.transition = "1s";
           searchContainer.style.visibility = "visible";
           searchContainer.style.opacity = 1;
           var elements = document.querySelectorAll("h1");
@@ -46,7 +63,9 @@ function searchEvt() {
             elements[i].style.transition = "0s";
             elements[i].style.visibility = "hidden";
           }
-          const festivalText2 = document.createElement("h2");
+          var clickTitle = document.querySelectorAll("h2"); // ÀÌÀü¿¡ ÀÖ´ø °Ç Á¦°Å
+          clickTitle[0].remove();
+          const festivalText2 = document.createElement("h2"); // Å¬¸¯µÈ Å¸ÀÌÆ²Àº searchContainer¿¡ Ãß°¡ÇÏ±â
           festivalText2.innerHTML = festivalText.innerHTML;
           searchContainer.appendChild(festivalText2);
         });
