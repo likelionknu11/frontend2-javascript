@@ -7,14 +7,26 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   }
 });
 
+function elementVisible(elementID) {
+  var visibleElement = document.getElementById(elementID);
+  visibleElement.style.transition = "1s";
+  visibleElement.style.visibility = "visible";
+  visibleElement.style.opacity = 1;
+}
+
+function elementHidden(elementID) {
+  var hiddenElement = document.getElementById(elementID);
+  hiddenElement.style.transition = "0s";
+  hiddenElement.style.visibility = "Hidden";
+  hiddenElement.style.opacity = 0;
+}
+
 const searchContainer = document.querySelector(".searchContainer"); //축제 상세 창
 const searchSpan = document.querySelector("#searchSpan"); //축제 상세 창 닫기 버튼
 
 searchSpan.addEventListener("click", (event) => {
   //상세 창 닫기 버튼 클릭 시 축제 리스트로 이동
-  searchContainer.style.opacity = 0;
-  searchContainer.style.transition = "0s";
-  searchContainer.style.visibility = "hidden";
+  elementHidden("searchContainer");
   var elements = document.querySelectorAll("h1");
   for (var i = 0; i < elements.length; i++) {
     elements[i].style.transition = "1s";
@@ -25,21 +37,14 @@ searchSpan.addEventListener("click", (event) => {
 function searchEvt() {
   var searchContainer = document.getElementById("searchContainer");
   if (searchContainer.style.visibility === "visible") {
-    searchContainer.style.opacity = 0;
-    searchContainer.style.transition = "0s";
-    searchContainer.style.visibility = "hidden";
+    elementHidden("searchContainer");
   }
   var elements = document.querySelectorAll("h1"); // 검색전에 이전에 있던 모든 h1 제거.
   for (var i = 0; i < elements.length; i++) {
     elements[i].remove();
   }
-
-  var map = document.getElementsByClassName("map"); // 검색시 map은 안 보이고 숨겨져 있던 seacrhBox는 보이게 함.
-  map[0].style.visibility = "hidden";
-  map[0].style.opacity = 0;
-  var searchBox = document.getElementById("searchBox");
-  searchBox.style.visibility = "visible";
-  searchBox.style.opacity = 1;
+  elementHidden("map");
+  elementVisible("searchBox");
 
   var searchContainer = document.getElementById("searchContainer"); // 검색 내용에 해당되는 요소를 담을 searchContainer
   var searchInput = document.getElementById("searchInput"); // 검색 내용을 찾을 searchInput
@@ -55,9 +60,7 @@ function searchEvt() {
         searchBox.appendChild(festivalText);
         festivalText.addEventListener("click", function () {
           // 타이틀을 검색하면 가려져 있던 searchContainer가 보이게 되고 모든 타이틀들을 가리기
-          searchContainer.style.transition = "1s";
-          searchContainer.style.visibility = "visible";
-          searchContainer.style.opacity = 1;
+          elementVisible("searchContainer");
           var elements = document.querySelectorAll("h1");
           for (var i = 0; i < elements.length; i++) {
             elements[i].style.transition = "0s";
