@@ -64,7 +64,26 @@ h1:hover {
   height: 75%;
   background-color: #c9e8f0;
 }
-
+.searchContainer h3 {
+  color: black;
+  text-align: left;
+  margin-top: 75px;
+  margin-left: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 10px;
+  border: solid;
+  border-color: gray;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px gray;
+}
+.searchContainer img {
+  position: absolute;
+  float: right;
+  height: 500px;
+}
 .searchContainerMap {
   width: 30%;
   height: 35%;
@@ -90,6 +109,7 @@ h1:hover {
 }
 
 .searchBox h2 {
+  transform: translateX(5%);
   font-weight: bold;
   font-size: 50px;
   margin-top: 40px;
