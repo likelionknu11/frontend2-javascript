@@ -1,8 +1,5 @@
 import { festivalDataList } from "./festivaList.js";
 
-// const searchContainer = document.querySelector(".searchContainer"); //축제 상세 페이지
-// const searchSpanCloseBtn = document.querySelector("#searchSpanCloseBtn"); //축제 상세 페이지 닫기 버튼
-
 document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -24,11 +21,11 @@ function elementHidden(elementID) {
   hiddenElement.style.opacity = 0;
 }
 
-const searchContainer = document.querySelector(".searchContainer"); //���� �� â
-const searchSpan = document.querySelector("#searchSpan"); //���� �� â �ݱ� ��ư
+const searchContainer = document.querySelector(".searchContainer"); //축제 상세 창
+const searchSpanCloseBtn = document.querySelector("#searchSpanCloseBtn"); //축제 상세 창 닫기 버튼
 
-searchSpan.addEventListener("click", (event) => {
-  //�� â �ݱ� ��ư Ŭ�� �� ���� ����Ʈ�� �̵�
+searchSpanCloseBtn.addEventListener("click", (event) => {
+  //상세 창 닫기 버튼 클릭 시 축제 리스트로 이동
   elementHidden("searchContainer");
   var elements = document.querySelectorAll("h1");
   for (var i = 0; i < elements.length; i++) {
@@ -42,21 +39,21 @@ function searchEvt() {
   if (searchContainer.style.visibility === "visible") {
     elementHidden("searchContainer");
   }
-  var elements = document.querySelectorAll("h1"); // �˻����� ������ �ִ� ��� h1 ����.
+  var elements = document.querySelectorAll("h1"); // 검색전에 이전에 있던 모든 h1 제거.
   for (var i = 0; i < elements.length; i++) {
     elements[i].remove();
   }
   elementHidden("map");
   elementVisible("searchBox");
 
-  var searchContainer = document.getElementById("searchContainer"); // �˻� ���뿡 �ش�Ǵ� ��Ҹ� ���� searchContainer
-  var searchInput = document.getElementById("searchInput"); // �˻� ������ ã�� searchInput
+  var searchContainer = document.getElementById("searchContainer"); // 검색 내용에 해당되는 요소를 담을 searchContainer
+  var searchInput = document.getElementById("searchInput"); // 검색 내용을 찾을 searchInput
 
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
-    // �˻� ������ �ش�Ǵ� festivalList �ִ� �� ã�� ���� �ݺ���
+    // 검색 내용이 해당되는 festivalList 있는 지 찾기 위한 반복문
     for (let a in festivalDataList.Busan[i]) {
       if (festivalDataList.Busan[i][a].includes(searchInput.value)) {
-        // �˻� ������ ���ԵǾ��ٸ� searchBox�� �ش� �������� Ÿ��Ʋ���� �߰�
+        // 검색 내용이 포함되었다면 searchBox에 해당 축제들의 타이틀들을 추가
         const festivalText = document.createElement("h1");
 
         festivalText.innerHTML = festivalDataList.Busan[i].festivalTitle;
@@ -69,7 +66,7 @@ function searchEvt() {
             elements[i].style.transition = "0s";
             elements[i].style.visibility = "hidden";
           }
-          var clickTitle = document.querySelectorAll("h2"); // ������ �ִ� �� ����
+          var clickTitle = document.querySelectorAll("h2"); // 이전에 있던 건 제거
           clickTitle[0].remove();
           const festivalText2 = document.createElement("h2"); // Ŭ���� Ÿ��Ʋ�� searchContainer�� �߰��ϱ�
           festivalText2.innerHTML = festivalText.innerHTML;

@@ -29,6 +29,7 @@ h1:hover {
   color: pink;
   border-color: pink;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .searchContainer {
