@@ -7,6 +7,17 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   }
 });
 
+const scrollIndicator = document.getElementById("scroll-indicator");
+const windowHeight = window.innerHeight;
+const fullHeight = document.body.clientHeight;
+
+window.addEventListener("scroll", function () {
+  const scrolled = window.scrollY;
+  const percentScrolled = scrolled / (fullHeight - windowHeight);
+  const rightPosition = (1 - percentScrolled) * 50 - 50;
+  scrollIndicator.style.right = `${rightPosition}px`;
+});
+
 function elementVisible(elementID) {
   var visibleElement = document.getElementById(elementID);
   visibleElement.style.transition = "1s";
@@ -69,16 +80,15 @@ function searchEvt() {
   //     ); //각각의 이미지
   //   }
   // }
-  window.onload = function () {
-    //지도 api
-    var container = document.getElementById("searchContainerMap");
-    var options = {
-      center: new kakao.maps.LatLng(33.450701, 126.570667),
-      level: 3,
-    };
-  };
-
-  var map = new kakao.maps.Map(container, options);
+  // window.onload = function () {
+  //   //지도 api
+  //   var container = document.getElementById("searchContainerMap");
+  //   var options = {
+  //     center: new kakao.maps.LatLng(33.450701, 126.570667),
+  //     level: 3,
+  //   };
+  //   var map = new kakao.maps.Map(container, options);
+  // };
 
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
     // 검색 내용이 해당되는 festivalList 있는 지 찾기 위한 반복문
