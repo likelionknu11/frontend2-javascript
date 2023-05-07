@@ -1,5 +1,8 @@
 import { festivalDataList } from "./festivaList.js";
 
+// const searchContainer = document.querySelector(".searchContainer"); //ì¶•ì œ ìƒì„¸ íŽ˜ì´ì§€
+// const searchSpanCloseBtn = document.querySelector("#searchSpanCloseBtn"); //ì¶•ì œ ìƒì„¸ íŽ˜ì´ì§€ ë‹«ê¸° ë²„íŠ¼
+
 document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -21,11 +24,11 @@ function elementHidden(elementID) {
   hiddenElement.style.opacity = 0;
 }
 
-const searchContainer = document.querySelector(".searchContainer"); //ÃàÁ¦ »ó¼¼ Ã¢
-const searchSpan = document.querySelector("#searchSpan"); //ÃàÁ¦ »ó¼¼ Ã¢ ´Ý±â ¹öÆ°
+const searchContainer = document.querySelector(".searchContainer"); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Ã¢
+const searchSpan = document.querySelector("#searchSpan"); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Ã¢ ï¿½Ý±ï¿½ ï¿½ï¿½Æ°
 
 searchSpan.addEventListener("click", (event) => {
-  //»ó¼¼ Ã¢ ´Ý±â ¹öÆ° Å¬¸¯ ½Ã ÃàÁ¦ ¸®½ºÆ®·Î ÀÌµ¿
+  //ï¿½ï¿½ Ã¢ ï¿½Ý±ï¿½ ï¿½ï¿½Æ° Å¬ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ìµï¿½
   elementHidden("searchContainer");
   var elements = document.querySelectorAll("h1");
   for (var i = 0; i < elements.length; i++) {
@@ -39,36 +42,36 @@ function searchEvt() {
   if (searchContainer.style.visibility === "visible") {
     elementHidden("searchContainer");
   }
-  var elements = document.querySelectorAll("h1"); // °Ë»öÀü¿¡ ÀÌÀü¿¡ ÀÖ´ø ¸ðµç h1 Á¦°Å.
+  var elements = document.querySelectorAll("h1"); // ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ h1 ï¿½ï¿½ï¿½ï¿½.
   for (var i = 0; i < elements.length; i++) {
     elements[i].remove();
   }
   elementHidden("map");
   elementVisible("searchBox");
 
-  var searchContainer = document.getElementById("searchContainer"); // °Ë»ö ³»¿ë¿¡ ÇØ´çµÇ´Â ¿ä¼Ò¸¦ ´ãÀ» searchContainer
-  var searchInput = document.getElementById("searchInput"); // °Ë»ö ³»¿ëÀ» Ã£À» searchInput
+  var searchContainer = document.getElementById("searchContainer"); // ï¿½Ë»ï¿½ ï¿½ï¿½ï¿½ë¿¡ ï¿½Ø´ï¿½Ç´ï¿½ ï¿½ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½ searchContainer
+  var searchInput = document.getElementById("searchInput"); // ï¿½Ë»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ searchInput
 
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
-    // °Ë»ö ³»¿ëÀÌ ÇØ´çµÇ´Â festivalList ÀÖ´Â Áö Ã£±â À§ÇÑ ¹Ýº¹¹®
+    // ï¿½Ë»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø´ï¿½Ç´ï¿½ festivalList ï¿½Ö´ï¿½ ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ýºï¿½ï¿½ï¿½
     for (let a in festivalDataList.Busan[i]) {
       if (festivalDataList.Busan[i][a].includes(searchInput.value)) {
-        // °Ë»ö ³»¿ëÀÌ Æ÷ÇÔµÇ¾ú´Ù¸é searchBox¿¡ ÇØ´ç ÃàÁ¦µéÀÇ Å¸ÀÌÆ²µéÀ» Ãß°¡
+        // ï¿½Ë»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÔµÇ¾ï¿½ï¿½Ù¸ï¿½ searchBoxï¿½ï¿½ ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½Æ²ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
         const festivalText = document.createElement("h1");
 
         festivalText.innerHTML = festivalDataList.Busan[i].festivalTitle;
         searchBox.appendChild(festivalText);
         festivalText.addEventListener("click", function () {
-          // Å¸ÀÌÆ²À» °Ë»öÇÏ¸é °¡·ÁÁ® ÀÖ´ø searchContainer°¡ º¸ÀÌ°Ô µÇ°í ¸ðµç Å¸ÀÌÆ²µéÀ» °¡¸®±â
+          // Å¸ï¿½ï¿½Æ²ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ searchContainerï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½Æ²ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
           elementVisible("searchContainer");
           var elements = document.querySelectorAll("h1");
           for (var i = 0; i < elements.length; i++) {
             elements[i].style.transition = "0s";
             elements[i].style.visibility = "hidden";
           }
-          var clickTitle = document.querySelectorAll("h2"); // ÀÌÀü¿¡ ÀÖ´ø °Ç Á¦°Å
+          var clickTitle = document.querySelectorAll("h2"); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
           clickTitle[0].remove();
-          const festivalText2 = document.createElement("h2"); // Å¬¸¯µÈ Å¸ÀÌÆ²Àº searchContainer¿¡ Ãß°¡ÇÏ±â
+          const festivalText2 = document.createElement("h2"); // Å¬ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½Æ²ï¿½ï¿½ searchContainerï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ï±ï¿½
           festivalText2.innerHTML = festivalText.innerHTML;
           searchContainer.appendChild(festivalText2);
         });

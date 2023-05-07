@@ -15,7 +15,8 @@ h1 {
   color: black;
   background-color: #fdfbde;
   transform: translateX(50%);
-  font-size: 30px;
+  text-align: center;
+  font-size: 1.8vw;
   border-left: 10px;
   border-color: black;
   border-style: solid;
@@ -40,10 +41,15 @@ h1:hover {
   position: absolute;
   width: 75%;
   height: 75%;
+
   background-color: #c9e8f0;
 }
 
-#searchSpan {
+#searchSpanCloseBtn:hover {
+  cursor: pointer; /*hover시 커서가 손모양으로 바뀜*/
+}
+
+#searchSpanCloseBtn {
   font-size: 30px;
   margin-top: 20px;
   margin-right: 50px;
@@ -62,4 +68,11 @@ h1:hover {
   margin-top: 40px;
   color: black;
   text-shadow: 1.5px 1.5px gray;
+}
+
+@media screen and (max-width: 768px) {
+  /*반응형*/
+  .searchContainer {
+    font-size: 0.4rem; /*뷰포트 너비의 4%에 해당하는 크기로 글꼴 크기를 조정*/
+  }
 }
