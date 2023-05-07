@@ -35,6 +35,10 @@
     <script defer type="module" src="./js/carousel.js"></script>
     <script defer type="module" src="./js/search.js"></script>
     <script defer src="./js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=18eadbd2f84da8f45a7a5b98e31cb824"
+    ></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="./img/logo/logo.png" />
     <!--아이콘 적용-->
@@ -135,6 +139,12 @@
     <div class="searchBox" id="searchBox">
       <!--r검색 시에 나오는 화면-->
       <div class="searchContainer" id="searchContainer">
+        <div class="searchContainerImg"></div>
+        <!--상세페이지 이미지-->
+        <div class="searchContainerIns"></div>
+        <!--상세페이지 서명-->
+        <div id="searchContainerMap"></div>
+        <!--상세페이지 지도-->
         <span id="searchSpanCloseBtn">X</span>
       </div>
     </div>

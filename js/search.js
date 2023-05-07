@@ -49,6 +49,37 @@ function searchEvt() {
   var searchContainer = document.getElementById("searchContainer"); // 검색 내용에 해당되는 요소를 담을 searchContainer
   var searchInput = document.getElementById("searchInput"); // 검색 내용을 찾을 searchInput
 
+  // class SearchContainer extends HTMLElement {
+  //   //상세창에 이미지 넣기
+  //   constructor(dataIndex, city) {
+  //     super();
+  //     this.dataIndex = dataIndex;
+  //     this.city = city;
+  //   }
+
+  //   setCity(city) {
+  //     this.city = city;
+  //   }
+
+  //   connectedCallback() {
+  //     const searchContainer = this.querySelector(".searchontainer");
+  //     searchContainer.setAttribute(
+  //       "src",
+  //       `./img/축제사진/${this.city}/${this.dataIndex}.jpg`
+  //     ); //각각의 이미지
+  //   }
+  // }
+  window.onload = function () {
+    //지도 api
+    var container = document.getElementById("searchContainerMap");
+    var options = {
+      center: new kakao.maps.LatLng(33.450701, 126.570667),
+      level: 3,
+    };
+  };
+
+  var map = new kakao.maps.Map(container, options);
+
   for (var i = 0; i < festivalDataList.Busan.length; i++) {
     // 검색 내용이 해당되는 festivalList 있는 지 찾기 위한 반복문
     for (let a in festivalDataList.Busan[i]) {

@@ -42,8 +42,14 @@ h1:hover {
   position: absolute;
   width: 75%;
   height: 75%;
-
   background-color: #c9e8f0;
+}
+
+.searchContainerMap {
+  width: 30%;
+  height: 35%;
+  position: relative;
+  display: inline-block;
 }
 
 #searchSpanCloseBtn:hover {
