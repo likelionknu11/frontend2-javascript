@@ -1,7 +1,7 @@
 import { festivalDataList } from "./festivaList.js";
 
-const searchContainer = document.querySelector(".searchContainer"); //축제 상세 창
-const searchSpan = document.querySelector("#searchSpan"); //축제 상세 창 닫기 버튼
+const searchContainer = document.querySelector(".searchContainer"); //축제 상세 페이지
+const searchSpanCloseBtn = document.querySelector("#searchSpanCloseBtn"); //축제 상세 페이지 닫기 버튼
 
 document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
@@ -10,8 +10,8 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   }
 });
 
-searchSpan.addEventListener("click", (event) => {
-  //상세 창 닫기 버튼 클릭 시 축제 리스트로 이동
+searchSpanCloseBtn.addEventListener("click", (event) => {
+  //축제 상세 페이지 닫기 버튼 클릭 시 축제 리스트로 이동
   searchContainer.style.display = "none";
 });
 
