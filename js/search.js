@@ -1,5 +1,8 @@
 import { festivalDataList } from "./festivaList.js";
 
+const searchContainer = document.querySelector(".searchContainer"); //ì¶•ì œ ìƒì„¸ ì°½
+const searchSpan = document.querySelector("#searchSpan"); //ì¶•ì œ ìƒì„¸ ì°½ ë‹«ê¸° ë²„íŠ¼
+
 document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -7,13 +10,18 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
   }
 });
 
+searchSpan.addEventListener("click", (event) => {
+  //ìƒì„¸ ì°½ ë‹«ê¸° ë²„íŠ¼ í´ë¦­ ì‹œ ì¶•ì œ ë¦¬ìŠ¤íŠ¸ë¡œ ì´ë™
+  searchContainer.style.display = "none";
+});
+
 function searchEvt() {
-  var elements = document.querySelectorAll("h1"); // °Ë»öÀü¿¡ ÀÌÀü¿¡ ÀÖ´ø ¸ğµç h1 Á¦°Å.
+  var elements = document.querySelectorAll("h1"); // ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ h1 ï¿½ï¿½ï¿½ï¿½.
   for (var i = 0; i < elements.length; i++) {
     elements[i].remove();
   }
 
-  var map = document.getElementsByClassName("map"); // °Ë»ö½Ã mapÀº ¾È º¸ÀÌ°í ¼û°ÜÁ® ÀÖ´ø seacrhBox´Â º¸ÀÌ°Ô ÇÔ.
+  var map = document.getElementsByClassName("map"); // ï¿½Ë»ï¿½ï¿½ï¿½ mapï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ seacrhBoxï¿½ï¿½ ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½ï¿½.
   map[0].style.visibility = "hidden";
   map[0].style.opacity = 0;
   var searchBox = document.getElementById("searchBox");
