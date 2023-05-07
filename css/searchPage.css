@@ -26,6 +26,7 @@
   width: 60px;
   height: 60px;
   margin: 0;
+  display: none;
 }
 
 h1 {
@@ -73,19 +74,22 @@ h1:hover {
   border: 10px;
   border: solid;
   border-color: gray;
-  width: 500px;
+  width: 40%;
   padding: 10px;
   border-radius: 10px;
   text-shadow: 1px 1px gray;
+  background-color: white;
 }
 .searchContainer img {
   position: absolute;
   float: right;
   height: 500px;
+  top: 25%;
+  right: 10%;
 }
 .searchContainerMap {
-  width: 30%;
-  height: 35%;
+  width: 400px;
+  height: 500px;
   position: relative;
   display: inline-block;
 }
