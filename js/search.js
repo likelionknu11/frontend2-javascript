@@ -60,6 +60,11 @@ var options = {
 var map = new kakao.maps.Map(container, options);
 
 function searchEvt() {
+  var scrollIndicator = document.getElementById("scroll-indicator");
+  scrollIndicator.style.display = "block";
+  var scrollIndicatorImg = document.getElementById("scroll-indicator-img");
+  scrollIndicatorImg.style.display = "block";
+
   var searchContainer = document.getElementById("searchContainer");
   if (searchContainer.style.visibility === "visible") {
     elementHidden("searchContainer");
@@ -86,7 +91,13 @@ function searchEvt() {
         const festivalMainIns = document.createElement("h3");
         const festivalTag = document.createElement("h3");
         const festivalSite = document.createElement("h3");
+        const festivalLink = document.createElement("a");
+
+        festivalLink.href = festivalDataList.Busan[i].festivalSite;
+        festivalLink.textContent = festivalDataList.Busan[i].festivalSite;
+
         const festivalImage = document.createElement("img");
+        festivalImage.setAttribute("id", "festival-img");
         festivalImage.src = "./img/축제사진/Busan/" + i + ".jpg";
 
         festivalText.innerHTML = festivalDataList.Busan[i].festivalTitle;
@@ -94,7 +105,6 @@ function searchEvt() {
         festivalDate.innerHTML = festivalDataList.Busan[i].festivalDate;
         festivalMainIns.innerHTML = festivalDataList.Busan[i].festivalMainIns;
         festivalTag.innerHTML = festivalDataList.Busan[i].festivalTag;
-        festivalSite.innerHTML = festivalDataList.Busan[i].festivalSite;
 
         searchBox.appendChild(festivalText);
         festivalText.addEventListener("click", function () {
@@ -112,9 +122,9 @@ function searchEvt() {
           var clickTitle = document.querySelectorAll("h2"); // 이전에 있던 건 제거
           clickTitle[0].remove();
 
-          var festivalimg = document.querySelectorAll("img"); // 이전에 있던 건 제거
-          for (var i = 0; i < festivalimg.length; i++) {
-            festivalimg[i].remove();
+          var festivalimg = document.querySelector("#festival-img"); // 이전에 있던 건 제거
+          if (festivalimg) {
+            festivalimg.remove();
           }
 
           const festivalText2 = document.createElement("h2"); // Ŭ���� Ÿ��Ʋ�� searchContainer�� �߰��ϱ�
@@ -126,6 +136,8 @@ function searchEvt() {
           searchContainer.appendChild(festivalTag);
           searchContainer.appendChild(festivalSite);
           searchContainer.appendChild(festivalImage);
+
+          festivalSite.appendChild(festivalLink);
         });
         break;
       }
