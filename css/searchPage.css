@@ -130,3 +130,8 @@ h1:hover {
     font-size: 0.4rem; /*뷰포트 너비의 4%에 해당하는 크기로 글꼴 크기를 조정*/
   }
 }
+
+#kakaoMap {
+  width: 500px;
+  height: 500px;
+}
