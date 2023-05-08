@@ -132,6 +132,10 @@ h1:hover {
 }
 
 #kakaoMap {
-  width: 500px;
-  height: 500px;
+  border: 10px;
+  border: solid;
+  border-color: gray;
+  position: absolute;
+  width: 200px;
+  height: 200px;
 }
