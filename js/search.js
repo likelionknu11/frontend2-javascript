@@ -8,14 +8,16 @@ document.querySelector("#searchInput").addEventListener("keypress", (event) => {
 });
 
 const scrollIndicator = document.getElementById("scroll-indicator"); //상태 표시바
+const scrollIndicatorImg = document.getElementById("scroll-indicator img"); //상태 표시바
 const windowHeight = window.innerHeight;
 const fullHeight = document.body.clientHeight;
 
 if (scrollIndicator) {
-  scrollIndicator.style.display = "block";
-  scrollIndicator.style.visibility = "visible";
+  //상태 표시바가 나타나도록
 
   window.addEventListener("scroll", function () {
+    scrollIndicator.style.display = "block";
+    scrollIndicator.style.visibility = "visible";
     //스크롤 할 때마다 기차 아이콘 오른쪽에서 왼쪽으로 이동
     const scrolled = window.scrollY;
     const percentScrolled = scrolled / (fullHeight - windowHeight);
@@ -51,7 +53,7 @@ searchSpanCloseBtn.addEventListener("click", (event) => {
   }
 });
 
-var container = document.getElementById("searchContainerMap");
+var container = document.getElementById("searchContainerMap"); //지도 api가져오기
 var options = {
   center: new kakao.maps.LatLng(33.450701, 126.570667),
   level: 3,
@@ -60,11 +62,6 @@ var options = {
 var map = new kakao.maps.Map(container, options);
 
 function searchEvt() {
-  var scrollIndicator = document.getElementById("scroll-indicator");
-  scrollIndicator.style.display = "block";
-  var scrollIndicatorImg = document.getElementById("scroll-indicator-img");
-  scrollIndicatorImg.style.display = "block";
-
   var searchContainer = document.getElementById("searchContainer");
   if (searchContainer.style.visibility === "visible") {
     elementHidden("searchContainer");
