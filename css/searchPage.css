@@ -38,10 +38,8 @@ h1 {
   transform: translateX(50%);
   text-align: center;
   font-size: 1.8vw;
-  border-left: 10px;
   border-color: black;
   border-radius: 10px;
-  border-style: solid;
   width: 50%;
   height: 70px;
 }
@@ -71,17 +69,15 @@ h1:hover {
   /*상세페이지 축제 소개*/
   color: black;
   text-align: left;
-  margin-top: 50px;
-  margin-left: 100px;
-  font-size: 15px;
+  margin-top: 38px;
+  margin-left: 10%;
+  font-size: 0.9rem;
   font-weight: bold;
-  border: 10px;
-  border: solid;
-  border-color: gray;
+  border: solid gray;
   width: 40%;
   padding: 10px;
   border-radius: 10px;
-  text-shadow: 1px 1px gray;
+  text-shadow: gray 1px 1px;
   background-color: white;
 }
 
@@ -89,12 +85,12 @@ h1:hover {
   /*상세페이지 이미지*/
   position: absolute;
   float: right;
-  height: 440px;
-  top: 16%;
-  right: 10%;
+  width: 25%;
+  height: 43%;
+  top: 13%;
+  margin-left: 64%;
   border-radius: 10px;
 }
-
 .searchContainerMap {
   width: 400px;
   height: 500px;
@@ -136,16 +132,37 @@ h1:hover {
   /*반응형*/
   .searchContainer {
     font-size: 0.4rem; /*뷰포트 너비의 4%에 해당하는 크기로 글꼴 크기를 조정*/
+    height: 51%;
+  }
+
+  .searchBox h2 {
+    margin-top: 32px;
+    font-size: 18px;
+  }
+
+  .searchContainer h3 {
+    color: black;
+    text-align: left;
+    margin-top: 11px;
+    margin-left: 10%;
+    font-size: 0.1rem;
+    font-weight: bold;
+    border: solid gray;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: gray 1px 1px;
+    background-color: white;
+    overflow: hidden;
   }
 }
 
 #kakaoMap {
-  border: solid;
-  border-color: gray;
+  border: solid gray;
   border-radius: 10px;
   position: absolute;
-  width: 41%;
-  height: 300px;
-  top: 60%;
-  margin: 50px 0px 0px 100px;
+  width: 81%;
+  height: 33%;
+  top: 58%;
+  transform: translate(10%, 10%);
 }
