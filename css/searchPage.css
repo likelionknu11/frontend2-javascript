@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+* {
+  font-family: "GmarketSansMedium";
+}
+
 .searchBox {
   visibility: hidden;
   opacity: 0;
@@ -71,6 +75,8 @@ h1:hover {
   width: 65%;
   height: 87%;
   background-color: #f7cfd3;
+  font-family: "GmarketSansMedium";
+  font-weight: 300;
 }
 
 .searchContainer h3 {
@@ -79,7 +85,6 @@ h1:hover {
   margin-top: 2.6rem;
   margin-left: 10%;
   font-size: 16px;
-  font-weight: bold;
   border: solid gray;
   width: 40%;
   padding: 10px;
@@ -87,6 +92,11 @@ h1:hover {
   text-shadow: gray 1px 1px;
   background-color: white;
   overflow: hidden;
+  font-weight: bolder;
+}
+
+.searchBox a:visited:hover {
+  background-color: #f7cfd3;
 }
 
 .searchContainer img {
@@ -128,7 +138,6 @@ h1:hover {
 
 .searchBox h2 {
   transform: translateX(5%);
-  font-weight: bold;
   font-size: 2.4rem;
   margin-top: 40px;
   color: black;

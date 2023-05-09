@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GmarketSansMedium";
+}
+
 body {
   color: #fff;
   font-size: 16px;
@@ -74,6 +86,7 @@ header .nav p {
   font-size: 20px;
   align-items: center;
   justify-content: center;
+  font-family: "GmarketSansMedium";
 }
 
 header .nav p:hover {
@@ -225,6 +238,8 @@ section .right-menu .content li:hover {
 footer {
   background-color: #0081a7;
   opacity: 0.8;
+  font-family: "GmarketSansMedium";
+  font-weight: 50;
 }
 footer h2 {
   font-size: 20px;
