@@ -62,8 +62,8 @@ const festivalSeoul = [
 ];
 const festivalBusan = [
   {
-    festivalTitle: "부산국제영화제",
-    festivalAreaIns: "장소 : 부산광역시 해운대구 우동",
+    festivalTitle: "부산 국제영화제",
+    festivalAreaIns: "장소 : 부산 해운대구 우동 1467",
     festivalDate: "기간 : 23.10.06. (금) ~ 23.10.15. (일)",
     festivalMainIns:
       "Asia's largest film festival, Busan International Film Festival",
@@ -72,8 +72,8 @@ const festivalBusan = [
       "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
-    festivalTitle: "해운대 청년 수련축제",
-    festivalAreaIns: "장소 : 부산광역시 해운대구 해운대해수욕장",
+    festivalTitle: "해운대 청년수련축제",
+    festivalAreaIns: "장소 : 부산광역시 해운대구 재송동 339-3",
     festivalDate: "기간 : 23.08.01. (화) ~ 23.08.05. (토)",
     festivalMainIns: "Youth Training Festival at Haeundae Beach in Busan",
     festivalTag: "#수련 #축제 #해운대",
@@ -81,8 +81,8 @@ const festivalBusan = [
       "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
-    festivalTitle: "부산국제불빛축제",
-    festivalAreaIns: "장소 : 부산광역시 해운대구 해운대해수욕장 주변",
+    festivalTitle: "부산 국제불빛축제",
+    festivalAreaIns: "장소 : 부산 수영구 광안해변로 219",
     festivalDate: "기간 : 23.11.01. (수) ~ 23.11.11. (토)",
     festivalMainIns: "Busan International Fireworks Festival",
     festivalTag: "#불꽃놀이 #축제 #부산 #해운대",
@@ -91,7 +91,7 @@ const festivalBusan = [
   },
   {
     festivalTitle: "해운대 바닷가국제트라이애슬론",
-    festivalAreaIns: "장소 : 부산광역시 해운대구 우동",
+    festivalAreaIns: "장소 : 부산 수영구 광안해변로 219",
     festivalDate: "기간 : 23.06.xx. (일정 미정)",
     festivalMainIns: "Haeundae Beach International Triathlon",
     festivalTag: "#트라이애슬론 #해운대 #스포츠",
@@ -99,8 +99,8 @@ const festivalBusan = [
       "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
   },
   {
-    festivalTitle: "부산국제모터쇼",
-    festivalAreaIns: "장소 : 부산 광역시 서구 구덕로 55 (부산국제모터쇼전시장)",
+    festivalTitle: "부산 국제모터쇼",
+    festivalAreaIns: "장소 : 부산 해운대구 APEC로 55",
     festivalDate: "기간 : 23.05.25. (목) ~ 23.06.03. (토)",
     festivalMainIns: "Busan International Motor Show",
     festivalTag: "#모터쇼 #부산 #국제이벤트",
