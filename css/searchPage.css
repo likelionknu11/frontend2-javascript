@@ -90,7 +90,7 @@ h1:hover {
   padding: 10px;
   border-radius: 10px;
   text-shadow: gray 1px 1px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   overflow: hidden;
   font-weight: bolder;
 }
@@ -161,6 +161,7 @@ h1:hover {
   }
 
   .searchContainer h3 {
+    opacity: 75%;
     color: black;
     text-align: left;
     margin-top: 11px;
