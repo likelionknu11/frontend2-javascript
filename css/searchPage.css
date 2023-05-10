@@ -82,15 +82,15 @@ h1:hover {
 .searchContainer h3 {
   color: black;
   text-align: left;
-  margin-top: 2.6rem;
+  margin-top: 2.6em;
   margin-left: 10%;
-  font-size: 16px;
+  font-size: 0.9rem;
   border: solid gray;
   width: 40%;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 10px;
   text-shadow: gray 1px 1px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   font-weight: bolder;
 }
@@ -103,13 +103,11 @@ h1:hover {
   /*상세페이지 이미지*/
   position: absolute;
   float: right;
-  width: 25%;
-  height: 43%;
-  top: 13%;
-  margin-left: 64%;
-  border-radius: 10px;
-  border: solid;
-  border-color: gray;
+  width: 29%;
+  height: 44.6%;
+  top: 12%;
+  margin-left: 60%;
+  border: solid gray;
   border-radius: 10px;
 }
 .searchContainerMap {
@@ -146,6 +144,24 @@ h1:hover {
 
 .searchBox a:visited {
   color: black;
+}
+
+@media screen and (max-width: 988px) {
+  .searchContainer h3 {
+    color: black;
+    text-align: left;
+    margin-top: 2.9em;
+    margin-left: 10%;
+    font-size: 0.8rem;
+    border: solid gray;
+    width: 40%;
+    padding: 0.78rem;
+    border-radius: 10px;
+    text-shadow: gray 1px 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    font-weight: bolder;
+  }
 }
 
 @media screen and (max-width: 768px) {
