@@ -1,0 +1,5935 @@
+
+
+.header .utilWrap.moVer {display:none !important;}
+
+/***************************************************************
+************************************************    1660    ****
+****************************************************************
+*/
+@media screen and (max-width:1660px) {
+    /*************************
+    **************************  layout.css 1660 Start 
+    **************************/
+    
+	/* .details .subFixed.on, */
+	/* .subFixed.on, */
+	.breadcrumb.on ol,
+	.noticeBannerWrap,
+	.header,
+	.container,
+	.footer {
+		/* margin: 0 30px; */
+		max-width: 1660px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.inner {
+		width: 100%;
+		box-sizing:border-box;
+	}
+	.contSlide .swiper-button-prev {
+		left: 0;
+	}
+	.contSlide .swiper-button-next {
+		right: 0;
+	}
+	.subFixed.on {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	/* myPageContent*/
+	.lnbWrap {
+		width: 25%;
+	}
+	.mySection {
+		width: 75%;
+	}
+    /*************************
+    **************************  layout.css 1660 End 
+    **************************/
+
+    /*************************
+    **************************  detail.css 1660 Start 
+    **************************/        
+    .details .subFixed.on {
+		width: calc(100% - 60px);
+		/* max-width: 1660px; */
+	}
+    /*************************
+    **************************  detail.css 1660 End 
+    **************************/    
+
+    /*************************
+    **************************  common.css 1660 Start 
+    **************************/     
+	/* default Slide  */
+	.contSlide .swiper-button-prev {
+		left: 0;
+	}
+	.contSlide .swiper-button-next {
+		right: 0;
+	}
+	.contSlideWrap {
+		margin: 0;
+	}
+	.contSlide {
+		width: 100%;
+	}    
+    /*************************
+    **************************  common.css 1660 End 
+    **************************/    
+
+    /*************************
+    **************************  main.css 1660 Start 
+    **************************/       
+    .mainSlideWrap {
+        margin: 0;
+    }
+    .mainSlide {
+        width: 100%;
+    }    
+    /*************************
+    **************************  main.css 1660 End 
+    **************************/  
+    
+    /*************************
+    **************************  content.css 1660 Start 
+    **************************/  
+    .contSlideJs-01-thumbs.contSlide .swiper-button-next{
+        right: -30px;
+    }    
+    /*************************
+    **************************  content.css 1660 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    1600    ****
+****************************************************************
+*/
+@media screen and (max-width: 1600px) {
+    /*************************
+    **************************  layout.css 1600 Start 
+    **************************/
+	.gnb .sub {}
+    /*************************
+    **************************  layout.css 1600 End 
+    **************************/	
+
+    /*************************
+    **************************  main.css 1600 Start 
+    **************************/
+    /* .gnb .gnbList > li > a,
+    .gnb .sub ul a {font-size:24px;} */
+    /* .notiBnrSection .tit {font-size:36px;} */
+    /* .mainSection .titleWrap h3 {font-size:26px;} */
+    /* .noticeSection li a {font-size:20px;} */
+    /* .mainSection.linkSection .boardType01 .info .tit,
+	.mainSection [class*=mainSlide] .info .tit {font-size:24px;} */
+    /* .mainSection [class*=mainSlide] .info .txt {font-size:16px;} */
+    /* .mbsSection .tit {font-size:24px;} */
+    /*************************
+    **************************  main.css 1600 End 
+    **************************/
+
+    /*************************
+    **************************  content.css 1600 Start 
+    **************************/    
+    .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxLeft {padding-right:30px;}
+    .myGalleryInfo{
+        display: block;
+        text-align: center;
+        padding: 1rem;
+    }
+    .myGalleryInfo .btnWrap{
+        margin-top: 1rem;
+    }
+	.boardBox > ul {
+		margin: -22px;
+	}
+	.boardBox > ul > li {
+		min-width: calc(33.333% - 44px);
+		max-width: calc(33.333% - 44px);;
+		margin: 22px;
+	}
+	.boardBox > ul > li a {
+		padding: 35px 35% 0 20px;
+	}    
+
+    /*   .toggleContent {width:calc(100% - 38px);} */
+    .toggleCorrectionBtn {display:block; /*width:100%;margin:10px 0 0 0; padding:0 0 0 38px;*/ }
+    /* .toggleCorrectionBtn .btn {height:35px; line-height:35px;} */
+    /* .sortToggleTop{flex-direction: column;} */
+    /* .toggleCorrectionBtn{margin-top:1rem;}     */
+	.CorrectionBtnWrap {text-align:right;}
+	.sortToggleBox .sortToggleTop .sortTitWrap {width:55%;}
+	.toggleCorrectionBtn .btn {margin:3px;}
+    /*************************
+    **************************  content.css 1600 End 
+    **************************/       
+	#header.sticky .gnb .gnbList > li {
+		padding: 15px 15px;
+	}
+	
+}
+
+
+/***************************************************************
+************************************************    1500    ****
+****************************************************************
+*/
+@media screen and (max-width:1500px) {
+    /*************************
+    **************************  content.css 1500 Start 
+    **************************/    
+    .audioGuide .con .info{
+        display: inherit;
+    }
+    .checkProcess > li{
+        background-size: 5rem;
+        padding: 1rem 1rem 1rem 7rem;
+    }
+    .checkProcess > li:not(:first-child):after{
+        left: -2rem;
+    }    
+    .mypageTopInfo .infoLeft {width:30%; padding-right:25px;}
+    .mypageTopInfo .infoRight {width:70%;}
+    .mypageTopInfo .infoLeft .infoName {font-size:32px;}
+    .mypageTopInfo .infoLeft .infoEmail {font-size:18px;}
+    .mypageTopInfo .infoLeft .infoJob {font-size:14px;}
+    .mypageTopInfo .infoLeft .infoBtnWrap li a {min-width: auto; padding:0;}
+    .mypageTopInfo .infoRight .infoBox .qrBox img {width:85%;}
+    .mypageTopInfo .infoRight .infoBox .tbox p {font-size:14px;}
+    .mypageTopInfo .infoRight .infoBox .tbox strong {font-size:22px;}
+    .mypageTopInfo .infoRight .infoBox .lankBox .lankText02 p {font-size:14px;}
+    .mypageTopInfo .infoRight .infoBox .pointBox img {width:50%;}
+    .mypageTopInfo .infoRight .infoBox .tbox strong {font-size:22px;}
+    .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxRight .text01 {font-size:18px;}
+    .heading.addTab .item .tabList a {font-size:20px;}    
+
+	.sitemap > li {max-width:25%; min-width:25%}
+	.sitemap > li dl dt a {padding-left:0px}
+	.sitemap > li dl dd {padding:20px 20px 60px 0}
+
+    /*************************
+    **************************  content.css 1500 End 
+    **************************/       
+}
+
+
+/***************************************************************
+************************************************    1450    ****
+****************************************************************
+*/
+@media screen and (max-width:1450px) {
+    /*************************
+    **************************  content.css 1450 Start 
+    **************************/        
+    .mySection .timeCheckWrap{
+        display: block;
+        margin-top: 0.6rem;
+    }
+    .mySection .timeCheckWrap .btn{
+        margin-top: 0.6rem;
+    }
+    /*************************
+    **************************  content.css 1450 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    1440    ****
+****************************************************************
+*/
+@media screen and (max-width: 1440px) {
+    /*************************
+    **************************  main.css 1440 Start 
+    **************************/    
+	.feelContents.contSlide .swiper-slide figure {max-width: 100%; height: auto; flex-shrink: 1;}
+	.contSlide .info .btnIcon {margin-top:1rem;}
+    /*************************
+    **************************  main.css 1440 End 
+    **************************/
+}
+
+
+/***************************************************************
+************************************************    1410    ****
+****************************************************************
+*/
+@media screen and (max-width:1410px)  {
+    /*************************
+    **************************  layout.css 1410 Start 
+    **************************/
+	.gnb .sub ul {
+		white-space: nowrap;
+	}
+	/* .gnbList > li:first-child .sub ul a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.gnbList > li:first-child li:first-child a {
+		padding-left: 0;
+	} */
+    /*************************
+    **************************  layout.css 1410 End 
+    **************************/    
+}
+
+
+/***************************************************************
+************************************************    1400    ****
+****************************************************************
+*/
+@media screen and (max-width: 1400px) {
+    /*************************
+    **************************  board.css 1400 Start 
+    **************************/
+	.boardCard02 > ul > li > div.boxRight {padding:0 20px;}
+	.boardCard02 > ul > li > div.boxRight .tit {font-size:18px;}
+    /*************************
+    **************************  board.css 1400 End 
+    **************************/    
+
+    /*************************
+    **************************  dialog.css 1400 Start 
+    **************************/
+    .dialog.sizeL {
+		width: 90% !important;
+	}
+    /*************************
+    **************************  dialog.css 1400 End 
+    **************************/  
+
+    /*************************
+    **************************  content.css 1400 Start 
+    **************************/      
+    .sortTitleBox {height:60px; line-height:60px; /*font-size:16px;*/ padding:1rem;}
+    /*   .toggleContent .toggleName {font-size:16px;} */
+    .btnIcon.circle {width:40px; height:40px;}    
+    /*************************
+    **************************  content.css 1400 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    1350    ****
+****************************************************************
+*/
+@media screen and (max-width:1358px) {
+	.heading.depth02.v2 .item.end{
+		margin-top: 1rem;
+	}
+}
+@media screen and (max-width:1350px) {
+    /*************************
+    **************************  content.css 1350 Start 
+    **************************/    
+    .reserveProcess {
+        display: inherit;
+    }
+    .reserveProcess > li{
+        width: 100%;
+        padding: 2.66666rem 2.66666rem 6.33333rem 2.66666rem;
+        background-position: 95% 85%;
+    }
+    .reserveProcess > li:not(:first-child){
+        margin-left: 0;
+        margin-top: 1.3333rem;
+    }
+    .sortItemWrap .sortItem .leftBox {width:50%; margin:0; padding:0 1rem;}
+    /*   .sortItemWrap .sortItem .rightBox {width:50%;} */    
+    /*************************
+    **************************  content.css 1350 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    1300    ****
+****************************************************************
+*/
+@media screen and (max-width:1300px) {
+    /*************************
+    **************************  form.css 1300 Start 
+    **************************/
+	.infoSlideWrap .checkbox {width:19%; margin:0 1% 1% 0;}
+	.infoSlideWrap .checkbox:nth-of-type(5n) {margin-right:0;}
+	.infoSlideWrap .checkbox:nth-of-type(6n) {margin-right:1%;}
+	.infoSlidePagination .num {font-size:14px;}
+    /*************************
+    **************************  form.css 1300 End 
+    **************************/    
+
+    /*************************
+    **************************  search.css 1300 Start 
+    **************************/    
+	.srchArea.type01:not(.totalSrch) .srchWrap {
+		display: block;
+	}
+	.srchArea.type01 .srchWrap .right {
+		float: none;
+		width: 100%;
+		margin-top: 10px;
+		text-align: left;
+	}
+	.srchArea.type02 .srchWrap .srchInputArea .srchInput {
+		flex:1
+	}
+	.srchArea .srchSelectArea .bSelect {
+		min-width: auto;
+	}
+	.srchResult {
+		margin: 10px 0;
+		padding: 0;
+	}
+	/* 상세검색 */
+	.detaSearch {
+		padding: 20px 0;
+	}
+	.detaSearch .srInner {
+		display: block;
+	}
+	.detaSearch .itemResult,
+	.detaSearch .itemCtg {
+		width: 100%;
+		padding: 0;
+	}
+	.detaSearch .itemResult {
+		margin: 20px 0 0 0;
+		padding: 20px 0 0 0;
+		border-top: 1px solid #ededed;
+		border-left: 0;
+	}
+	.detaSearch .itemResult .tit {
+		margin-bottom: 10px;
+	}
+
+	.detaSearch .itemResult .btnWrap {
+		margin-top: 20px;
+		position: inherit;
+		bottom: inherit;
+	}
+	.detaSearch .dateInpWrap{
+		margin-bottom: 10px;
+	}
+	.detaSearch .dateInpWrap .dateInput{
+		width: 90%;
+	}
+	.detaSearch .dateInpWrap .dateInput:not(:first-child){
+		margin-top: 10px;
+	}
+	.tabContainer .detaSearch .dateInpWrap .dateInput {
+		width:auto;
+	}
+	.tabContainer .detaSearch .dateInpWrap .dateInput:not(:first-child) {
+		margin-top:0;
+	}
+	.imgList {
+		/* margin-top: 20px; */
+	}
+	.imgListWrap .list{
+		flex-direction: column;
+	}
+	.imgListWrap .list .imgList{
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+    /*************************
+    **************************  search.css 1300 End 
+    **************************/    
+
+    /*************************
+    **************************  content.css 1300 Start 
+    **************************/        
+    .contList{
+        flex-direction: column;
+    }
+    .contItem{
+        width: 100%;
+    }
+    .contItem .cont{
+        /* margin-left: 0; */
+        margin-top: 0.5rem;
+    }    
+	.colorList ul li.w50 {min-width:inherit !important; max-width:inherit !important}
+	.colorList ul li.w100 {min-width:100% !important; max-width:100% !important}
+	.colorList ul li {max-width:33.333%; min-width:33.333%}    
+	.audioTextToggleButton {right:11%;}
+    /*************************
+    **************************  content.css 1300 End 
+    **************************/   
+}
+
+/***************************************************************
+************************************************    1280    ****
+****************************************************************
+*/
+@media screen and (max-width:1280px) {
+    /*************************
+    **************************  heading.css 1280 Start 
+    **************************/
+    .heading .item{
+		/* width: 100%; */
+		text-align: left;
+		flex-direction: initial;
+	}
+	.heading .item.right {
+		text-align: left;
+		/* flex-direction: initial; */
+		/* margin-top: 1.333333rem; */
+		margin-left: 0;
+		align-items: center;
+	}
+    /*************************
+    **************************  heading.css 1280 End 
+    **************************/    
+
+    /*************************
+    **************************  content.css 1280 Start 
+    **************************/     
+    .heading.myPage .item {width:auto;}
+    .wordSearchSlide{
+        padding: 2rem 2rem;
+    }
+    /* .wordSearchSlide .swiper-slide.box-01 a:nth-child(1){
+        font-size:4vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(2){
+        font-size:2vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(3){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(4){
+        font-size:1.5vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(5){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(6){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(7){
+        font-size:1.7vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(8){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(9){
+        font-size:2.5vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(10){
+        font-size:7vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(11){
+        font-size:2vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(12){
+        font-size:4vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(13){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(14){
+        font-size:2.3vw;
+    }
+
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(1){
+        font-size:4vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(2){
+        font-size:2vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(3){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(4){
+        font-size:1.5vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(5){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(6){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(7){
+        font-size:1.7vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(8){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(9){
+        font-size:2.5vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(10){
+        font-size:7vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(11){
+        font-size:2vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(12){
+        font-size:4vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(13){
+        font-size:3vw;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(14){
+        font-size:2.3vw;
+    } */    
+    /*************************
+    **************************  content.css 1280 End 
+    **************************/     
+}
+
+/***************************************************************
+************************************************    1260    ****
+****************************************************************
+*/
+@media screen and (max-width:1260px) {
+    /*************************
+    **************************  content.css 1260 Start 
+    **************************/      
+    .liveWrap{
+        flex-direction: column;
+    }
+    .liveWrap figure{
+        width: 100%;
+    }
+    .liveWrap .liveTalkWrap{
+        margin-left: 0px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .liveWrap .heading .title{
+        margin-top: 0;
+    }
+    /*************************
+    **************************  content.css 1260 End 
+    **************************/       
+}
+
+/***************************************************************
+************************************************    1240    ****
+****************************************************************
+*/
+@media screen and (max-width:1240px) {
+    /*************************
+    **************************  content.css 1240 Start 
+    **************************/    
+    .audioGuide{
+        display: inherit;
+    }
+    .audioGuide .con:not(:first-child){
+        margin-left: 0;
+        margin-top: 1.33333rem;
+    }
+    .appreciationProgram > ul{
+        display: inherit;
+    }
+    .appreciationProgram > ul > li{
+      /* width: 100%; */
+    }
+    .appreciationProgram > ul > li:nth-child(2n){
+        margin-left: 0;
+    }
+    .appreciationProgram figure{
+        width: auto;
+    }
+    .appreciationProgram .info{
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+    .appreciationProgram > ul > li:nth-child(n+2){
+        margin-top: 99px;
+    }
+    /*************************
+    **************************  content.css 1240 End 
+    **************************/        
+}
+
+/***************************************************************
+************************************************    1223    ****
+****************************************************************
+*/
+@media screen and (max-width: 1223px) {
+    /*************************
+    **************************  content.css 1223 Start 
+    **************************/        
+    .groupReservation table tbody > tr:first-child .btn{
+        margin-left:0rem;
+        /*margin-top: 1rem;*/
+        display: block;
+    }
+    /*************************
+    **************************  content.css 1223 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    1220    ****
+****************************************************************
+*/
+@media screen and (max-width:1220px) {
+    /*************************
+    **************************  content.css 1220 Start 
+    **************************/    
+    .memInputWrap{
+        display: block;
+    }
+    .memInputWrap .btnWrap{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    /*************************
+    **************************  content.css 1220 End 
+    **************************/       
+}
+
+
+/***************************************************************
+************************************************    1210    ****
+****************************************************************
+*/
+@media screen and (max-width:1210px) {
+    /*************************
+    **************************  content.css 1210 Start 
+    **************************/    
+    .contView.ageGroup .cont.typeCont:nth-child(1):before{
+        background-position: center center;
+    }
+    .contView.ageGroup .cont.typeCont:nth-child(2):before{
+        background-position: center center;
+    }
+    .contView.ageGroup .cont.typeCont:nth-child(3):before{
+        background-position: center center;
+    }
+    /*************************
+    **************************  content.css 1210 End 
+    **************************/       
+}
+
+/***************************************************************
+************************************************    min 1201    ****
+****************************************************************
+*/
+@media screen and (min-width:1201px) {
+    /*************************
+    **************************  content.css 1201 Start 
+    **************************/      
+	.archiveWrap .lnbArea .lnb dl {display:block !important}
+    /*************************
+    **************************  content.css 1201 End 
+    **************************/          
+}
+
+/***************************************************************
+************************************************    1200    ****
+****************************************************************
+*/
+@media screen and (max-width: 1200px) {
+    /*************************
+    **************************  layout.css 1200 Start 
+    **************************/
+	.footerSection02 .footerMenu {padding-left:5%;}
+    /*************************
+    **************************  layout.css 1200 End 
+    **************************/
+
+    /*************************
+    **************************  main.css 1200 Start 
+    **************************/
+	.mainSection.linkSection .boardType01 .info .tit,
+	.mainSection [class*=mainSlide] .info .tit {font-size:22px;}
+	.mainSection [class*=mainSlide] .info .txt {
+		/* font-size: 15px; */
+	}	
+	.mainSection .titleWrap {margin-bottom:20px;}
+    .contSlide .info {margin-top:15px;}
+    [class^=boardType] figure {margin-bottom:15px;}
+	.mainSection.linkSection .boardType01 > ul > li {width:49%;}
+	html:lang(en) .notiBnrSection .btnWrap button.btn {padding:0 15px; font-size:14px;}
+	html:lang(en) .tabList {top:32px;}
+
+    /*************************
+    **************************  main.css 1200 End 
+    **************************/
+
+    /*************************
+    **************************  board.css 1200 Start 
+    **************************/
+    .boardType02 > ul > li {
+		width: 50%;
+		flex: inherit;
+	}
+	.introduceWrap > ul > li {
+		width:100%;
+	  }
+	
+	.boardType02 > ul > li > a {
+		/* padding: 24px 8px; */
+		padding: 0px;
+	}
+	.boardType02 figure {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.boardType02 .info {
+		float: none;
+		width: 100%;
+	}
+	.board-col1 > ul > li > a {
+		padding: 30px 0;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.board-col1 > ul > li {
+		width: 100%;
+	}
+	.board-col1 figure {
+		float: left;
+		width: 504px;
+	}
+    /*************************
+    **************************  board.css 1200 End 
+    **************************/
+
+    /*************************
+    **************************  detail.css 1200 Start 
+    **************************/    
+    .detailCont .grid > .colBoard {
+		margin-top: 2.5rem;
+	}
+    .detailCont .grid > .colImg,
+	.detailCont .grid > .colBoard {
+		float: none;
+		width: 100%;
+	}
+	.boardCol .boardType01 > ul {
+		flex-wrap: nowrap;
+		display: flex;
+	}
+	.boardCol ul > li {
+		width: auto;
+	}
+	.boardCol .boardType01 {
+		overflow-x: scroll;
+		overflow-y:hidden;
+	}
+    /*************************
+    **************************  detail.css 1200 End 
+    **************************/
+
+    /*************************
+    **************************  button.css 1200 Start
+    **************************/
+	.pfCircle {width:80px; min-width:auto; height:80px;}
+    /*************************
+    **************************  button.css 1200 End 
+    **************************/
+
+
+    /*************************
+    **************************  content.css 1200 Start 
+    **************************/    
+    .mypageTopInfo .cont > div {width:100%;}
+    .mypageTopInfo .infoLeft .infoBtnWrap {margin:20px 0 0 0;}
+    .mypageTopInfo .infoRight {margin:30px 0 0 0;}
+    .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxRight {flex:1 1 20%;}
+    .mySection .timeCheckWrap{
+        display: block;
+        margin-top: 0.6rem;
+    }
+    .mySection .timeCheckWrap .btn{
+        margin-top: 0.6rem;
+    }
+    .mySection .timeCheckWrap .timeSelectWrap{
+        display: block;
+    }       
+    .rcm-video{
+        flex-direction: column;
+    }
+    .watch-next-secondary{
+        height: auto;
+        max-width: 100%;
+    }
+    .colBoard{
+        margin-left: 0;
+        margin-top: 2rem;
+    }     
+    .multiLangTable .checkYearWrap input{
+        width: 30%;
+    }    
+    .boardHead.v2 .btnBrowse {display:block}
+	.boardHead.v2 .btnBrowse .btnWrap {text-align:left; max-width:100%}
+	.boardHead.v2 .btnBrowse > * + * {margin:10px 0 0 0}
+	.boardHead.v2 .btnBrowse p br {display:none}
+	.boardHead.v2 .right {align-items:end}
+    .archiveWrap {display:block}
+	.archiveWrap .lnbArea {width:auto}
+	.archiveWrap .lnbArea .lnb {position:fixed; bottom:20px; left:20px; z-index:10}
+	.archiveWrap .lnbArea .lnb .btnLnb {display:block; width:50px; height:50px; text-indent:-9999px; background:#000 url("../../images/common/icon_archive_w.png") no-repeat center/20px}
+	.archiveWrap .lnbArea .lnb .btnLnb.on > dl {display:block}
+	.archiveWrap .lnbArea .lnb dl {display:none; position:absolute; bottom:0; left:50px; overflow-y:auto; border:1px solid #ccc; width:330px; height:calc(100vh - 200px); box-shadow:0 0 10px rgba(0,0,0,0.2)}
+	.archiveWrap .lnbArea .lnb dl dt {position:relative; padding:20px 30px; text-align:left}
+	.archiveWrap .lnbArea .lnb dl dt .btnClose {display:block; position:absolute; top:0; right:0; width:72px; height:72px; text-indent:-9999px; background:url("../../images/common/icon_dialog_closeL.png") no-repeat center}
+	.archiveWrap .contArea {margin-top:50px; padding-left:0}
+	.boardBox > ul {
+		margin: -20px -10px;
+	}
+	.boardBox > ul > li {
+		min-width: calc(33.333% - 20px);
+		max-width: calc(33.333% - 20px);;
+		margin: 20px 10px;
+	}
+	.boardBox > ul > li a {
+    height: 200px;
+    /* padding: 40px 20px 35px 20px; */
+    }
+
+	/* .boardBox > ul > li a figure {
+		top: 15px;
+		left: calc(50% - 65px);
+	} */
+	.boardBox .tagBox {
+		bottom: 20px;
+		width: auto;
+	}
+	.boardBox .tagBox ul {
+		margin: 0 -2px;
+	}
+	.boardBox .tagBox ul li {
+		min-width: calc(25% - 4px);
+		max-width: calc(25% - 4px);;
+		margin: 0 2px;
+	}    
+    .policyBox .bg01 {
+        margin-bottom: 34px;
+        padding: 52px 34px;
+        background: #f6f6f6;
+    }
+    .policyBox .bg01 strong {
+        margin-bottom: 35px;
+        line-height: 33px;
+        font-size: 22px;
+    }
+    .policyBox .bg01 > span {
+        padding: 0 10px 0 8px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .policyBox .list {
+        margin: 21px auto 15px;
+        padding: 31px 28px;
+    }
+    .policyBox .list li {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .policyBox .list li + li {
+        margin-top: 20px;
+    }
+    .policyBox .bg01 p {
+        margin-top: 23px;
+        line-height: 25px;
+        font-size: 18px;
+    }    
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 > div {font-size:24px;}
+    .tabContent02 > .innerTabButton02 > div {width:100%;}
+    .tabContent02 > .innerTabButton02 > div.right {text-align:left; margin:20px 0 0 0;}    
+
+	.tableTopText {font-size:16px; padding:25px 15px;}
+	.joinSection .emailInput .w320 {max-width:200px;}
+
+	/* 2022.01.18 수정사항 - 보도자료상세 > 자료다운로드와 이전,다음글 여백조절 */
+	.details .detailBody .download a.btn:not(:last-child) {margin-left:0; margin-right:0.66666rem;}
+
+	.introduceWrap > ul > li {margin-bottom:60px;}
+	.introduceInfoBox .tbox.half {width:100%;}
+	.introduceInfoBox .tbox dt, .introduceInfoBox .tbox dd {width:100%;}
+	.introduceWrap .info .tit .btn {position:static; top:auto; right:auto; bottom:auto; left:auto; font-size:14px; width:100%; margin:10px 0;}
+	
+    /*************************
+    **************************  content.css 1200 End 
+    **************************/     
+}
+
+
+/***************************************************************
+************************************************    940~1200    ****
+****************************************************************
+*/
+@media only screen and (min-width: 940px) and (max-width: 1200px) {
+    /*************************
+    **************************  content.css 940~1200 Start 
+    **************************/        
+    .mySection .heading.myPage.addTab {display:flex;}
+    .heading.addTab .item .tabList a {font-size:18px; padding:0 5px;}
+    .mySection .heading.depth02{
+        display: block;
+    }
+    .mySection .heading.depth02 .btnWrap{
+        text-align: left;
+        margin-top: 0.6rem;
+    }    
+    /*************************
+    **************************  content.css 940~1200 End 
+    **************************/    
+}
+
+
+/***************************************************************
+************************************************    1180    ****
+****************************************************************
+*/
+@media screen and (max-width:1180px) {
+    /*************************
+    **************************  board.css 1180 Start 
+    **************************/    
+	.boardType08 figure {
+		width: 50%;
+	}
+    /*************************
+    **************************  board.css 1180 Start 
+    **************************/    
+}
+
+/***************************************************************
+************************************************    1180    ****
+****************************************************************
+*/
+@media screen and (max-width:1170px) {
+    /*************************
+    **************************  content.css 1170 Start 
+    **************************/        
+    .btnEnlarge,.btnHeadPhone{
+        width: 45px;
+        height: 45px;
+        background-size: 60%;
+    }
+    /*************************
+    **************************  content.css 1170 End
+    **************************/    	
+}
+
+/***************************************************************
+************************************************    1160    ****
+****************************************************************
+*/
+@media screen and (max-width:1160px) {
+    /*************************
+    **************************  table.css 1160 Start 
+    **************************/       
+	.halfTable > div {
+		margin-right: 50px;
+	}
+    /*************************
+    **************************  table.css 1160 End 
+    **************************/        
+
+    /*************************
+    **************************  search.css 1160 Start 
+    **************************/       
+    .detaSearch.vertical > div.checkArea > div {
+		margin-right: 10px;
+	}
+	.detaSearch.vertical > div.checkArea > div.w10,
+	.detaSearch.vertical > div.checkArea > div.w20,
+	.detaSearch.vertical > div.checkArea > div.w33 {
+		width: 25%;
+	}
+	/* angleSrch */
+	.angleSrch .bSelect,
+	.angleSrch .srchInputArea > input,
+	.angleSrch button {
+		height: 40px;
+		line-height: 40px;
+	}
+	.angleSrch .srchInputArea {
+		margin-right: 0;
+		padding-right: 145px;
+		padding-left: 0;
+	}
+	.angleSrch .srchInputArea > input {
+		padding-right: 130px;
+	}
+	.angleSrch .srchInputArea > button {
+		width: 140px;
+		min-width: 140px;
+	}
+	.multiWrite {
+		/* right: 155px; */
+	}
+    /*************************
+    **************************  search.css 1160 End 
+    **************************/    
+}
+
+/***************************************************************
+************************************************    1130    ****
+****************************************************************
+*/
+@media screen and (max-width:1130px) {
+    /*************************
+    **************************  content.css 1130 Start
+    **************************/       
+    .supportWrap03 .item:last-child ul li {
+        width: 100%;
+    }
+    .supportWrap03 .item:last-child ul li:not(:first-child){
+        margin-top: 1rem;
+    }
+    /*************************
+    **************************  content.css 1130 End
+    **************************/       
+}
+
+/***************************************************************
+************************************************    1120    ****
+****************************************************************
+*/
+@media screen and (max-width:1120px) {
+    /*************************
+    **************************  content.css 1120 Start
+    **************************/        
+    .bnrImg:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(255,255,255,0.4);
+    }
+    .bnrImg .bnrTxt {
+        padding-right: 33px;
+        left: 33px;
+    }
+    .desiredViewingDate{
+    }
+    .desiredViewingDate .cbox:first-child{
+        width: 100%;
+        max-width: 400px;
+    }
+    .desiredViewingDate .cbox:last-child{
+        width: 100%;
+    }    
+    /*************************
+    **************************  content.css 1120 End
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    1110    ****
+****************************************************************
+*/
+@media screen and (max-width:1110px) {
+    /*************************
+    **************************  content.css 1110 Start 
+    **************************/     
+    .btnEnlarge{
+        position: relative;
+        float: right;
+        right: -4px;
+    }
+    /*************************
+    **************************  content.css 1110 End 
+    **************************/     
+}
+
+
+/***************************************************************
+************************************************    1100    ****
+****************************************************************
+*/
+@media screen and (max-width:1100px) {
+    /*************************
+    **************************  content.css 1100 Start 
+    **************************/      
+    .mySection .select2Div.flex.hyphen.border{
+        width: 100%;
+    }
+    .mySection .select2Div.flex.hyphen.border .selectBox{
+        width: 100%;
+    }    
+    /*************************
+    **************************  content.css 1100 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    1050    ****
+****************************************************************
+*/
+@media screen and (max-width:1050px) {
+    /*************************
+    **************************  content.css 1050 Start 
+    **************************/     
+    .checkProcess{
+        display: inherit;
+    }
+    .checkProcess > li{
+        width: 100%;
+        background-position: left center;
+    }
+    .checkProcess > li:not(:first-child){
+        margin-left: 0;
+        margin-top: 3.3333rem;
+    }
+    .checkProcess > li:not(:first-child):after{
+        top: -2rem;
+        left: 50%;
+        transform: translate(-50%,0) rotate(90deg);
+    }
+    .artInfo > ul{
+        width: 50%;
+    }
+    /*************************
+    **************************  content.css 1050 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    1040    ****
+****************************************************************
+*/
+@media only screen and (max-width: 1040px) {
+    /*************************
+    **************************  content.css 1040 Start 
+    **************************/        
+    .heading.myPage .item.pcVer {display:none;}
+    .mySection .heading.depth02.myPage .item button.moVer {display:block;}
+    .mySection .heading.depth02.myPage .item {flex:1 1 100%;}
+    .mySection .heading.depth02.myPage .subTitle {margin-bottom:15px;}
+    .heading.addTab .item .tabList a {padding:0 10px 0 0;}
+    /*************************
+    **************************  content.css 1040 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    1024    ****
+****************************************************************
+*/
+@media screen and (max-width: 1024px) {
+    /*************************
+    **************************  main.css 1024 Start 
+    **************************/ 
+    /* .notiBnrSection .tit {font-size:28px;} */
+	html:lang(en) .tabList {top:37px;}
+	html:lang(en) .tabList a {font-size:16px;}
+
+    /*************************
+    **************************  main.css 1024 End 
+    **************************/
+
+    /*************************
+    **************************  content.css 1024 Start 
+    **************************/ 
+    .nameInput{
+        /* flex-wrap: wrap; */
+        width: 100%;
+    }
+    .nameInput .nameBox{
+        width: 100%;
+    }
+    .nameInput .nameBox:not(:last-child){
+        margin-right: 0;
+        /* margin-top: 1rem; */
+    }
+    .nameInput .nameBox > div{
+        /* flex: 1; */
+    }
+    .nameInput > div:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    .nameInput .nameBox > div .subject{
+        min-width: 3rem;
+    }    
+    .greetingSection{
+        display: inherit;
+		margin-top: 10px;
+    }
+    .greetingSection .info{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .greetingSection .pcVer{
+        display: none;
+    }
+    .greetingSection .mobileVer{
+        display: block;
+    }
+    .greetingSection .greeting-txt br{
+        display: none;
+    }    
+    /*************************
+    **************************  content.css 1024 end 
+    **************************/     
+}
+
+
+/***************************************************************
+************************************************    1000    ****
+****************************************************************
+*/
+@media screen and (max-width:1000px) {
+    /*************************
+    **************************  content.css 1000 Start 
+    **************************/       
+    .contSlideJs-01-main.contSlide.contSlideL .swiper-slide figure{
+        width: 100%;
+        height: 100%;
+        max-height: 390px;
+        border: 2px solid #cccccc;
+    }
+    .main-btn-box{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .main-btn-box>div:not(:first-child){
+        margin-left: 1rem;
+    }
+    .main-btn-box .swiper-button-prev, .main-btn-box .swiper-button-next{
+        display: block;
+        position: relative;
+        opacity: 1 !important;
+        transform: translateY(0);
+        background: inherit;
+    }
+    .main-btn-box .swiper-button-prev::before, .main-btn-box .swiper-button-next:before{
+        border-color: #000;
+    }
+    .main-btn-box .swiper-button-prev:before{
+        transform: translate(-30%, -50%) rotate(-135deg);
+    }
+    .main-btn-box .swiper-button-prev.swiper-button-disabled{
+        opacity: 1;
+    }
+    .thumbSlideWrap {
+        display: none;
+    }    
+    .artInfo{
+        display: inherit;
+    }
+    .artInfo > ul{
+        width: 100%;
+    }
+    .artInfo > ul:not(:first-child){
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .box.type02.artInfo{
+        padding: 1rem 0rem;
+    }    
+    /*************************
+    **************************  content.css 1000 End 
+    **************************/         
+}
+
+
+
+
+/***************************************************************
+************************************************    min 981    ****
+****************************************************************
+*/
+@media screen and (min-width: 981px) {
+    /*************************
+    **************************  layout.css 981 Start 
+    **************************/
+	.dialogWrap.dialoSubscribe .dialogHead {border:none; padding:0; margin:0 0 30px;}
+	.dialogWrap.dialoSubscribe .close {top:31px;}
+    /*************************
+    **************************  layout.css 981 End 
+    **************************/
+}
+
+/***************************************************************
+************************************************     980    ****
+****************************************************************
+*/
+@media all and ( max-width: 980px ) {
+    /*************************
+    **************************  dialog.css 980 Start 
+    **************************/    
+	/* .dialog.sizeL,
+	.dialog.sizeM,
+	.dialog  {
+		width: 100% !important;
+		min-height: 100%;
+		margin: 0;
+		padding: 70px 20px 20px;
+		max-width: 100%;
+	}
+	.dialogHead {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 5;
+		margin-bottom: 0;
+		padding: 20px 50px 10px 20px;
+	}
+	.dialog .close {
+		position: fixed;
+		top:7px;
+		right: 0;
+		z-index: 10;
+	}
+	.dialogBody {
+		height: calc(100vh - 200px);
+	    	overflow-y: scroll;
+	}
+	.floating {
+		position: fixed;
+		width: 100%;
+		bottom: 10px;
+		left: 0;
+		padding: 15px 15px;
+	} */
+	/* sizeL */
+	/* .dialog.sizeL .dialogHead .title {
+		margin-top: 0;
+		font-size: 1.333rem;
+	} */
+    /*************************
+    **************************  dialog.css 980 End 
+    **************************/  
+
+    /*************************
+    **************************  form.css 980 Start 
+    **************************/      
+    .formGroup .floating{
+		position: relative;
+	}
+    /*************************
+    **************************  form.css 980 End 
+    **************************/     
+
+    /*************************
+    **************************  content.css 980 Start 
+    **************************/       
+    .exhibitionPopup > .tabButton {margin-bottom:20px;}
+    .exhibitionPopup > .tabButton > div {font-size:16px;}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 {width:100%; text-align:center; margin:0 0 30px;}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 > div {display:inline-block; max-width:100%; padding:30px;}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 > div:not(:last-child) {position:relative; border-bottom:none;}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 > div:not(:last-child):before {content:''; position:absolute; top:50%; right:0; width:1px; height:30%; background:#eaeaea; -webkit-transform:translate(-50%,-50%); transform:translate(-50%,-50%);}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabContent01 {width:100%;}
+	.leaderInfoTable .checkTextBox input {max-width:200px;}
+	table .phoneNumber select, table .phoneNumber input {flex:1;}
+    /*************************
+    **************************  content.css 980 End 
+    **************************/     
+}
+
+
+/***************************************************************
+************************************************    960    ****
+****************************************************************
+*/
+@media screen and (max-width:960px) {
+	/*************************
+    **************************  heading.css 960 Start 
+    **************************/     
+	.heading .item:nth-child(1){
+		width: 100%;
+	}
+	.heading .item.right{
+		/* width: 100%; */
+		flex-direction: initial;
+		justify-content: space-between;
+		width: 100%;
+		align-items: flex-end;
+	}
+
+	.heading .item .btn:only-of-type{
+		margin-left: 0;
+	}
+	
+	/*************************
+    **************************  heading.css 960 Start 
+    **************************/     
+
+
+    /*************************
+    **************************  board.css 960 Start 
+    **************************/    
+    .layerWrap .btnIcon {
+		top: 8px;
+	}
+	.boardCard.type02 > ul {
+		display: block;
+		margin-top: -22px;
+	}
+	.boardCard.type02 > ul > li {
+		margin: 0 auto;
+		width: 90%;
+		padding: 22px;
+	}
+	.boardCard.type02 .cardInner .tit {
+		font-size: 20px;
+		line-height: 60px;
+	}
+	.boardCard.type02 .cardInner .cardContent {
+		padding: 15px 0;
+	}
+	.boardCard.type02 .cardInner .cardContent img {
+		padding: 0 30px;
+	}
+    
+    /*************************
+    **************************  board.css 960 End 
+    **************************/      
+
+    /*************************
+    **************************  content.css 960 Start 
+    **************************/          
+    .writeForm{
+        padding: 2rem 1.3rem;
+    }   
+    .writeForm .viewWrap{
+        width: 100% !important;
+    }     
+    .contView .cont{
+        margin: 0 2.66666rem;
+    }    
+    .upload .upload_label{
+        right: -8.5rem;
+    }
+    .upload .input_box{
+        /* display: block; */
+        width: calc(100% - 7.8rem);
+    }    
+    .mySection .section .chartDesc + .chartWrap {
+        margin-top: 1rem;
+    }
+    .multiLangTable table th{
+        padding-left: 20px;
+    }    
+    .multiLangTable table .selectBox{
+        max-width: 100%;
+    }
+	.feelSection .contSlide .info{
+		margin-top: 10px;
+	}
+	.btn {
+		overflow:inherit;
+		min-width:auto;
+	}
+	.btn.btnDel {
+		overflow:hidden;
+	}
+    /*************************
+    **************************  content.css 960 End 
+    **************************/           
+}
+
+/***************************************************************
+************************************************    950    ****
+****************************************************************
+*/
+@media screen and (max-width:950px) {
+    /*************************
+    **************************  form.css 950 Start 
+    **************************/       
+	.infoSlideWrap .checkbox {width:49%; margin:0 2% 2% 0;}
+	.infoSlideWrap .checkbox:nth-of-type(5n) {margin-right:2%;}
+	.infoSlideWrap .checkbox:nth-of-type(6n) {margin-right:2%;}	
+	.infoSlideWrap .checkbox:nth-of-type(2n) {margin-right:0;}
+	.infoSlidePagination .num {font-size:14px;}
+    /*************************
+    **************************  form.css 950 End 
+    **************************/         
+}
+
+/***************************************************************
+************************************************    min 941    ****
+****************************************************************
+*/
+@media screen and (min-width:941px) {
+    /*************************
+    **************************  board.css 941 Start 
+    **************************/    
+	.boardType01 .btnIcon {
+		margin-top: 0.5rem;
+	}
+	.boardType01 .btnIcon i.headphon{
+		vertical-align: sub;
+	}
+    /*************************
+    **************************  board.css min941 End 
+    **************************/    
+}
+
+/***************************************************************
+************************************************    940    ****
+****************************************************************
+*/
+@media screen and (max-width:940px) {
+    /*************************
+    **************************  layout.css 940 Start 
+    **************************/    
+	.content.main{
+		/* padding-top: 80px !important; */
+		/* padding-top:0 !important; */
+	}
+	.header .utilWrap > ul > li > select {padding:0 10px 0 0;}
+	.noticeBannerWrap {
+		display:block;
+		z-index:101;
+		width:100%;
+		margin:0 0 15px;
+	}
+	/* layout */
+	.inner {
+		min-width: 320px;
+		padding: 0 15px;
+	}
+	.container {
+		/* padding-top: 71px; */
+	}
+	.content {
+		padding-bottom: 50px;
+	}
+	.breadcrumb.on + .content {
+		/* padding-top: 115px; */
+	}
+	.noticeBannerWrap,
+	.header,
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.header {
+		border-bottom: 1px solid #000;
+		position:fixed; height:71px
+	}
+	.header > .inner {
+		min-height: 40px;
+		padding: 0;
+		border-bottom: 0;
+	}
+	.mobGnbHead,
+	.mobUtilMenu {
+		display: block;
+	}
+	.gnbList .togglePlus,
+	.btnMobOpen {
+		display: inline-block;
+	}
+	.btnMobOpen {
+		position: relative;
+		width: 40px;
+		height: 40px;
+	}
+	.btnMobOpen .icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 40px;
+		height: 40px;
+		background: url(../../images/common/btn_mobOpen.svg) no-repeat 50% 50%;
+		transform: translate(-50%, -50%);
+	}
+	.header {
+	/* 	top: 49px; */
+		top:0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.header .logo {
+		position: absolute;
+		top: 0;
+		left: 15px;
+	}
+	.header.sticky .logo {
+		top:0;
+		transform:none;
+		height:auto;
+	}
+	html body .header.sticky .logo a {
+		width:175px;
+		height:40px;
+		background-size:cover;
+	}
+	.header .logo a {
+		width: 175px; /**/
+		height: 40px; /**/
+		background-size: 100% auto;
+	}
+	/* noticeBannerWrap */
+	.noticeBannerWrap .noticeBanner {
+		width: 100%;
+	}
+	.noticeBannerWrap .swiper-slide {
+		height: 48px;
+	}
+	.noticeBannerWrap .swiper-button-prev,
+	.noticeBannerWrap .swiper-button-next {
+		display: none;
+	}
+	.noticeBannerWrap .closeBtn {
+		right: 15px;
+		margin-top: -15px;
+		background:#fff;
+		z-index:1;
+	}
+	.noticeBannerWrap .swiper-slide a > span {
+		margin-top: 0;
+		border-bottom: 0;
+	}
+	/* gnb */
+	.mobMenuOpen > .inner {
+		padding: 0;
+	}
+	.header.sticky .gnb,
+	.gnb {
+		overflow-y: scroll;
+		position: fixed;
+		top: 0;
+		z-index: 9999;
+		width: 100%;
+		height: 100vh;
+		padding:0;
+		background-color: #fff;
+		transform: translateX(100%);
+		box-sizing:border-box;
+	}
+	.mobMenuOpen .gnb,
+	.mobMenuOpen.header.sticky .gnb {
+		transition: transform .3s;
+		transform: translateX(0);
+	}
+	.gnb .gnbList,
+	.gnb .sub ul {
+		display: block;
+	}
+	.gnb .gnbList {
+		height: auto;
+		margin-top: 30px;
+	}
+	#header .gnb .gnbList > li,
+	#header.sticky .gnb .gnbList > li {
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		height: auto;
+	}
+	.gnb .gnbList > li > a {
+		padding: 5px 2px 5px 0;
+		color: #000;
+		text-align: left;
+	}
+	.gnb .gnbList .togglePlus {
+		float: right;
+		/* margin-top: 7px; */
+		transform: translateY(50%);
+	}
+	.gnb .sub {
+		position: initial;
+		margin-top: 5px;
+		border-bottom: 0;
+	}
+	.gnb .sub:before,
+	.gnb .sub:after {
+		display: none;
+	}
+	.gnb .sub ul {
+		/*padding-top: 0;*/
+	}
+	.gnb .sub ul  li + li {
+		margin-top: 7px;
+	}
+	.gnb .sub ul a {
+		padding: 0;
+		font-size: 1.333rem;
+	}
+	.btnUtil {
+		top:50%;
+		right: 10px;
+		/* bottom: 0; */
+	}
+	.mobGnbHead {
+		overflow: hidden;
+		position: relative;
+		padding: 15px;
+	}
+	.mobGnbHead .logoImg {
+		float: left;
+		width: 180px;
+		height: auto;
+		margin-top: 0;
+	}
+	.mobGnbHead .mobHeadUtil {
+		float: right;
+		margin-top: 0;
+	}
+	.mobGnbHead .btnSearchOpen {
+		position: inherit;
+		right: inherit;
+		bottom: inherit;
+	}
+	.mobGnbHead .btnMobClose {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		margin-right: -5px;
+	}
+	.mobGnbHead .btnMobClose .icon {
+		display:inline-block;
+		width: 40px;
+		height: 40px;
+		background: url(../../images/common/btn_totalSearchClose.svg) no-repeat 50% 50%;
+	}
+	.header .utilWrap {
+		position: initial;
+		top: initial;
+		right: initial;
+		
+		padding: 25px;
+		border-top: 1px solid #000;
+	}
+	.header .utilWrap + .utiWRap {
+		margin-top:0;
+	}
+	.header .utilWrap > ul > li {
+		display: block;
+		font-size: 1.333rem;
+		font-weight: 600;
+	}
+	.header .utilWrap .selectWrap {
+		margin: 6px 0 0 0;
+	}
+	.header .utilWrap .selectBox {
+		font-weight: 600;
+		vertical-align: top;
+	}
+	/* totalSearchWrap */
+	.totalSearchWrap {
+		top: 58px;
+	}
+	.searchLayer .btnSearchClose {
+		top:-58px;
+		right: 55px;
+	}
+	.searchLayer button[type="submit"] {
+		min-width: 100px;
+		margin:0
+	}
+	.searchLayer .input {
+		width: calc(100% - 105px);
+		font-size: 1.333rem;
+	}
+	#header.sticky .searchLayer .btnSearchClose {top:-50px;}
+	/* header sticky */
+	.header.sticky {
+		height: 71px;
+		padding-top: 15px;
+	}
+	.header.sticky + .container > .breadcrumb.on ol {
+		top:71px;
+	}
+	.header.sticky > .inner {
+		/* min-height: 33px; */
+	}
+	/* .header.sticky .logo {
+		top: 0;
+	} */
+	.header.sticky .btnUtil {
+		/* bottom: 0; */
+	}
+	.header.sticky .totalSearchWrap {
+		top: 47px;
+	}
+	.header.sticky .logo a {
+		width: 32px;
+		height: 33px;
+		background-size: auto 33px;
+	}
+	.header.sticky .searchLayer .btnSearchClose {
+		top: -54px;
+	}
+	/* 서브 타이틀 */
+	.submain .mainTitle {display:block}
+	.submain .mainTitle .item {display:flex; margin-top:20px !important}
+	.submain .mainTitle .item > .btn {flex:1}
+
+	/* footer */
+	.footer {
+		padding: 0 15px 0 15px;
+	}
+	.footer .input {
+		width: calc(100% - 136px);
+		max-width: 100%;
+		padding: 10px 10px 10px 0;
+	}
+	.footerSection01 {
+		float: inherit;
+		max-width: 100%;
+	}
+	.footerSection01 strong {
+		margin-bottom: 10px;
+		font-size: 1.333rem;
+	}
+	.footerSection01 .btn {
+		min-width: 120px;
+		margin-left: 0;
+	}
+	.footerSection01 .linkList {
+		margin-top: 26px;
+	}
+	.footerSection01 .linkList li + li {
+		margin-top: 7px;
+	}
+	.footerSection01 .linkList a {
+		font-size: 1.333rem;
+	}
+	.footerSection02 {
+		float: inherit;
+		width: 100%;
+		margin-top: 61px;
+		padding-top: 29px;
+		border-top: 1px solid #000;
+	}
+	.footerSection02 .footerMenu {
+		display: block;
+		margin: 0;
+		padding: 0;
+		font-size:0;
+	}
+	.footerSection02 .footerMenu .item {
+		margin-bottom:20px;
+		display:inline-block;
+		vertical-align:top;
+		width:50%;
+		font-size:15px;
+	}
+	.footerSection02 .footerMenu .item + .item {
+		/* margin-top: 25px; */
+	}
+	.footerSection02 .footerMenu strong {
+		display: block;
+		margin-bottom: 2px;
+	}
+	.footerSection02 .footerMenu li + li {
+		margin-top: 3px;
+	}
+	.footerSection03 .inner {
+		margin-top: 63px;
+		padding:32px 0 60px;
+	}
+	.footerSection03 .logo {
+		position: static;
+		top: 0;
+		right: inherit;
+		left: 0;
+		margin-bottom: 25px;
+	}
+	.footerSection03 .logo img {
+		width:175px;
+	}
+	.footerSection03 address {
+		max-width: 100%;
+		font-size: 15px;
+	}
+	.footerSection04 {
+		/* margin-top: 44px; */
+	}
+	
+	.footerSection04 .footerBanner {
+		/* padding: 18px 0; */
+	}
+	.footerSection04 .swiper-slide .item {
+		display: block;
+	}
+	/* subMenuWrap */
+	.inner > .subMenuWrap:first-child .subFixed {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0;
+	}
+	.subFixed {
+		/* padding-bottom: 0; */
+		height:58px
+	}
+	.subFixed .tabList {
+		padding: 15px 0;
+	}
+	.subMenu {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		margin-top: 24px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #000;
+		transform: translateX(0);
+	}
+	.subMenu li:first-child,
+	.subMenu li:first-child a {
+		padding-left: 0;
+	}
+	.subMenu li:last-child,
+	.subMenu li:last-child a {
+		padding-right: 0;
+	}
+	.subMenu a {
+		padding: 0;
+		font-size: 1rem;
+	}
+	.subFixed.on .tabList {
+		top: 128px;
+		left: 0;
+	}
+	.subFixed.on  li:first-child {
+		padding-left: 15px;
+	}
+	/* breadcrumb */
+	.breadcrumb ol {
+		display: flex;
+		flex-wrap: nowrap;
+		/* overflow-y: auto; */
+	}
+	.breadcrumb.on ol {
+		height: auto;
+	}
+	.breadcrumb li,
+	.breadcrumb a,
+	.breadcrumb .selectBox {
+		font-size: 1rem;
+	}
+	.breadcrumb a {
+		/* margin-top: 2px; */
+    	display: inline-block;
+		padding: 0.5rem 0;
+	}
+	.breadcrumb .selectBox {
+		/* margin-top: 3px; */
+	}
+	.breadcrumb ol,
+	.breadcrumb.on ol {
+		padding: 10px 15px;
+	}
+	.breadcrumb.on ol {
+		top: 71px;
+		align-items: center;
+	}
+	/* myPageContent  임시 모바일*/
+	.lnbWrap {
+		display: none;
+	}
+	.mySection {
+		width: 100%;
+	}
+	/* btnTop */
+	.btnTop {
+		width: 40px;
+		height: 40px;
+		right: 15px;
+		background: #fff url(../../images/common/btn_top_mo.svg) no-repeat center center;
+		background-size: 80% auto;
+	}
+	.btnSmart {
+		width: 41px;
+		height: 85px;
+		right: 15px;
+		bottom: 20px !important;
+		font-size:12px;
+		font-weight:bold;
+		background-size: 50%;
+		background-position: center 13px;
+		padding-top:35px
+	}
+	html:lang(en) .btnSmart {
+		font-size:10px;
+	}
+	.btnSmart.btnShow {bottom:70px !important}
+	html body .header .utilWrap > ul > li.selectWrap {
+		/*margin-left:0;*/
+	}
+	#header.sticky .joinWrap {
+		opacity:1;
+	}
+	
+	html body .header .utilWrap > ul > li {margin-left:0 !important; padding:0 7.5px;}
+	html body .header .utilWrap > ul > li:not(:first-child) {margin-top:6px;}
+	.header .utilWrap > ul > li.joinWrap a br {display:none;}
+	.header .utilWrap > ul > li.joinWrap a {width:auto; height:auto; background:transparent; color:#000; text-align:left; display:block; border-radius:0; border:none}
+    /*************************
+    **************************  layout.css 940 End 
+    **************************/        
+
+
+    /*************************
+    **************************  board.css 940 Start 
+    **************************/  
+    .boardCard02 > ul > li {flex:0 0 100%;}
+	.boardCard02 > ul > li > div.boxRight .tit {font-size:16px;}
+	.boardCard02 > ul > li > div.boxRight .iconDel {font-size:14px; height:40px;}
+	.boardInfo > .tbox01 .text span:first-child {margin:0 40px 0 0;}
+	.boardInfo > .tbox .text {font-size:14px;}
+	.boardInfo > .tbox .text span {word-break: keep-all;}
+	.boardInfo > .tbox strong {font-size:20px; margin-bottom:15px;}
+    /* boardType04 2021-11-29 */
+	.boardType04 > ul {
+		margin-top: 20px;
+	}
+	.boardType04 > ul > li {
+		display: block;
+		width: 100% !important;
+	}
+	.boardType04 > ul > li + li {
+		padding: 25px 0 0 0;
+	}
+	/* 2021-11-30 추가 */
+	.boardType04 .tit.sizeL {
+		font-size:1.308em;
+	}
+    /* boardType05 2021-11-29 */
+    .boardType05.board-col1 figure {
+		float: none;
+		margin-bottom: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.boardType05.board-col1 figure img {
+		width: 100%;
+		border: 1px solid #ccc;
+	}
+	.boardType05 > ul > li {
+		display: block;
+		width: 100% !important;
+	}
+	.boardType05 > ul > li + li {
+		padding: 25px 0 0 0;
+	}
+	.boardType05.board-col1 .info .txt {
+		font-weight: 400;
+	}
+    .boardType05.board-col1 figure {
+		float: none;
+		margin-bottom: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.boardType05.board-col1 figure img {
+		width: 100%;
+		border: 1px solid #ccc;
+	}
+	.boardType05 > ul > li {
+		display: block;
+		width: 100% !important;
+	}
+	.boardType05 > ul > li + li {
+		padding: 25px 0 0 0;
+	}
+	.boardType05.board-col1 .info .txt {
+		font-weight: 400;
+	}
+    .boardType07.board-col1 figure {
+		float: none;
+		margin-bottom: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.boardType07.board-col1 > ul > li > div + div {
+		padding: 0 0 25px 0;
+	}
+	.boardType07.board-col1 > ul > li {
+		padding-top: 0;
+	}
+	.boardType07 > ul > li {
+		display: block;
+		width: 100% !important;
+	}
+	.boardType07.board-col1 .info .tit {
+		display: block;
+	}
+	.boardType07.board-col1 .info .tit a {
+		display: block;
+		margin: 5px 0 0 0;
+		width: max-content;
+		font-size: 13px;
+	}
+	.boardType07.board-col1 .info .txt {
+		margin-top: 10px;
+		font-size: 13px;
+	}
+    .boardType08 {
+		margin-top: 30px;
+	}
+	.boardType08 figure {
+		float: none;
+		margin-bottom: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.boardType08 > ul > li {
+		width: 100%;
+		padding-top: 0;
+	}
+	.boardType08 .info {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.boardType08 .info .tit {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	.boardType08 .info .tit a {
+		display: block;
+		margin: 5px 0 0 0;
+		width: max-content;
+		font-size: 13px;
+	}
+	.boardType08 .info .ctg {
+		margin-bottom: 15px;
+	}
+	.boardType08 .info .txt a {
+		margin-right: 10px;
+	}
+	.boardType08 .info .txt br {
+		display: none;
+	}
+    .imgBoard.col3 ul li {min-width:calc(50% - 20px); max-width:calc(50% - 20px)}
+	.imgBoard.col4 ul {margin:0 -10px;}
+	.imgBoard.col4 ul li { min-width:calc(50% - 20px); max-width:calc(50% - 20px)}
+	.imgBoard.col4 ul li {margin: 0 10px 10px; min-width:calc(50% - 20px); max-width:calc(50% - 20px)}
+	.imgBoard ul li .info .tit {font-size: 1rem;}
+	.imgBoard ul li .info .tit.sizeL {font-size: 1.308em;}
+
+	[class^=boardType] > ul > li {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/* detaSearch */
+	.detaSearch {
+		padding: 30px !important;
+	}
+	.detaSearch.multiLangGroup {
+		padding:0 !important;
+	}
+	.detaSearch.vertical > div.checkArea {
+		display: block;
+	}
+	.detaSearch.vertical > div.checkArea > div {
+		display: block;
+		margin-right: 0;
+	}
+	.detaSearch.vertical > div.checkArea > div.w10,
+	.detaSearch.vertical > div.checkArea > div.w15,
+	.detaSearch.vertical > div.checkArea > div.w20,
+	.detaSearch.vertical > div.checkArea > div.w33 {
+		width: 100%;
+	}
+	.detaSearch.vertical > div.checkArea > div + div {margin-top:20px}
+
+    /*************************
+    **************************  board.css 940 End 
+    **************************/  
+
+    /*************************
+    **************************  detail.css 940 Start 
+    **************************/ 
+    .contTextWrap .txtArea p {
+		width:100%
+	}
+    .details .subFixed.on {
+		width: 100%;
+		left: 0;
+		max-width: 100%;
+		padding-right: 0;
+	}
+	.detailBody .scrollSectionWrap .bodySection.detailCont + .bodySection {
+		padding-top: 110px;
+		padding-bottom: 55px;
+	}
+	.detailBody .bodySection,
+	.detailBody .scrollSectionWrap .bodySection,
+	.detailBody .scrollSectionWrap .detailCont + .bodySection + .bodySection {
+		padding: 35px 0 55px;
+	}
+	.detailPagi .item > em {
+		left: 5px;
+	}
+	.detailPagi .item {
+		padding: 22px 10px 23px 100px;
+	}
+	/* boardCard */
+	.boardCard > ul > li {
+		width: 100%;
+	}
+	.boardCard > ul > li > a,
+	.boardCard > ul > li > div {
+		height: auto;
+	}
+	.textareaWrap textarea {
+		width: calc(100% - 60px);
+	}
+	.textareaWrap .btnReg {
+		width: 60px;
+	}
+/* 	.detailUtil {
+		position: inherit;
+		left: inherit;
+		bottom: inherit;
+	}
+	.detailUtil .utilBtnWrap {
+		float: none;
+	} */
+
+	/* pagiMove */
+	.pagiMove {
+		bottom: 20px;
+	}
+	.pagiMove ul {right:70px}
+	.pagiMove li {
+		width: 40px;
+		height: 40px;
+	}
+	.pagiMove li .icon {
+		width: 15px;
+		height: 15px;
+	}
+	.pagiMove .pagiLink {
+		width: 37.5px;
+	}
+	.pagiMove .pagiLink a {
+		padding-right: 10px;
+	}
+	.pagiMove .pagiLink .icon {
+		width: 11px;
+		height: 17.5px;
+	}
+    /*************************
+    **************************  detail.css 940 End 
+    **************************/ 
+
+    /*************************
+    **************************  button.css 940 Start 
+    **************************/     
+    .btn {
+		height: 40px;
+		padding: 0 25px;
+		line-height: 38px;
+	}
+	/* 아이콘형 */
+	.btnIcon {
+		padding: 0;
+	}
+	/* 아이콘 + 라벨형 */
+	.btnLabelIcon {
+		width: 40px;
+		min-width: auto;
+		height: 40px;
+		padding: 0;
+		border: 0;
+		border-radius: 50%;
+		line-height: 38px;
+		background-color: #ececec;
+	}
+	.btnLabelIcon .icon {
+		margin: 0 auto;
+	}
+	.btnLabelIcon span {
+		overflow: hidden;
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		border: none;
+		clip: rect(1px 1px 1px 1px);
+		clip: rect(1px,1px,1px,1px);
+	}
+	/* dateBtn */
+	.dateBtn {
+		min-width: 40px;
+		height: 40px;
+		padding: 0;
+		border: none;
+		text-indent: -999px;
+		background: #666 url(../../images/common/icon_date_w.png) no-repeat center / 15px auto;
+	}
+	.srchInput + .dateBtn {
+		margin-left: 5px;
+	}
+	/* btnWrap */
+	.btnWrap:not(.right) .btn {
+		width: 100%;
+		margin-left:0;
+		margin-right:0;
+	}
+	.btn.wFix {
+		min-width: 48%;
+	}
+    /*************************
+    **************************  button.css 940 End 
+    **************************/  
+
+    /*************************
+    **************************  form.css 940 Start 
+    **************************/      
+    .dateInputWrap .flex .dateInput {
+		width: auto
+	}
+	.dateInput .input {
+		height: 40px;
+		line-height: 38px;
+	}
+	/* 주소 검색 */
+	.formAddress .inBtn {
+		width: 100%;
+	}
+	.bSelect {
+		height: 40px;
+	}
+	.fSelect{
+		height: 40px;
+	}
+	.fSelect.sizeS {
+		height: 38px;
+    	line-height: 34px;
+	}
+	.input {
+		height: 40px;
+	}    
+    /*************************
+    **************************  form.css 940 End 
+    **************************/  
+
+    /*************************
+    **************************  heading.css 940 Start 
+    **************************/  
+    /* 20220105 모바일 공유하기 추가 */
+	/* .infoWrap .infoList > li {font-size:0;} */
+	/* .infoWrap .infoList > li > span {font-size:15px;} */
+	.infoWrap .infoList > li:not(.shareList, .infoViews) {display:none;}
+	.infoWrap .infoList > li:before {display:none;}
+	.infoWrap .infoList > li.shareList i.share02 {width:25px; height:20px; padding:0; margin:0; background: url(../../images/common/icon_sortBtn.png) no-repeat center center; background-size:25px;}
+	.heading .barList .shareList .layerWrap .btnDown + .item {top:36px; overflow:hidden; width:290px; padding:50px 25px 25px;}
+	.infoWrap .infoList > li > .layerWrap .item ul {display:flex; font-size:0; text-align:center;}
+	.infoWrap .infoList > li > .layerWrap .item ul.infoMobileList {display:flex; justify-content: center; gap:12px;}
+	.infoWrap .infoList > li > .layerWrap .item ul.shaerWarp {width:100%; margin-top:15px; justify-content: center; gap:12px; padding:0;}
+	.infoWrap .infoList > li > .layerWrap .item ul.shaerWarp + .url {display:none}
+	.shareBottom > button {display:none;}
+	.infoWrap .infoList > li > .layerWrap .item ul > li {width:25%; color:#000; padding:0; margin:0;}
+	.infoWrap .infoList > li > .layerWrap .item ul > li img {display:block; margin:0 auto 3px; width:35px;}
+	.infoWrap .infoList > li > .layerWrap .item ul > li a {font-size:14px;}
+	.infoWrap .layerWrap .btnIcon {top:10px; right:10px;}
+	/* 20220105 end */
+
+	.heading {
+		/* display: block; */
+	}
+	.heading.depth01 .title {
+		font-size: 22px;
+	}
+	.heading.depth01 > .title {
+		margin-bottom: 14px;
+	}
+	.heading .text {
+		line-height: 1.4;
+	}
+	.heading .item,
+	.heading .item.right {
+		/* width: 100%; */
+		/* text-align: left;
+		flex-direction: initial; */
+	}
+	.heading .item.right{
+		/* width: 100%; */
+		margin-top:10px
+	}
+	.heading .item > div {
+		display: inline-block;
+		/* display: flex; */
+		vertical-align: middle;
+		width: 100%;
+	}
+	.heading .item > div .bottom .barList {margin-top:-20px}
+	.heading .item.right .bottom .infoList {margin-top:0}
+	.heading .right .bottom {
+		position: inherit;
+		right: inherit;
+		bottom: inherit;
+		margin-left: 8px;
+		padding-bottom: 0;
+		height: auto;
+	}
+	.heading .right .bottom .utilBtnWrap {
+		margin-top: 0;
+	}
+	.heading .right .bottom .btnIcon {
+		margin-left: 8px;
+		height: auto;
+		line-height: initial;
+	}
+	.heading .btn.wFix {
+		min-width: 160px;
+		width:auto
+	}
+	/* depth01 */
+	.heading.depth01 {
+		margin:0 0 25px;
+	}
+	/* depth02 */
+	.heading.depth02 {
+		margin: 1rem 0 1rem;
+	}
+	.heading.depth02 .title {
+		/* font-size: 1.538em; */
+	}
+	.heading.depth02 .title br {
+		display: block;
+	}
+	/* depth03 */
+	.heading.depth03 {
+		margin: 30px 0 14px;
+	}
+	.heading.depth03 .title {
+		/* font-size: 1.308em; */
+	}
+	/* 타이포 */
+	/* section */
+	.section .grid .col + .col {
+		margin-top: 25px;
+	}
+	.section + .section {
+		margin-top: 25px;
+		padding-top : 28px;
+	}
+	.section .conTit {
+		margin: 15px 0 3px;
+	}
+	.boardHead + .section {
+		margin-top: 15px;
+	}
+	/* section > grid */
+	.grid .col .depth02 {
+		margin-top: 35px;
+	}
+	.grid .col .depth02:first-child {
+		margin-top: 0;
+	}
+	.section .table + .grid {
+		margin-top: 24px;
+	}
+	.section .grid .col .table {
+		width: 98%;
+	}
+	.list.type05 {
+		overflow:hidden;
+		margin-top: 6px;
+	}
+	.list.type05 > li {
+		width: 100%;
+	}
+	.list.type05 > li + li {
+		margin:11px 0 0 0;
+	}
+	.list.type08 > li {
+		display:block
+	}
+	.list.type08 > li strong {
+		display:block;
+		margin-bottom:6px
+	}
+	.heading.w60{
+		width: 100%;
+	}
+	.list.type07 + .list.type06,
+	.list.type07 li + .list.type06 {
+		text-indent: 0;
+	}
+    .heading.depth02 .title02 {
+		/* font-size: 1.5rem; */
+	}
+	.header .utilWrap.moVer {
+		display:block !important;
+	}
+    /*************************
+    **************************  heading.css 940 End 
+    **************************/   
+
+    /*************************
+    **************************  paging.css 940 Start 
+    **************************/      
+	.pagingWrap {margin-top:30px}
+	.paging .first, .paging .prev, .paging .next, .paging .last, .paging strong, .paging a {
+		width: auto;
+		margin: 0 10px
+	}
+    /*************************
+    **************************  paging.css 940 End 
+    **************************/     
+
+    /*************************
+    **************************  icon.css 940 Start 
+    **************************/      
+    .icon.headphon {
+		width: 18px;
+	}
+    /*************************
+    **************************  icon.css 940 End 
+    **************************/          
+
+    /*************************
+    **************************  tab.css 940 Start 
+    **************************/     
+    .tabList {
+		/* overflow-y: auto; */
+	}
+	.tabList ul {
+		/* overflow-x: auto; */
+    	white-space: nowrap;
+	}
+	.tabList li {
+		padding: 0 7px;
+	}
+	.tabList a {
+		padding: 0 7px;
+		font-size: 1.333em;
+		white-space: nowrap;
+	}
+	.tabList.type02 a {
+		/* font-size: 1rem; */
+	}
+	.tabList.type02 li {
+		margin: 0 5px
+	}
+	.tabList.type03 a {
+		height: 38px;
+    	line-height: 34px;
+	}
+    /*************************
+    **************************  tab.css 940 End 
+    **************************/ 
+    
+    /*************************
+    **************************  table.css 940 Start 
+    **************************/     
+	.halfTable {
+		display:block;
+	}
+	.halfTable .table th{
+		padding-left: 15px;
+	}
+	.halfTable .table td{
+		padding:10px 10px 10px 0;
+	}
+	.halfTable > div > p {
+		padding-bottom: 0;
+		/* font-size: 1.2rem; */
+	}
+	.halfTable > div {
+		margin-right: 0;
+	}
+	.halfTable > div + div {
+		margin-top: 30px;
+	}
+	.flex.hyphen.border > div {
+		padding-right: 20px;
+	}
+	.flex.hyphen.border .selectBox {
+		padding:0 16px 0 5px;
+		background:#fff url(../../images/common/icon_select.png) no-repeat right 5px center / 10px 6px;
+	}
+	.table th, .table td {
+		height: 55px;
+	}
+	.table .mobNone {
+		display: none;
+	}
+	.formTable .flex.mobBlock {
+		display: block;
+	}
+	.formTable .flex.mobBlock > * {
+		margin: 3px 0;
+	}	
+	.formTable + .heading.depthuseAgree02{
+		margin-top: 1.3077rem;
+	}
+	.table.v2 {overflow:hidden; overflow-x:auto}
+	.table.v2 table {width:auto; min-width:100%}
+	.table.v2 th,
+	.table.v2 td {white-space:nowrap}
+	.table.v2:after {display:none}	
+	.table.v3 > table {
+		min-width: 100%;
+	}	
+	.policyBox .half {
+		flex-direction: column;
+		margin: 10px -10px 0;
+	}
+	.policyBox .half > .table {
+		margin:0 10px;
+	}
+	.policyBox .half > .table + .table {
+		margin-top: 20px;
+	}    
+    /*************************
+    **************************  table.css 940 End 
+    **************************/     
+
+    /*************************
+    **************************  search.css 940 Start 
+    **************************/         
+	.srchInputArea .srchInput {
+		height: 40px;
+	}
+	.srchArea.type02 .srchWrap .checkbox{
+		margin-top: 1rem;
+		margin-left: 0;
+	}	    
+	.heading + .srchArea.type01 {
+		/* margin-top: -25px; */
+	}
+	/* input + button */
+	.srchInputArea > input {
+		height: 40px;
+	}
+	/* default */
+	.srchArea .srchBtn,
+	.srchArea .btnDetaSearch,
+	.srchArea .btnImgSearch {
+		min-width: 80px;
+	}
+	.srchArea .srchInput {
+		width: 100%;
+	}
+	.srchArea .btnWrap {
+		margin: 10px 0 0 0;
+		justify-content: flex-start
+	}
+	.srchArea .btnWrap .right {display:flex; width:100%; gap:10px; justify-content: end}
+	.detaSearch {
+		/* top: 105px; */
+	}
+	/* type01 */
+	.srchArea.type01 {
+		margin-bottom: 37px;
+	}
+	.srchArea.type01 .srchWrap {
+		display: block;
+	}
+	.srchArea.type01 .srchWrap .srchInputArea {
+		width: 100%;
+	}
+	.srchArea.type01 .srchWrap .srchInputArea.science {
+		margin: 12px 0 14px;
+	}
+	/* type02 */
+	.srchArea.type02 .srchWrap {
+		display: block;
+	}
+	.srchArea.type02 .srchWrap .srchInputArea .srchInput,
+	.srchArea.type02 .srchWrap .srchInputArea {
+		width: 100%;
+	}
+	/* srchInputArea type02 */
+	.srchInputArea.type02 .srchInput {
+		/* font-size: 1.6rem; */
+	}
+	/* total*/
+	.angleSrch {
+		display: block;
+		overflow: hidden;
+	}
+	.angleSrch .srchSelect {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.angleSrch .srchInputArea {
+		padding-right: 150px;
+	}
+	.angleSrch label {
+		float: right;
+	}
+	.angleSrch .detailBtn {
+		width: 100%;
+		margin-top: 10px;
+		margin-left: 0;
+		padding-left: 20px;
+	}
+	.multiWrite {
+		width: 30px;
+		height: 30px;
+		font-size: 0;
+		background: url("../../images/common/icon_multiWrite.png") no-repeat center center;
+		background-size: 30px;
+		right: 4%;
+		/* background: url(../../images/common/icon_multi.png) no-repeat left center /auto; */
+	}
+	.multiWrite  span{
+		/* width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+		display: inline-block; */
+	}
+	/* 상세검색 공통 */
+	.detaSearch .tabList,
+	.detaSearch .tabList > ul {
+		overflow: hidden;
+	}
+	.detaSearch .itemResult .btnWrap .btn {
+		width: 100%;
+		margin-left: 0;
+	}
+	.detaSearch .btnDel {
+		height: 20px;
+		line-height: 20px;
+	}
+	.detaSearch .list > li {
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+	/* 상세검색 이미지 검색 */
+	.imgList {
+		/* margin-left: 0; */
+	}
+	.imgList li {
+		/* padding: 5px; */
+	}
+
+	/* .imgListWrap .titAll a,  */
+	.imgList li span{
+		min-width: 95px;
+		height: 35px;
+	}
+	.imgListWrap .titAll p,.imgList li span {
+		line-height: 14px;
+	}
+	.imgList .ctg {
+		/* margin-top: 6px; */
+	}
+	.detaSearch .itemResult .listWrap,
+	.detaSearch.imgGroup .itemResult .listWrap {
+		height: auto;
+	}
+	/* 이미지 검색 아이콘 */
+	.srchIcon {
+		width: 24px;
+		height: 24px;
+		background-size: auto 225px;
+	}
+	.srchIcon.i02 {
+		background-position: 0 -25px;
+	}
+	.srchIcon.i03 {
+		background-position: 0 -50px;
+	}
+	.srchIcon.i04 {
+		background-position: 0 -75px;
+	}
+	.srchIcon.i05 {
+		background-position: 0 -100px;
+	}
+	.srchIcon.i06 {
+		background-position: 0 -125px;
+	}
+	.srchIcon.i07 {
+		background-position: 0 -150px;
+	}
+	.srchIcon.i08 {
+		background-position: 0 -175px;
+	}
+	.srchIcon.i09 {
+		background-position: 0 -200px;
+	}
+	.srchIcon.i10 {
+		background-position: -50px 0;
+	}
+	.srchIcon.i11 {
+		background-position: -50px -25px;
+	}
+	.srchIcon.i12 {
+		background-position: -50px -50px;
+	}
+	.srchIcon.i13 {
+		background-position: -50px -75px;
+	}
+	.srchIcon.i14 {
+		background-position: -50px -100px;
+	}
+	.srchIcon.i15 {
+		background-position: -50px -125px;
+	}
+	.imgList .active .srchIcon {
+		background-position: -25px 0;
+	}
+	.imgList .active .srchIcon.i02 {
+		background-position: -25px -25px;
+	}
+	.imgList .active .srchIcon.i03 {
+		background-position: -25px -50px;
+	}
+	.imgList .active .srchIcon.i04 {
+		background-position: -25px -75px;
+	}
+	.imgList .active .srchIcon.i05 {
+		background-position: -25px -100px;
+	}
+	.imgList .active .srchIcon.i06 {
+		background-position: -25px -125px;
+	}
+	.imgList .active .srchIcon.i07 {
+		background-position: -25px -150px;
+	}
+	.imgList .active .srchIcon.i08 {
+		background-position: -25px -175px;
+	}
+	.imgList .active .srchIcon.i09 {
+		background-position: -25px -200px;
+	}
+	.imgList .active .srchIcon.i10 {
+		background-position: -75px 0;
+	}
+	.imgList .active .srchIcon.i11 {
+		background-position: -75px -25px;
+	}
+	.imgList .active .srchIcon.i12 {
+		background-position: -75px -50px;
+	}
+	.imgList .active .srchIcon.i13 {
+		background-position: -75px -75px;
+	}
+	.imgList .active .srchIcon.i14 {
+		background-position: -75px -100px;
+	}
+	.imgList .active .srchIcon.i15 {
+		background-position: -75px -125px;
+	}
+	/* 통합검색 페이지 */
+	.serchContent .srchSection {
+		padding: 30px 0;
+	}
+	.serchContent .boardCate {
+		margin-bottom: 38px;
+	}
+	.srchSection .btnMore {
+		top: 37px;
+	}
+	.boardType03 > ul > li {
+		overflow: hidden;
+		width: 100%;
+	}
+	.boardType03 > ul > li + li {
+		margin-top: 20px;
+	}
+	.boardType03 figure {
+		float: none;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	.boardType03 .info {
+		float: none;
+		width: 100%;
+		max-width: 100%;
+		margin-top: 10px;
+		padding-left: 0;
+	}
+	.boardType03 .location {
+		display: inline-block;
+		margin-bottom: 17px;
+	}
+	.boardType03 .tit {
+		/* font-size: 1.2rem; */
+	}
+	.boardType03 .barList {
+		margin-top: 10px;
+	}
+	.rowBoard > ul > li {
+		padding: 20px 0;
+	}
+	.rowBoard > ul > li + li {
+		border-top: 1px solid #ccc;
+	}
+	.rowBoard > ul > li:first-child {
+		padding-top: 0;
+	}
+	.rowBoard > ul > li:last-child {
+		padding-bottom: 0;
+	}
+	.rowBoard .tit {
+		margin-top: 10px;
+	}
+	/* 스마트 검색 (팝업)*/
+	.dialogSmart .dialogBody,
+	.dialogSmart .dialog.sizeL .dialogBodyInner {
+		height: calc(90vh - 90px);
+		max-height: inherit;
+	}
+	.dialogSmart .formGroup.formGroupCol {
+		display: block;
+	}
+	.dialogSmart .formGroup.formGroupCol .fgList {
+		margin: 20px 0;
+		width:100% !important;
+	}
+	.dialogSmart .formGroup.formGroupCol .fgList#group2_3,
+	.dialogSmart .formGroup.formGroupCol .fgList#group2_3,
+	.dialogSmart .formGroup.formGroupCol .fgList#group2_3,
+	.dialogSmart .formGroup.formGroupCol .fgList#group2_1,
+	.dialogSmart .formGroup.formGroupCol .fgList#group2_2,
+	.dialogSmart .formGroup.formGroupCol .fgList#group2_3 {
+		width:100%;
+	}	
+	.dialogSmart .formGroup.formGroupCol .fgList:first-child {
+		margin-top: 0;
+	}
+	.smartResult .barList li {
+		font-size: 1.333rem;
+	}
+	.smartResult .barList li:before {
+		height: 15px;
+	}
+	.dialogSmart .fgList:nth-child(3),
+	.dialogSmart .fgList:nth-child(4) {
+		width: 100%;
+	}
+    /*************************
+    **************************  search.css 940 End 
+    **************************/   
+
+    /*************************
+    **************************  common.css 940 Start 
+    **************************/       
+	.contSlide .info .btnIcon {
+		margin-top: 0;
+	}
+	.contSlide .info .btnIcon i.headphon{
+		vertical-align: middle;
+	}    
+	body {
+		/* font-size: 0.867rem; */
+	}
+	.total {
+		text-align: left;
+	}
+
+	.contSlide.recentContents .swiper-slide figure {max-height:inherit}
+	.contSlide.recentContents .swiper-slide figure.media:before {display:none}
+	.contSlideWrap {
+		margin: 0 -15px;
+		padding: 0 15px;
+	}
+	.contSlide {
+		width: 100%;;
+	}
+	.contSlide .info span {
+		/* font-size: .867rem; */
+	}
+	.contSlide .info p {
+		/* font-size: 1rem; */
+	}
+	.contSlide .swiper-slide img {
+		width: 100%;
+	}
+	.contSlide.contSlideL .swiper-slide figure,
+	.contSlide .swiper-slide figure {
+		height: auto;
+		max-height: initial;
+	}
+	.suggestSection .swiper-slide figure img {position:static; max-width:100%; width:100%; transform:translate(0, 0); -webkit-transform:translate(0, 0); -moz-transform:translate(0, 0)}
+	/* gird */
+	.grid > .col {
+		width: 100%;
+	}
+	.flagWrap {
+		margin-top: 10px;
+	}
+	/* .audioWrap {
+		margin-top: 20px;
+		padding-left: 0;
+	}
+	.audioWrap audio {
+		width: 100%;
+	} */
+	/* progList */
+	.progList > li {
+		width: 100%;
+		/* padding: 17px 10px; */
+	}
+	.progList .listInner {
+		padding: 20px;
+	}
+	.progList .tit {
+		margin-bottom: 17px;
+		/* font-size: 1.6rem; */
+	}
+	/* progList type02*/
+	.progList.type02 {
+		margin-top: 15px;
+	}
+	.progList.type02 > li {
+		width: 100%;
+		padding: 17px 10px;
+	}
+	.progList.type02 .listInner {
+		padding: 20px;
+	}
+	.progList.type02 .tit {
+		margin-bottom: 17px;
+		font-size: 1.3rem;
+	}
+	/* contSlideRowCol2 */
+	.contSlideRowCol2 .info .tit {
+		font-size: 1rem;
+	}
+	.contSlideRow .swiper-slide figure,
+	.contSlideRow .info,
+	.contSlideRowCol2 .swiper-slide figure,
+	.contSlideRowCol2 .info {
+		width: 100%;
+		height: auto;
+	}
+	.contSlideRow .info,
+	.contSlideRowCol2 .info {
+		margin-top: 10px;
+		min-height: auto;
+		padding: 0;
+	}
+	.contSlideRowCol2 .info .btn {
+		position: inherit;
+	}
+	.contSlideRowCol2 .info .btn {
+		margin-top: 10px;
+	}
+
+	/* accordion */
+	.accordion {
+		margin-top: 15px;
+	}
+	.accBody .tit {
+		font-size: 1rem;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.accBody .tit:before {
+		content: 'Q';
+		display: inline-block;
+		font-weight: 600;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		left: 5px;
+	}
+	.accBody .tit .icon {
+		position: absolute;
+		top: 50%;
+		right: 5px;
+		transform: translateY(-50%);
+	}
+	.accCont {
+		padding: 25px 35px;
+		background-color: #f8f8f8;
+	}	
+	.sortable .info {
+		width: 55%;
+	}
+	.sortable .btnControl {
+		margin-top: 20px;
+	}    
+	.grid > .col strong.lock:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "";
+		width: 90px;
+		height: 90px;
+		background: url("../../../asset/images/policy/icon_01_02_M.png") no-repeat center/100%;
+	}
+	.grid > .col strong.lock.un:before {
+		background-image: url("../../../asset/images/policy/icon_01_01_M.png");
+	}
+	.grid > .col strong.lock {
+		padding: 92px 0 0;
+	}    
+    /*************************
+    **************************  common.css 940 End 
+    **************************/ 
+
+    /*************************
+    **************************  main.css 940 Starnt 
+    **************************/     
+	.mainLayerPopup{
+		left: 50%;
+		top: 1%;
+		transform: translate(-50%,0);
+		width: 92%;
+		max-width: 92%;
+	}	
+	/*btnwrap */
+	.btnWrap {
+		display: flex;
+		justify-content: space-between;
+		gap:10px;
+	}
+
+	.details + .btnWrap {justify-content:end}
+	/* typo */
+	.mImgSection .tit,
+	.notiBnrSection .tit {
+		/* font-size: 1.867rem;  */
+		/* 28px */
+		word-break: keep-all;
+	}
+	.mainSection.linkSection .boardType01 .info .tit,
+	[class*=mainSlide] .info .tit
+	/* .mImgSection span  */
+    {
+		/* font-size: 1.333rem;  */
+	}
+	/* mainSection */
+	.mainSection {
+		padding: 20px 0 60px;
+	}
+	.mImgSection {
+		/* padding-top: 0; */
+	}
+	.mainSection .titleWrap {
+		margin-bottom: 20px;
+	}
+	.mbsSection > div,
+	.notiBnrSection .btnWrap,
+	.notiBnrSection > div {
+		float: none;
+		width: 100%;
+	}
+	.mImgSection .info{
+		flex-direction: column;
+	}
+	.mImgSection .info > div{}
+	.mbsSection .btn{
+		float: none;
+	}
+	.mImgSection .info .btn{
+		margin-top: 1rem;
+	}
+	.mbsSection {
+		/* padding-bottom: 0; */
+	}
+	.mbsSection .btn {
+		margin: 30px 0 0 0;
+	}
+	.mainSection .tabList {
+		display: none;
+	}
+	.mainSection.linkSection .boardType01 > ul > li {
+		width: 100%;
+	}
+	.fullSection .mainInner {
+		/* margin: 0 -15px; */
+	}
+	.fullSection .titleWrap,
+	.fullSection .contSlide .info {
+		/* padding: 0 15px; */
+	}
+	.notiBnrSection {
+		margin-bottom: 0;
+		padding-bottom: 30px;
+	}
+	.notiBnrSection .tit {
+		margin-top: 0;
+   	}
+	.noticeSection .noticeWrap {
+		padding: 0;
+		margin: 0;
+	}
+	.notiBnrSection .btnWrap {
+		margin-top: 20px;
+		text-align: center;
+		gap:10px;
+	}
+	.noticeSection .titleWrap {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+	}
+	.noticeSection li a {
+		font-size:15px;
+	}
+	.notiBnrSection .bottom {
+		position: inherit;
+		bottom: inherit;
+		margin-top: 20px;
+	}
+	/* slide */
+	.mainSlide02,
+	.mainSlide03 {
+		/* padding: 0 15px; */
+	}
+	.mainSlide02 .swiper-slide,
+	.mainSlide03 .swiper-slide {
+		min-width: 80%;
+	}
+	.mainSlide01 .swiper-slide figure {
+		display: flex;
+    	height: 375px;
+    	justify-content: center;
+	}
+	.mainSlide01 .swiper-slide figure img {
+		max-width: inherit;
+		width: auto;
+	}
+	.mainSlide02 .swiper-slide,
+	.mainSlide04 .swiper-slide,
+	.mainSlide05 .swiper-slide {
+		max-width: 100%;
+	}
+	.mainSlide03 .swiper-slide {
+		max-width: 100%
+	}
+	.mainSlide03 .swiper-slide figure {
+		height: auto;
+	}
+	/* placeSection */
+	.placeSection .boardType01 ul {
+		margin: 0;
+	}
+	.placeSection .boardType01 .boardInner {
+		padding: 0;
+	}
+	.placeSection .boardType01 > ul > li {
+		width: 100%;
+	}
+	/* linkSection */
+	.linkSection .boardType01 > ul {
+		margin: 0;
+	}
+	.linkSection .boardType01 > ul > li {
+		padding: 0;
+	}
+	.mainSection.linkSection .boardType01 .info .tit {
+		/* display: block; */
+		width: calc(100% - 80px);
+	}
+
+	/* unslide */
+	/* .mainSlide01 .swiper-wrapper, */
+	/* .mainSlide04 .swiper-wrapper,
+	.mainSlide05 .swiper-wrapper {
+		display: block;
+	} */
+	.mainSlide01 .swiper-slide,
+	.mainSlide01 .swiper-slide figure,
+	.mainSlide04 .swiper-slide,
+	.mainSlide04 .swiper-slide figure,
+	.mainSlide05 .swiper-slide,
+	.mainSlide05 .swiper-slide figure {
+		width: 100%;
+	}
+	/* .mainSlide01 .swiper-slide + .swiper-slide, */
+	.mainSlide04 .swiper-slide + .swiper-slide,
+	.mainSlide05 .swiper-slide + .swiper-slide {
+		margin-top: 2rem;
+	}
+	/* noticeSticky */
+	.noticeSticky {
+		bottom: 2%;
+		width:calc(100% - 30px);
+		/* max-width: 345px; */
+		/* left: 15px; */
+	}
+	.noticeSticky.active {
+		transform: translateX(15px);
+	}    
+	
+	/* .slide2Rows .swiper-slide a{width: 49%;} */
+	.programSection .boardCate ul{padding-bottom:10px;}
+	.mainSection .tabList.inherit{display:block;width:100%;/*overflow-x:auto;*/}
+	.mainSection .tabList.inherit li {padding-bottom: 10px;}
+	.feelContents.contSlide .swiper-slide figure {max-width: 100%;}
+	
+	.mainSlide01 .swiper-slide figure{
+		height: auto;
+	}
+	.mainSlide01 .swiper-slide figure img{
+		max-width: 100%;
+	}
+	.midBannerSection {
+		padding:0;
+	}
+	.midBannerSection .midBanner a{
+		background: url(../../images/@dummy/m_dm_mid_banner.png) no-repeat center center; background-size: contain;
+	    flex-direction: column;
+    	padding: 40px 0;
+		height:auto
+	}
+	.midBannerSection .midBanner .btn{
+		margin-right: 0;
+	}    
+	.placeSection .boardInner .info .tit {font-size:20px;}
+	.placeSection .boardType01 > ul > li figure img {width:100%;}
+    /*************************
+    **************************  main.css 940 End 
+    **************************/     
+    
+    /*************************
+    **************************  content.css 940 Start 
+    **************************/         
+    .joinAgree .agreeCon .agreeTxt {
+        padding-left: 10px;
+    }      
+    .programInfoList {width: 50%}
+    .sortWrap{
+        display: flex;
+    }
+    .sortWrap .sortCont > div{
+        width: auto;
+        margin-top: 0;
+        display: flex;
+    }    
+    .userGalleryContent .mySection .contSlideWrap{
+        padding: 0;
+    }
+    .userGalleryContent .mySection .contSlide .swiper-slide img{
+        width: auto;
+    }
+    .userGalleryContent > .inner{
+        flex-direction: column;
+    }
+    .userGalleryContent .lnbWrap{
+        display: block;
+        width: 100%;
+    }
+    .userGalleryContent .lnbWrap .barList .shareList{
+        padding-left: 10px;
+    }
+    .userGalleryContent .lnbWrap .barList .shareList:before{
+        display: inherit;
+    }
+    .userGalleryContent .lnbWrap,
+    .userGalleryContent .mySection{
+        padding: 3rem 2rem;
+    }    
+    .multiLangTable .whereSrch{
+        align-items: baseline;
+    }
+    .multiLangTable .whereSrch .col {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .multiLangTable .whereSrch .col > *:not(.whereSelect){
+        flex: auto;
+    }
+    .multiLangTable .whereSrch .col > * + *{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .multiLangTable tr{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .multiLangTable tr th,.multiLangTable tr td{
+        width: 100%;
+        height: auto;
+    }    
+    .toggleList > ul > li > a {padding:10px 40px 10px 10px; line-height:26px; /*font-size:15px;*/ background-position:right 15px center}
+	.toggleList > ul > li > div {padding:15px 10px}
+    .archiveWrap .lnbArea .searchArea {padding:10px; margin-bottom:20px}
+	.archiveWrap .lnbArea .searchArea input {padding:0 40px 0 15px; height:40px}
+	.archiveWrap .lnbArea .searchArea a {top:10px; right:10px}
+	.archiveWrap .lnbArea .lnb {left:10px}
+	.archiveWrap .lnbArea .lnb dl {left:0; bottom:50px; width:300px; background:#f7f7f7}
+	.archiveWrap .lnbArea .lnb dl dt {padding:15px 20px; /*font-size:16px*/}
+	.archiveWrap .lnbArea .lnb dl dt .btnClose {width:45px; height:62px; background-size:10px}
+	.archiveWrap .lnbArea .lnb dl dd {padding:20px}
+	.archiveWrap .lnbArea .lnb dl dd ul li + li {margin-top:10px}
+	.archiveWrap .lnbArea .lnb dl dd ul li a {padding:0 0 0 24px; line-height:24px; /*font-size:15px*/}
+	.archiveWrap .lnbArea .lnb dl dd ul li a:before {top:5px; left:0; width:14px; height:14px}
+	.archiveWrap .lnbArea .lnb dl dd ul li ul {margin-top:10px; padding-left:24px}
+	.archiveWrap .lnbArea .lnb dl dd ul li ul:before {top:-25px}
+	.archiveWrap .lnbArea .lnb dl dd ul li ul li:before {left:-18px; top:12px; width:18px}
+	.archiveWrap .lnbArea .lnb dl dd ul li ul li:last-child a:after {left:-24px; top:13px; width:24px}
+	.archiveWrap .lnbArea .lnb dl dd ul li.curr > a:before {background:#000}
+	.archiveWrap .lnbArea .lnb dl dd ul li.curr > ul {display:block}
+	.archiveWrap .lnbArea .lnb dl dd > ul:before {top:19px; left:6px}
+	.archiveWrap .lnbArea .lnb dl dd > ul > li > ul > li.curr:after {top:19px; left:6px}
+	.archiveWrap .contArea .line + .line {margin-top:40px; padding-top:30px}
+    /* 미술은행 정부미술은행 */
+    .imgWrap img {
+        width: 100%;
+    }
+    .boardBox {
+		margin-top: 30px;
+	}
+	.boardBox > ul {
+		margin: -15px;
+	}
+	.boardBox > ul > li {
+		min-width: calc(50% - 30px);
+		max-width: calc(50% - 30px);;
+		margin: 15px;
+	}    
+    .artPresent {
+        display: block;
+        padding-top: 18px;
+    }
+    .artPresent .cardContent {
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 50%;
+    }
+    .artPresent .info {
+        margin-left: 0;
+    }
+    .artPresent .info > p {
+        word-break: keep-all;
+        /* font-size: 15px; */
+        line-height: 20px;
+    }
+    .artPresent .info > p > span {
+        color: #e94040;
+    }
+    .artPresent .info > p + p {
+        margin-top: 10px;
+        /* font-size: 13px; */
+    }    
+    .friendList ul li {
+        /* padding: 11px; */
+    }
+    .friendList ul li p {
+        padding: 0 11px;
+    }
+    .friendList ul li span br {
+        display: none;
+    }
+    .friendList.type02 ul {
+        display: block;
+    }
+    .friendList.type02 ul li p {
+        /* width: 60%; */
+    }
+    .friendList ul li span {
+        /* font-size: 13px; */
+    }
+    .friendList.type02 ul li:not(:first-child){
+        margin-top: 2rem;
+    }   
+    .policyBox + .policyBox {
+        margin-top:15px
+    }
+    .policyBox p {
+        line-height:22px; 
+		/* font-size:13px */
+    }
+    .policyBox em {
+        line-height: 22px;
+        /* font-size: 13px; */
+    }
+    .policyBox ul li {
+        line-height: 22px;
+        /* font-size: 13px; */
+    }
+    .policyBox img {
+        width: 100%;
+    }    
+    .policyBox02 + .policyBox02 {
+        margin-top: 18px;
+    }
+    .policyBox02 strong {
+        display:block;
+    }
+    .policyBox02 .depth01 strong {
+        /* font-size: 13px; */
+        line-height: 23px;
+    }
+    .policyBox02 .depth02 strong {
+        margin-top: 18px;
+        line-height: 23px;
+        /* font-size: 13px; */
+    }
+    .policyBox02 p,
+    .policyBox02 ul li {
+        /* font-size: 13px; */
+        line-height: 23px;
+    }
+    .policyBox02 .depth03.style01 > ul > li {
+        padding-left: 19px;
+    }
+    .policyBox02 .depth03.style01 > ul > li > ul > li:before {
+        top: 8px;
+        left: -18px;
+    }
+    .policyBox02 .depth03.style01 > ul > li > ul > li > ul > li:before {
+        left: -18px;
+        top: 6px;
+    }
+    .policyBox02 em {
+        line-height: 22px;
+        /* font-size: 13px; */
+    }    
+    .tabContent02 > .innerTabButton02 > .left > p {font-size:16px;}
+    .tabContent02 > .innerTabButton02 > .right .btn {font-size:14px;}
+    .innerTabContent02 .ifraWrap > .infoBox .tbox {flex-wrap:wrap;}
+    .innerTabContent02 .ifraWrap > .infoBox .tbox > div {flex:0 0 100%;}
+    .innerTabContent02 .ifraWrap > .infoBox .tbox > div.left p:not(:last-child) {vertical-align:middle;}
+    .innerTabContent02 .ifraWrap > .infoBox .tbox > div.left p:last-child {display:block; margin:15px 0;}
+    .innerTabContent02 .ifraWrap > .infoBox .tbox > div.right {margin-left:0;}   
+
+    .section + .orgSection {margin-top:50px;}
+    .orgSection .titArea h4 {font-size:22px;}
+    #orgSection02 .cwra > .cbox strong {font-size:16px; margin:0 0 5px;}
+    .orgSection ol li {font-size:14px;}
+    #orgSection03 .cbox > div.right .text01 {font-size:16px;}
+    #orgSection03 .cbox > div.right .text02 {word-break:keep-all;}
+    #orgSection03 .cbox > div.right .text02 br {display:none;}
+    #orgSection04 .orgTable {max-width:100%;}
+    #orgSection04 .orgTable tr th {font-weight:400;}
+    #orgSection04 .orgTable tr th, #orgSection04 .orgTable tr td {word-break:keep-all;}
+    #orgSection04 .pcVer {display:none;}
+    #orgSection04 .moVer {display:block;}
+    .orgSection ol li {padding:1px 0 1px 10px;}     
+
+    .supportWrap01 {
+        margin-top: 15px;
+    }
+    .supportWrap01 ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .supportWrap01 ul li {
+        width: calc(100% / 3);
+    }
+    .supportWrap01 ul li + li {
+        margin-left: 0;
+    }
+    .supportWrap01 ul li img {
+        display: block;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .supportWrap01 ul li span {
+        margin-bottom: 20px;
+    }
+    .supportWrap02 ul {
+        flex-wrap: wrap;
+        margin-left: -10px;
+    }
+    .supportWrap02 ul li {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width: calc(100% / 3);
+    }
+    .supportWrap02 ul li {
+        padding: 0 0 10px 10px;
+    }
+    .supportWrap02 ul li img {
+        width: 100%;
+    }
+    .supportWrap02 ul:last-child {
+        margin-left: -10px;
+    }
+    .supportWrap02 ul:last-child li {
+        padding: 0 0 10px 10px;
+    }
+    .supportWrap03{
+        flex-direction: column;
+        background: #fff;
+    }
+    .supportWrap03:before{
+        display: none;
+    }
+    .supportWrap03 .item:first-child{
+        background: #fff;
+        padding: 0;
+    }
+    .supportWrap03 .item:nth-child(2){
+        margin-top: 2rem;
+        background-color: #f1f1f1;
+    }
+    .imgDetail {display:block; max-width:100%; height:auto}
+	.imgDetail figure img {width:100%}
+	.squareWrap div {margin:0 20px; padding:30px 30px 150px 30px; min-width:calc(50% - 40px); max-width:calc(50% - 40px)}
+	/* .squareWrap div strong {font-size:31px} */
+	.squareWrap div a {bottom:30px; right:30px}    
+
+	.colorList .w50 {min-width:inherit !important; max-width:inherit !important}
+	.colorList .w100 {min-width: 50% !important; max-width: 50% !important;}
+	.colorList .w100p {min-width:100% !important; max-width:100% !important}
+	.colorList {margin-top:30px}
+	.colorList ul {display:flex; flex-direction:row; flex-wrap:wrap}
+	.colorList ul li {flex:1; position:relative; padding-top:20px; max-width:50%; min-width:50%}
+	.colorList ul li .cInfo:before {width:120px; height:120px}
+	.colorList ul li > p {margin:15px 0; line-height:25px; font-size:18px; font-weight: 600;}
+	.colorList ul li > div:not(.cTit) {margin-top: 55px;}
+	.colorList ul li .cInfo strong,
+	.colorList ul li .cInfo P {font-size:13px; color:#000}    
+
+	.sitemap > li {max-width:33.3333%; min-width:33.3333%}
+	.sitemap > li:after {top:85px}
+	.sitemap > li dl dt a {padding-left:0}
+	.sitemap > li dl dd {padding:20px 20px 80px 0}
+	.sitemap > li dl dt a {line-height:85px; /*font-size:26px*/}
+	/* .sitemap > li dl dd ul li a {font-size:18px}     */
+
+	/* 2022-02-03 추가 */
+	.imgBoard.col5 ul {
+		max-width:100%;
+		margin:0px; 
+		padding:0px;
+		justify-content:space-between;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	.imgBoard.col5 ul li {
+		margin:0 0 2%;
+		padding:0px;
+		width:49%;
+		height:auto;
+	}
+	.imgBoard.col5 ul li + li {
+		margin-left:0;
+	}
+	.greetingSection .heading.depth02.mobileVer {
+		margin-top:10px;
+	}
+	.heading.depth03 .title {
+		font-size:18px;
+	}
+	.imgBoard.col5 ul li p {
+		font-size:15px;
+	}
+
+	.imgBoard.col6 ul {
+		max-width:100%;
+		margin:0px; 
+		padding:0px;
+		justify-content:space-between;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	.imgBoard.col6 ul li {
+		margin:20px 0px;
+		padding:0px;
+		width:100%;
+		height:auto;
+	}
+	.imgBoard.col6 ul li + li {
+		margin-left:0px;
+	}
+	.imgLayout.S1 ul {
+		max-width:100%;
+		margin:0px; 
+		padding:0px;
+		justify-content:space-between;
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+	}
+	.imgLayout.S1 ul li {
+		margin:0 0 2%;
+		padding:0px;
+		width:49%;
+		height:auto;
+	}
+	.imgLayout.S1 ul li p {
+		margin:10px 0 10px 0;
+	}
+	.list.type11 > li {
+		float:none;
+	}
+	.list.type11 > li + li {
+			margin:4px 0 0;
+	}
+	.heading.depth01.borderX .title {
+		/* margin-bottom:12px; */
+	}
+	.imgBeforeAfter ul .beforeArea {
+		margin:0 20px;
+	}
+	.list.type04.friend > li {
+		display: block;
+	}
+	.list.type04.friend > li strong {
+		margin-bottom: 10px;
+	}
+
+
+
+	.reservationWrap .cbox ul {flex-wrap: wrap; gap:15px;}
+	.reservationWrap .cbox ul li {flex:1 100%;}
+
+	.tableTopText {margin:0 0 30px}
+	.mobileScrollSection table input,
+	.mobileScrollSection table select {min-width:100px;}
+
+	.nameInput .nameBox .w160 {max-width:100%;}
+	html[class*=ie] body .dateInputWrap .flex .dateInput {width:150px;}
+	.archiveResultList .listBar {display:block;}
+	.archiveResultList .listBar li {display:inline-block;}
+
+
+	.mainSlide01 .swiper-slide figure img {display:none;}
+	.mainSlide01 .swiper-slide figure img + img {display:block;}
+
+	.mainSection.todaySection .titleWrap .btnMore {top:31px;}
+    .srchArea {margin-bottom:30px;}
+	.inner + .btnWrap {margin-top:30px; padding:0 10px;}
+
+	.contItem:not(:first-child){
+        margin-top: 2rem;
+    }
+    .contItem{
+        flex-direction: column;
+    }
+	.sectionList .contList .contItem {
+		width:100%;
+		margin-top:0;
+	}
+	.sectionList .contList .contItem:not(:first-child) {
+		margin-top:40px;
+	}
+	.contItem .cont {
+		margin-top:20px;
+		margin-left:0;
+	}
+	.sectionList.publicationSection figure img {
+		max-width:200px;
+		display:block;
+		margin:0 auto;
+	}
+	.whereSrch .multiWrite {display:none;}
+	.subMenuWrap + .srchArea {margin-top:0;}
+	.box {padding:15px 0;}
+	html body .dialogSmart .formGroup.formGroupCol .fgList {width:100%;}
+	.tabList.type01 {
+		margin:0 0 25px;
+	}
+	#memberAddContentMov .formGroup h3 {width:calc(100% - 200px);}
+	#memberAddContentMov .formGroup .toggler {width:200px; text-align:right;}
+	.artInfoWrap {width:80%;}
+	.myGalleryList ul li a figure.thumb img {width:auto; max-height:280px;}
+
+	div:not(.imgAutoWrap) .barList {display:block; text-align:right;}
+	div:not(.imgAutoWrap) .barList > li {display:inline-block;}
+	.heading .item:first-child .barList {text-align:left;}
+	.barList .layerWrap .shareBottom > ul {display:inline-block;}
+	.barList .layerWrap .shareBottom > ul > li {display:inline-block;}
+	.barList .layerWrap .shareBottom > a {display:inline-block;}
+
+	.container #content .notiBnrSection {margin-top:0; margin-bottom:0; padding-bottom:20px;}
+	html body #wrap .container #content .inner .swiper-button-prev:after, html body #wrap .container #content .inner .swiper-button-next:after {
+		width:40px;
+		height:40px;
+		right:0;
+	}
+	html body #wrap .container #content .inner .swiper-button-prev:before, html body #wrap .container #content .inner .swiper-button-next:before {
+		left:55%;
+	}
+	.header .utilWrap.moVer + .utilWrap {margin-top:0;}
+	.introduceInfoBox .tbox {padding:0;}
+	.srchMobileScroll .switchContWrap .space {width:auto;}
+	.digitalViewBottomSlide figure img {
+		width: auto;
+	}
+	.right select + .btn {display:none}
+	/*************************
+    **************************  content.css 940 End 
+    **************************/       
+}
+
+/***************************************************************
+************************************************    850    ****
+****************************************************************
+*/
+@media screen and (max-width:850px) {
+    /*************************
+    **************************  content.css 850 Start 
+    **************************/      
+    .useProcess > li{
+        width: 7.7rem;
+    }
+    .useProcess > li:not(:last-child){
+        margin-right: 5%;
+    }
+    .importTextTd .tips{
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }    
+    /*************************
+    **************************  content.css 850 End 
+    **************************/           
+}
+
+
+
+/***************************************************************
+************************************************    820    ****
+****************************************************************
+*/
+@media screen and (max-width:820px) {
+    /*************************
+    **************************  content.css 820 Start 
+    **************************/         
+    .appreciationProgram > ul > li{
+        flex-direction: column;
+    }
+    .appreciationProgram .info{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    /*************************
+    **************************  content.css 820 End 
+    **************************/         
+}
+
+
+/***************************************************************
+************************************************    810    ****
+****************************************************************
+*/
+@media screen and (max-width:810px) {
+    /*************************
+    **************************  content.css 810 Start 
+    **************************/           
+    .sortWrap{
+        flex-direction: column;
+    }
+    .sortCont{
+        margin-left: 0;
+    }
+    .sortWrap .sortCont{
+        flex-direction: row-reverse;
+        margin-top: 0.5rem;
+        align-items: flex-end;
+    }
+    /*************************
+    **************************  content.css 810 End 
+    **************************/           
+}
+
+
+/***************************************************************
+************************************************    800    ****
+****************************************************************
+*/
+@media screen and (max-width:800px) {
+    /*************************
+    **************************  content.css 800 Start 
+    **************************/       
+    .gradeWrap{
+        flex-direction: column;
+    }
+    .gradeWrap > div:not(:first-child)::before{
+        height: 1px;
+        width: 95%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    /*************************
+    **************************  content.css 800 End 
+    **************************/       
+}
+
+
+/***************************************************************
+************************************************    780    ****
+****************************************************************
+*/
+@media screen and (max-width:780px) {
+    /*************************
+    **************************  content.css 780 Start 
+    **************************/           
+    .contView{
+        flex-direction: column;
+    }
+    .contView::before{
+        width: 100%;
+        height: 1px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .contView .cont:nth-child(1){
+        background-position: 5% center;
+    }
+    .contView .cont {width:100%; padding:27px 15px;}
+    .contView .cont:not(:last-child):after {top:auto; bottom:0; width:100%; height:1px; transform:none;}    
+    .memInputWrap .input{
+        width: 100% !important;
+    }
+    .emailWrap{
+        width: 100%;
+    }
+    .memInputWrap .inputWrap> *:not(:last-child){
+        margin-right: 0;
+    }
+    .emailWrap .input{
+        width: 49% !important;
+    }
+    .memInputWrap .input:nth-child(2) {
+        margin-top: 20px;
+        margin-left: 0px;
+    }    
+    /*************************
+    **************************  content.css 780 End 
+    **************************/           
+}
+
+
+/***************************************************************
+************************************************    768    ****
+****************************************************************
+*/
+@media screen and (max-width:768px) {
+    /*************************
+    **************************  board.css 768 Start 
+    **************************/   
+	.boardType02.board-col1 > ul > li > div, .boardType02.board-col1 > ul > li > a{
+		flex-direction: column;
+	}
+	.boardType02.board-col1 .cont .item:nth-child(2) .txt:nth-child(2),
+	.boardType02.board-col1 .cont .item:nth-child(2) .txt:nth-child(3){
+		display: inline-block;
+	}
+	.boardType02.board-col1 .cont .item:nth-child(2) .txt:nth-child(3){
+		margin-left: 0.5rem;
+		padding-left: 0.5rem;
+		position: relative;
+	}
+	.boardType02.board-col1 .cont .item:nth-child(2) .txt:nth-child(3):after{
+		content: '';
+		width: 1px;
+		height: 70%;
+		background: #949494;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translate(0,-50%);
+	}
+
+    [class^=boardType] {
+		margin-top: 0;
+	}
+	[class^=boardType] > ul {
+		width: 100%;
+		/* margin: -24px 0; */
+	}
+	[class^=boardType] > ul > li > a {
+		padding: 15px 8px;
+	}
+	[class^=boardType] figure {
+		margin-bottom: 1rem;
+	}
+	[class^=boardType] .ctg {
+		/* margin-bottom: 7px; */
+	}
+	[class^=boardType] .txt {
+		/* margin-top: 3px; */
+	}
+	.boardType01 > ul > li,
+	.boardType02 > ul > li {
+		padding:0;
+	}
+	.science.boardType01 .listUl figure img {
+		max-width: 200px;
+	}
+	[class^=boardType] li > div > .checkbox {
+		top: 35px;
+		left: 30px;
+	}
+	/* boardCard */
+	.boardCard .cardInner {
+		height: 300px;/**/
+		padding: 20px;
+	}
+	.boardCard .tit {
+		font-size: 1.333rem;
+	}
+	/* boardCate */
+	.boardCate {
+		overflow: hidden;
+	}
+	.boardCate ul {
+		/* overflow-x: auto; */
+    	white-space: nowrap;
+	}
+
+    .boardCate.-stretch ul{
+        white-space: normal;
+    }
+    .boardCate.-stretch ul li a{
+        margin: 5px;
+    }
+	.boardCate ul li a {
+	    min-width: 90px;
+		height: auto;
+		/* margin: 0; */
+		padding: 0 10px;
+		line-height: inherit;
+		padding: 1vw 1rem;
+		/* font-size: 0.867rem; */
+	}
+	.boardCate ul li a.cateAll span {
+		padding-left: 23px;
+		background-size: 21px auto;
+	}
+	.boardCate + .boardHead {
+		margin-top: 20px;
+	}
+	/* boardCard */
+	.boardCard > ul > li {
+		width: 100%;
+	}
+	.boardCard > ul > li > a,
+	.boardCard > ul > li > div {
+		height: auto;
+	}
+	.boardCard .layerWrap {
+		position: inherit;
+		bottom: inherit;
+		width: 100%;
+		margin-top: 40px;
+	}
+	.boardHead .boardCate {
+		float: none;
+		width: 100%;
+		/* margin-top: 10px; */
+	}
+	/* boardType01 */
+	/*
+	.boardType01 {
+		margin-top: 20px;
+	}
+	.detailCont > .boardType01 {
+		margin-top: 0;
+	}
+	.boardType01 > ul > li > div:not(.info) {
+		padding: 20px 10px;
+	}
+	.boardType01 figure img {
+		width:100%;
+		max-width:200px;
+	}*/
+
+	/* boardType02 */
+	/*
+	.boardType02 > ul {
+		margin-top: 0;
+	}
+	.boardType02 > ul > li > a {
+		padding: 24px 8px;
+		padding: 0px;
+	}
+	.boardType02.board-col1 .tit {
+		font-size: 1.333rem;
+	}
+	.boardType02.board-col1 .txt {
+		margin-top: 10px;
+	}
+	*/
+	/* boardType03 */
+	/*
+	.boardType03 > ul {
+		margin-top: 0;
+	}
+	*/
+	/* board-col1 */
+	.board-col1 > ul > li {
+		width: 100%;
+	}
+	.board-col1 > ul > li > a {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.board-col1 figure {
+		float: none;
+		width: 100%;
+		margin:0 auto;
+	}
+	.board-col1 .info {
+		float: none;
+		width: 100%;
+	}
+	.boardType02.board-col1 .btn {
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		margin: 1rem 0 0 0;
+	}
+	.srchArea + .boardHead {
+		margin-top: 1rem;
+		margin-bottom: 20px;
+	}
+	[class^=boardType] > ul > li > a,
+	.boardType01 > ul > li > div:not(.info) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	[class^=boardType] li > div > .checkbox {
+		top: 30px;
+		left: 15px;
+	}
+	.board-m-col2 > ul{
+		display: flex;
+		justify-content: space-between;
+	}
+	.board-m-col2 > ul li{
+		width: 48%;
+	}
+	.boardType02.board-col1 ul li div figure img {
+		width:auto !important;
+		height:auto;
+	}
+    /*************************
+    **************************  board.css 768 End 
+    **************************/   
+    
+    /*************************
+    **************************  detail.css 768 Start 
+    **************************/       
+   
+    /*************************
+    **************************  detail.css 768 End 
+    **************************/   
+}
+
+/***************************************************************
+************************************************    767    ****
+****************************************************************
+*/
+@media screen and (max-width:767px) {
+    /*************************
+    **************************  form.css 767 Start 
+    **************************/       
+	.bSelect {
+		min-width: auto;
+	}
+    /*************************
+    **************************  form.css 767 End 
+    **************************/     
+    
+    /*************************
+    **************************  search.css 767 Start 
+    **************************/        
+	/* input + button */
+	/* default */
+	.srchWrap {
+		display: block;
+	}
+	.srchWrap > button {
+		min-width: 48%;
+		margin-left: 0;
+	}
+	/* angleSrch */
+	.angleSrch .bSelect,
+	.angleSrch .srchInputArea > input {
+		padding-left: 15px;
+	}
+	.angleSrch .srchInputArea > input {
+		padding-right: 50px;
+	}
+	.angleSrch .srchInputArea {
+		padding-right: 75px;
+	}
+	.angleSrch .srchInputArea > button {
+		width: 70px;
+		min-width: 70px;
+	}
+	.angleSrch .detailBtn {
+		margin-top: 0;
+	}
+	.multiWrite {
+		padding-left: 30px;
+		/* right: 85px;
+		padding-left: 30px; */
+		/* text-indent: -999px; */
+	}
+	.multiLangTable table th, 
+	.multiLangTable table td{
+		padding: 1rem;
+	} 
+	/* 상세검색 */
+	.detaSearch .tabList > ul > li {
+		width: 50%;
+		margin: 0;
+		padding: 3px;
+	}
+	.detaSearch .tabList > ul > li > a {
+		width: 100%;
+		min-width: inherit;
+	}
+	.sliderCont .sliderLangeWrap {
+		overflow: visible;
+		/* overflow-x: scroll; */
+	}
+	.sliderCont .sliderLangeWrap .sliderInner {
+		/* width: 180%; */
+		width: 100%;
+	}
+	/* 스마트 검색 (팝업)*/
+	.smartResult {
+		display: block;
+		padding:20px;
+	}
+	.smartResult .btnWrap {
+		margin-top: 20px;
+	}      
+    /*************************
+    **************************  search.css 767 End 
+    **************************/      
+
+    /*************************
+    **************************  content.css 767 Start 
+    **************************/     
+    .programInfoList {width: 100%}
+    .selectList .tabList.type03 {margin-top:-2px; margin-left:-2px; margin-right:-2px; height:auto}
+	.selectList .tabList.type03 ul {display: flex; flex-direction:row; flex-wrap:wrap}
+	.selectList .tabList.type03 li {
+		flex:1;
+		margin:2px;
+		/* min-width: calc(50% - 4px); */
+		/* max-width: calc(50% - 4px) */
+	}
+	.selectList .tabList.type03 li a {
+		min-width:inherit
+	}
+    .selectList .tabWrap .tabContainer::before{
+        display: none;
+    }
+    .tabList.acaSearch + .tabContainer .tabContent::before{
+        content: '';
+        width: 25px;
+        height: 18px;
+        background: url('../../images/common/icon_arrow_trg.png') 0 0 no-repeat;
+        position: absolute;
+        left: 50%;
+        top: -16px;
+        transform: translate(-50%,0);
+    }
+    .selectList .tabList li.active::before{
+        display: none;
+    }    
+
+    /* #orgSection01 {padding:50px 0;} */
+    .inner > .orgSection:not(:last-child) {padding:0 0 50px; border-bottom:1px solid #cccccc;}
+    #orgSection02 .cwra > .cbox {width:100%; margin-right:0;}
+    #orgSection02 .cwra > .cbox:not(:last-child) {margin-bottom:30px;}
+    #orgSection03 .cbox > div.left, #orgSection03 .cbox > div.right {width:100%; margin:0;}
+    #orgSection03 .cbox > div.left {margin:0 0 20px;}
+    #orgSection04 .cont {padding:0;}
+    #orgSection01 .pcVer {display:none;}
+    #orgSection01 .moVer {display:block; width:100%; margin:0 auto;}
+
+    #orgSection04 .btnAbsWrap .absTop a {width:36%; height:19%; top:3.5%; left:50%; transform: translateX(-50%);}
+
+    #orgSection04 .btnAbsWrap .absMiddle a {top:33.5%; bottom:auto; width: 41%; height: 5.5%;}
+    #orgSection04 .btnAbsWrap .absMiddle a:first-child {left:5%;}
+    #orgSection04 .btnAbsWrap .absMiddle a:last-child {right:5%;}
+
+    #orgSection04 .btnAbsWrap .absBottom a {bottom:auto; width:41%; height:5.5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(1) {top:42%; left:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(2) {top:48%; left:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(3) {top:54%; left:5%; height:9%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(4) {top:64%; left:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(5) {top:70%; left:5%; height:9%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(6) {top:42%; left:auto; right:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(7) {top:48%; left:auto; right:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(8) {top:54.5%; left:auto; right:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(9) {top:60.5%; left:auto; right:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(10) {top:66.5%; left:auto; right:5%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(11) {top:72.5%; left:auto; right:5%; height:9%;}
+    #orgSection04 .btnAbsWrap .absBottom a:nth-child(12) {top:82%; left:auto; right:5%;}    
+
+	.squareWrap {margin:-18px 0}
+	.squareWrap div {padding-bottom:116px; margin:18px 0; min-width:100%; max-width:100%; height:280px}
+	.squareWrap div strong {margin-bottom:15px;  line-height:17px; /*font-size:17px*/}
+	.squareWrap div p {line-height:20px; /*font-size:13px*/}
+	.squareWrap div a {padding-right:52px; line-height:40px; /*font-size:15px*/}
+	.squareWrap div a:after {width:40px; height:40px; background-size:15px auto}
+
+    .sitemap > li {max-width:50%; min-width:50%}
+	.sitemap > li:after {top:60px}
+	.sitemap > li dl dt a {padding-left:0px}
+	.sitemap > li dl dd {padding:20px 20px 40px 0}
+	.sitemap > li dl dt a {line-height:60px; /*font-size:20px*/}
+	.sitemap > li dl dd ul li {padding:0}
+	/* .sitemap > li dl dd ul li a {font-size:16px} */
+
+    .myGallerySortWrap > div {width:100%;}
+    .sortToggleBox ul.sortable > li.ui-state-default {padding:1rem;}
+    .sortToggleBox ul.sortable > li.ui-state-default .sortableLeft {padding-right:1rem;}
+    .sortCheckButton button {margin:0 auto; transform: rotate(90deg);}
+    .sortToggleBox .sortToggleTop > div.toggleCorrectionBtn {position:relative; display:inline-block; width:40px; height:30px; padding:0; margin:0; background:url('../../images/common/icon_sortBtn.png') no-repeat center center; cursor:pointer;}
+    .sortToggleBox .sortToggleTop > div.toggleCorrectionBtn .CorrectionBtnWrap {display:none; position:absolute; top:-3px; right:0; width:300px; padding:40px 15px 15px; background:#fff; border:2px solid #000; z-index:10;}
+	.sortToggleBox .sortToggleTop > div.toggleCorrectionBtn .CorrectionBtnWrap .closeBtn {
+		position:absolute;
+		display:block;
+		top:15px;
+		right: 15px;
+	    background: #fff;
+	    z-index: 1;
+	    width:15px;
+	    height:15px;
+	    font-size:0;
+	}
+	.sortToggleBox .sortToggleTop > div.toggleCorrectionBtn .CorrectionBtnWrap .closeBtn i {
+		display:block;
+		width: 100%;
+	    height: 100%;
+	    margin-top: -4px;
+	    background: url(../../images/common/btn_bannerClose.svg) no-repeat 0 0;
+	}	
+    .toggleContent {width:calc(100% - 78px);}
+    .sortCheckButton button{position: relative;top: 0;}
+    .sortToggleBox ul.sortable > li.ui-state-default .sortableRight figure{height:7rem; min-height:auto;}
+    .sortToggleTop{flex-direction:row;    align-items: center;}
+    .sortToggleBox .sortToggleTop .sortTitWrap{flex:1;}    
+	.boardType02 > ul > li > div, .boardType02 > ul > li > a {display:block;}
+	.boardType02 .info {flex:inherit;}
+	/* 2022.01.17 & 220117 보존과학 보존처리규정 페이지 퍼블리싱 */
+	.rullBoxWrap .rullBox:nth-of-type(3n) {margin-right:2%;}
+	.rullBoxWrap .rullBox {width:49%; margin-right:2%;}
+    .rullBoxWrap .rullBox:nth-of-type(2n) {margin-right:0;}
+	.joinSection .emailInput .w320 {max-width:200px;}
+	.joinSection .emailInput .w320:nth-of-type(1) {width:calc(100% - 20px); margin:0 0 10px;}
+	.joinSection .emailInput .w320:nth-of-type(2) {width:100%; margin:0 0 10px;}
+	.dataTabWrap .dataTabButton li {display:flex; align-items:center; justify-content: center; width:33.3333%; padding:10px 20px;}
+	.srchArea .btnDetaSearch {margin:5px 0 0 0;}
+	/*************************
+    **************************  content.css 767 End 
+    **************************/     
+}
+
+
+
+@media screen and (max-width:760px) {
+    /*************************
+    **************************  content.css 760 Start 
+    **************************/        
+    .swiper-button-prev, .swiper-button-next{
+        /* display: none; */
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(1){
+        /*font-size:6vw;*/ top: 0rem; left: 3rem;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(2){
+        /*font-size:5vw;*/ top: 14%; right: 21%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(3){
+        /*font-size:3vw;*/ top: 0rem; left: 90%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(4){
+        /*font-size:3.5vw;*/ top: 34%; right: 0%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(5){
+        /*font-size:6vw;*/ top: 13%; left: 5%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(6){
+        /*font-size:3vw;*/ top: 50%; left: 57%
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(7){
+        /*font-size:3.7vw;*/ top: 26%; left: 18%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(8){
+        /*font-size:3vw;*/ top: 40%; left: 0rem;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(9){
+        /*font-size:5.5vw;*/ top: 53%; left: 16%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(10){
+        /*font-size:11vw;*/ top: 33%; left: 30%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(11){
+        /*font-size:7vw;*/ top: 56%; left: 40%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(12){
+        /*font-size:4vw;*/ top: 78%; right: 0%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(13){
+        /*font-size:6vw;*/ top: 70%; left: 3%;
+    }
+    .wordSearchSlide .swiper-slide.box-01 a:nth-child(14){
+        /*font-size:4.3vw;*/ top: 73%; left: 46%;
+    }
+
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(1){
+        /*font-size:6vw;*/ top: 0rem; left: 3rem;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(2){
+        /*font-size:5vw;*/ top: 14%; right: 21%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(3){
+        /*font-size:3vw;*/ top: 0rem; left: 90%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(4){
+        /*font-size:3.5vw;*/ top: 34%; right: 0%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(5){
+        /*font-size:6vw;*/ top: 13%; left: 5%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(6){
+        /*font-size:3vw;*/ top: 50%; left: 70%
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(7){
+        /*font-size:3.7vw;*/ top: 26%; left: 18%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(8){
+        /*font-size:3vw;*/ top: 9rem; left: 0rem;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(9){
+        /*font-size:5.5vw;*/ top: 53%; left: 16%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(10){
+        /*font-size:11vw;*/ top: 33%; left: 30%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(11){
+        /*font-size:7vw;*/ top: 56%; left: 56%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(12){
+        /*font-size:4vw;*/ top: 78%; right: 0%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(13){
+        /*font-size:6vw;*/ top: 70%; left: 3%;
+    }
+    .wordSearchSlide .swiper-slide.box-02 a:nth-child(14){
+        /*font-size:4.3vw;*/ top: 73%; left: 46%;
+    }
+    .aiSrc .customSrc{
+        padding: 2rem 1.5rem;
+    }    
+    /*************************
+    **************************  content.css 760 End 
+    **************************/    
+}
+
+.audioLis.moVer {display:none;}
+/***************************************************************
+************************************************    720    ****
+****************************************************************
+*/
+@media screen and (max-width:720px) {
+    /*************************
+    **************************  board.css 720 Start 
+    **************************/ 
+	.imgBoard.col2 ul {flex-wrap:wrap;}
+	.imgBoard.col2 ul li {min-width:calc(100% - 20px);}
+	.imgBoard.col3 ul li {min-width:calc(100% - 20px);}
+	.imgBoard.col4 ul li {min-width:calc(100% - 20px);}
+	.imgBoard.type2 ul li {min-width:calc(100% - 20px);}
+    /*************************
+    **************************  board.css 720 End 
+    **************************/   
+
+    /*************************
+    **************************  icon.css 720 Start 
+    **************************/ 
+	.icon.cateAll{
+		width: 12px;
+		height: 12px;
+	}    
+    /*************************
+    **************************  icon.css 720 End 
+    **************************/  
+    
+    /*************************
+    **************************  content.css 720 Start 
+    **************************/ 
+    .table .emailWrap{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .table .emailWrap .emailInput{
+        width: 100%;
+    }
+    .table .emailWrap .btn{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .eduTabList .checkbox.btn.type02 span{
+        min-width: auto;
+    }    
+    .emphasisBox{
+        flex-direction: column;
+    }
+    .emphasisBox .item{
+        width: 100%;
+    }
+    .emphasisBox .item:not(:first-child){
+        margin: 0.5rem 0 0 0;
+    }
+    .emphasisBox .item .btn{
+        width: 100%;
+        /* margin: 1rem 0 0 0; */
+    }    
+	.useAgree{
+		margin-bottom: 2rem;
+	}
+    .useAgree .cont:nth-child(2) .item{
+		flex-direction: column;
+	}
+	.useAgree .cont:nth-child(2) .item div{
+		margin-top: 0.5rem;
+		margin-left: 0;
+	}
+	.useAgree .cont:nth-child(3) p:after{
+		width: 36px;
+		height: 36px;
+		background-size: contain;
+	}
+	.useAgree .cont:not(:first-child){
+		margin-top: 2rem;
+	}
+	.attachWrap{
+        flex-direction: column;
+    }
+    .attach_section{
+        width: 100%;
+    }
+    .attach_section{
+        padding: 1rem;
+    }
+	
+    .upload .upload_label{
+        right: -130px;
+    }
+    .upload .input_box{
+        width: calc(100% - 130px);
+    }    
+    .artInfo{
+        display: inherit;
+    }
+    .artInfo > ul{
+        width: 100%;
+    }
+    .artInfo > ul:not(:first-child){
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .collectibleBtn {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin-top: 1rem;
+    }
+    
+    .btnEnlarge,.btnHeadPhone{
+        width: 4rem;
+        height: 4rem;
+        background-size: 50%;
+    }
+    .slider-border{
+        display: none;
+    }
+    .pagerWrap{
+        display: block;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* margin-top: 1.33333rem; */
+		display:none;
+    }
+    .slick-wrap .pagerWrap .slick-arrow{
+        position: relative;
+        transform: translate(0);
+    }
+    .slick-wrap .pagerWrap .slick-arrow.slick-prev{
+        left: 0;
+        right: 0;
+    }
+    .slick-wrap .pagerWrap .slick-arrow.slick-next{
+        left: 0;
+        right: 0;
+    }
+    .slick-wrap .pagerWrap .slick-arrow.slick-prev:after, .slick-wrap .pagerWrap .slick-arrow.slick-next:after{
+        border-color: #000;
+    }    
+    .flex.input2Div{
+        display: block;
+    }
+    .flex.input2Div > * + *{
+        margin-left: 0;
+        margin-top: 10px;
+    }    
+    .gradeWrap > div{
+        padding: 1.5rem;
+    }
+    .audioListWrap{
+        flex-direction: column;
+    }
+    .audioListWrap > div:not(:first-child){
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
+    .audioLis{
+        max-height: 213px;
+    }
+    .audioListThumb .cont,
+    .audioListThumb .cont .imgBg{
+        height: 200px;
+    }
+	.audioLis > ul > li > a:not(.audioTextToggleButton){
+        padding: 1rem;
+        background-size: 1.5rem;
+    }       
+    .policyBox .bg01 {
+        margin-bottom: 24px;
+        padding: 26px 13px;
+        background: #f6f6f6;
+    }
+    .policyBox .bg01 strong {
+        margin-bottom: 10px;
+        line-height: 26px;
+        font-size: 17px;
+    }
+    .policyBox .bg01 > span {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .policyBox .list {
+        margin: 11px auto 8px;
+        padding: 11px 14px;
+    }
+    .policyBox .list li {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .policyBox .list li + li {
+        margin-top: 20px;
+    }
+    .policyBox .bg01 p {
+        margin-top: 11px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .policyBox02 .depth03 span {
+        line-height: 23px;
+        /* font-size:13px; */
+    }     
+    .groupReservation{
+        border: none;
+    }
+    .groupReservation > table > tbody > tr{
+        /* display: flex;
+        flex-direction: column; */
+    }
+	.groupReservation > table > tbody > tr > th,
+	.groupReservation > table > tbody > tr > td {
+		display:block;
+	}
+    .groupReservation > table > tbody > tr > th{
+        height: auto;
+        background: inherit;
+        border: none;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .groupReservation > table > tbody > tr:not(:first-child) > th{
+        padding: 1rem 0 0.5rem 0;
+    }
+    .groupReservation > table > tbody > tr > td{
+        height: auto;
+        border: none;
+        padding: 0;
+    }
+    .groupReservation .m-Input{
+        height: 48px;
+        margin: 5px 0;
+        padding: 0 13px;
+        border: 1px solid #949494;
+        background-color: #ececec;
+    }    
+    .importTextTd .inBtn{
+        width: 90%;
+    }    
+    .popTooltipWrap .icon.info::before {
+        display: block;
+    }
+    .popTooltipWrap button{
+        cursor: pointer;
+    }
+    .popTooltip {
+        z-index: 10;
+        background: #FFF;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        box-shadow: 0.08rem -0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+        /* white-space: nowrap; */
+        transition: opacity 0.15s, transform 0.15s;
+        opacity: 0;
+        transform: translateX(-0.5em);
+        margin-left: 1rem;
+        position: absolute;
+        left: 35px;
+        width: 70%;
+    
+    }
+    .popTooltip--in {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    .popTooltip:before {
+        content: "";
+        position: absolute;
+        left: -1%;
+        top: 50%;
+        transform: translate(-1px, -50%);
+        width: 0;
+        height: 0;
+        border-top: 0.5rem solid transparent;
+        border-bottom: 0.5rem solid transparent;
+        border-right: 0.5rem solid #FFF;
+    }
+    
+    .popup__wrapper {
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translate(-1em, -50%);
+    }    
+    .gallery__pic{
+        width: 100%;
+    }
+    .gallery__pic .pic__item {
+        /* border: 2px solid #cccccc; */
+    }    
+	.audioLis.pcVer {display:none;}
+	.audioLis.moVer {display:block;}
+/* 	.audioLis {max-height:100%;} */
+	.audioLis {max-height:290px;} /* 오디오리스트 5개까지 보이도록 수정 */ 
+	.audioTextBox .audioText {max-height:180px !important; overflow-y:auto !important;}
+    /*************************
+    **************************  content.css 720 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    710    ****
+****************************************************************
+*/
+@media screen and (max-width:710px) {
+    /*************************
+    **************************  content.css 710 Start 
+    **************************/          
+    .multiLangTable .yearSrchWrap{
+        flex-direction: column;
+        justify-content: left;
+        align-items: baseline;
+    }
+    .multiLangTable .yearSrchWrap .checkYearWrap + .checkbox{
+        display: block;
+        margin-left: 0%;
+        margin-top: 1rem;
+    }
+    /*************************
+    **************************  content.css 710 End 
+    **************************/          
+}
+
+/***************************************************************
+************************************************    690    ****
+****************************************************************
+*/
+@media screen and (max-width:690px) {
+    /*************************
+    **************************  content.css 690 Start 
+    **************************/        
+    .sectionHistory::before{
+        left: 2rem;
+    }
+    .sectionHistory > .item:not(:first-child){
+        margin-top: 2rem;
+    }
+
+    .sectionHistory .item .year{
+        width: 60px;
+        height: 60px;
+    }
+    .sectionHistory .item .year,
+    .sectionHistory .item .subject,
+    .sectionHistory .list li{
+        font-size: 13px;
+    }
+    .sectionHistory > .item > ul{
+        margin-top: 1.3rem;
+    }
+    .sectionHistory > .item .list li:not(:first-child){
+        margin-top: 0.2rem;
+    }
+    .sectionHistory > .item > ul > li:not(:first-child){
+        margin-top: 0.5rem;
+    }
+    .contSlide.contSlideJs-01.perViewAuto .swiper-slide{
+        width: 80% !important;
+        max-width: 80% !important;
+    }    
+    .mySection .timeDelWrap > ul > li span{
+        display: block;
+    }    
+	.selectBox.w160 + .space {display:none;}
+	.selectBox.w200 + .space {display:none;}
+	.selectBox.w200 {width:40%;}
+	.selectBox.w160 {width:30%;}
+	.grid > .col .selectBox.w160 {width:40%;}
+    /*************************
+    **************************  content.css 690 End 
+    **************************/    
+}
+
+
+/***************************************************************
+************************************************    670    ****
+****************************************************************
+*/
+@media screen and (max-width:670px) {
+    /*************************
+    **************************  content.css 670 Start 
+    **************************/            
+    .audioGuide .con{
+        padding: 2rem;
+    }
+    .audioGuide .con{
+        background-image: none !important;
+    }
+    .audioGuide .con .tit{
+        margin-left: 3.5rem;
+        word-break: keep-all;
+        display: block;
+    }
+    .audioGuide .con .tit:after{
+        content: '';
+        width: 3rem;
+        height: 3rem;
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+        top: 50%;
+        left: -3.5rem;
+        transform: translate(0,-50%);
+    }
+    .audioGuide .con:nth-child(1) .tit:after{
+        background-image: url(../../images/preview/icon_audio01.png);
+    }
+    .audioGuide .con:nth-child(2) .tit:after{
+        background-image: url(../../images/preview/icon_audio02.png);
+    }
+    /* .mySection .heading.depth02{
+        display: block;
+    } */
+    .mySection .heading.depth02 .btnWrap{
+        text-align: left;
+        margin-top: 0.6rem;
+        justify-content: left;
+    }
+    /*************************
+    **************************  content.css 670 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    650    ****
+****************************************************************
+*/
+@media screen and (max-width:650px) {
+    /*************************
+    **************************  common.css 650 Start 
+    **************************/      
+	.sliderLabel li {
+		width: 10px;
+		line-height: 1;
+	}
+    /*************************
+    **************************  common.css 650 End 
+    **************************/       
+
+    /*************************
+    **************************  content.css 650 Start 
+    **************************/  
+    .he.onlySrPc{
+		display: none;
+    }
+    .joinProgress{
+        padding: 0;
+        border: none;
+    }
+    .joinProgress > ul > li:after{
+        width: 1rem;
+        height: 1rem;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        content: '' !important;
+        background-image: none !important;
+    }
+    .joinProgress > ul > li p{
+        margin-top: 45px;
+        font-size: 13px;
+    }    
+    .tasteWrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tasteWrap .checkbox.btn span {
+        width: auto;
+    }    
+    .contSlideJs-01-main.contSlide.contSlideL .swiper-slide figure{
+        min-height: 60vw;
+    }    
+    .aiSrc{
+        margin-bottom: 3rem;
+    }    
+    .aiSrc .customSrc .conditionSrc>li{
+        display: block;
+    }
+    .aiSrc .customSrc .conditionSrc > li > .ctg{
+        margin-bottom: 0.5rem;
+    }
+    .aiSrc .customSrc .conditionSrc > li > .ctg,.aiSrc .customSrc .conditionSrc > li > .checkboxWrap{
+        display: block;
+    }    
+    .aiSrc .tasteSrc .selectMenu .name{
+        font-size: 1rem;
+    }
+    .aiSrc .tasteSrc .selectMenu ul li a{
+        font-size: 1rem;
+    }
+    .aiSrc .tasteSrc .selectMenu a{
+        padding: 1rem 0px;
+    }
+	.boardBox > ul {
+		margin: -10px 0;
+	}
+	.boardBox > ul > li {
+		min-width: 100%;
+		max-width: 100%;;
+		margin: 10px 0;
+	}
+	.boardBox > ul > li p {
+		font-size: 14px;
+	}    
+    .secessionText strong {
+        font-size:20px;
+        text-align: left;
+        word-break: keep-all;
+    }
+	.boardHead .right {
+		display:block;
+		text-align:right;
+	}
+    /*************************
+    **************************  content.css 650 End 
+    **************************/      
+}
+
+
+
+/***************************************************************
+************************************************    640    ****
+****************************************************************
+*/
+@media screen and (max-width:640px) {
+    /*************************
+    **************************  board.css 640 Start 
+    **************************/       
+	.boardInfo {flex-wrap: wrap;}
+	.boardInfo > .tbox {width:100%; margin:0;}
+	.boardInfo > .tbox01 {margin:0 0 30px;}
+    /*************************
+    **************************  board.css 640 End 
+    **************************/     
+
+    /*************************
+    **************************  common.css 640 Start 
+    **************************/       
+	.errorSection{
+		background-position: center 3rem;
+		padding: 15rem 1rem 3rem;
+	}
+    /*************************
+    **************************  common.css 640 End 
+    **************************/   
+
+    /*************************
+    **************************  main.css 640 Start 
+    **************************/  
+	.slide2Rows .swiper-slide a{width: 100%;}
+	.slide2Rows .swiper-slide figure{width: 100%;}
+	.slide2Rows .swiper-slide a{width: 100%;}
+	.feelContents {padding: 20px;}
+	.feelContents .swiper-slide {display: block;}
+	.feelContents .info {margin-top: 15px;}
+	.feelSection .desc br {display: none;}
+	.feelContents.contSlide .swiper-slide figure {width: 100%;}
+	.feelContents .pfCircle {display: block; width: 200px; height: 40px; border-radius: 20px; margin: 0 auto; line-height: 38px;}
+	.feelContents .pfCircle br {display: none;}
+	.mainSection.programSection .boardCate.-stretch ul li a{
+	    line-height: 27px;
+	}
+	.suggestSection .swiper-slide figure{
+		width:100%;
+	}    
+    /*************************
+    **************************  main.css 640 End 
+    **************************/     
+
+    /*************************
+    **************************  content.css 640 Start 
+    **************************/        
+    .mypageTopInfo .infoLeft {padding-right:0;}
+    .mypageTopInfo .infoRight {padding:20px 0;}
+    .mySection .mypageTopInfo .infoRight .infoBox > div {position:relative; display:flex; flex-direction: column; justify-content: space-between; width:50%; padding:0 15px;}
+    .mypageTopInfo .infoRight .infoBox .qrBox.pcVer {display:none;}
+    .mypageTopInfo .infoRight .infoBox .qrBox.moVer {display:block; margin:20px 0 0 0;}
+    .mypageTopInfo .infoRight .infoBox .lankBox .lankText02 {margin:10px 0 0 0;}
+    .mypageTopInfo .infoRight .infoBox .pointBox img {position:absolute; right:0; bottom:0;}
+    .mySection .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxLeft,
+    .mySection .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxRight {flex:1 1 100%;}
+    .mySection .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxRight {margin-top:20px;}
+    .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxLeft {padding:0 15px;}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 > div {padding:30px 15px; font-size:20px;}
+    .exhibitionPopup > .tabContentBox > .tabContent01 .innerTabButton01 > div:not(:last-child):before {height:20%;}
+    .tabContent02 .addressInfoWrap iframe {
+        height: 200px;
+    }
+    .detailPopup > strong {font-size:16px;}
+    .detailPopup > ul {margin:15px 0;}
+    .detailPopup > ul > li {font-size:14px;}
+    .detailPopup > p {font-size:14px;}    
+
+    .supportWrap01 ul li {
+        width: calc(100% / 2);
+    }
+    .supportWrap02 ul li {
+        width: calc(100% / 2);
+    }
+    
+    .supportWrap03:before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        width: 1px;
+        height: 140px;
+        transform: translate(-50%,-50%);
+        background-color: #d8d8d8;
+    }
+    .supportWrap03 .item {
+        min-width: 50%;
+    }
+    .supportWrap03 > .item p {
+        line-height: 25px;
+        letter-spacing: -0.025em;
+        /* font-size: 20px; */
+    }
+    .supportWrap03 > .item p + p {
+        /* font-size: 15px; */
+    }
+    .supportWrap03 .item:nth-child(2){
+		padding: 1.33333rem 1.33333rem;
+    }    
+    /*************************
+    **************************  content.css 640 End 
+    **************************/  
+}
+
+/***************************************************************
+************************************************    600    ****
+****************************************************************
+*/
+@media screen and (max-width:600px) {
+    /*************************
+    **************************  detail.css 600 Start 
+    **************************/ 
+	.pagiMove {right:75px;}
+    /*************************
+    **************************  detail.css 600 End
+    **************************/ 
+
+    /*************************
+    **************************  main.css 600 Start 
+    **************************/ 
+    /* .mainSection .titleWrap h3 {font-size:22px;} */
+	/* .mainSection.linkSection .boardType01 .info .tit, */
+	/* .mainSection [class*=mainSlide] .info .tit {font-size:20px;} */
+    /* .mainSection [class*=mainSlide] .info .txt {font-size:14px;} */
+    /* .mbsSection .tit {font-size:20px;} */
+    /*************************
+    **************************  main.css 600 End 
+    **************************/ 	
+
+    /*************************
+    **************************  content.css 600 Start 
+    **************************/        
+	.colorList ul li {flex:1; position:relative; max-width:100%; min-width:100%;}
+	.colorList ul li .cInfo {justify-content:center;}
+	.colorList ul li .cInfo:before {width:130px; height:130px}
+	/* .colorList ul li > p {text-align: left;} */
+	.colorList ul li > div:not(.cTit) {margin-top:0}
+	.colorList .w100 {min-width: 100% !important; max-width: 100% !important;}
+	.reservationWrap .cbox ul li {padding:20px;}
+	.reservationWrap .cbox ul li strong {font-size:24px;}
+	.reservationWrap .cbox ul li .btnBox .btn {max-width:90px; margin:20px 0 0 0;}
+	.policyBox .pcVer {display:none;}
+	.policyBox03 .imgArea.inMobileImg {overflow: hidden;}
+	.inMobileImg .pcVer {display:none;}
+	html body .policyBox .moVer {display:block;}
+	html body .inMobileImg .moVer {display:block; min-width:100%;}
+	.tableBottom .left {display:block; float:none;}
+	.tableBottom .right {margin:5px 0 10px;}
+	.boardHead.v2 {display:block;}
+	.notiBnrSection .btnWrap button.btn {font-size:12px;}
+	.audioTextToggleButton {right:15%;}
+    /*************************
+    **************************  content.css 600 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    580    ****
+****************************************************************
+*/
+@media screen and (max-width:580px) {
+    /*************************
+    **************************  content.css 580 Start 
+    **************************/       
+    .formView .text{
+        width: 100% !important;
+    }
+	/* .bSelect {padding:0 17px 0 5px;} */
+    /*************************
+    **************************  content.css 580 End 
+    **************************/           
+
+	html:lang(en) .notiBnrSection .btnWrap {
+		flex-wrap: wrap;
+	} 
+	html:lang(en) .mainSection.linkSection .boardType01 .info .tit, 
+	html:lang(en) .mainSection [class*=mainSlide] .info .tit {
+		font-size:20px;
+	}
+}
+
+
+/***************************************************************
+************************************************    570    ****
+****************************************************************
+*/
+@media screen and (max-width:570px) {
+    /*************************
+    **************************  content.css 570 Start 
+    **************************/       
+    .writeForm .tips>span{
+        display: inline-block;
+    }
+    /*************************
+    **************************  content.css 570 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    550    ****
+****************************************************************
+*/
+@media screen and (max-width:550px) {
+    /*************************
+    **************************  heading.css 550 Start 
+    **************************/     
+	.heading.depth01 .title + *{
+		/* margin-top: 0; */
+	}
+	.heading .item > div .bottom .barList {margin-top:0}
+	.heading .item.right {
+		align-items: baseline;
+		/* flex-direction: column; */
+	}
+	.heading .right .bottom{
+		margin-left: 0;
+		width: 100%;
+	}
+	.btnGo .btn:only-of-type {
+		margin-left:0;
+	}
+    /*************************
+    **************************  heading.css 550 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    540    ****
+****************************************************************
+*/
+@media screen and (max-width:540px) {
+    /*************************
+    **************************  layout.css 540 Start 
+    **************************/    
+	.subFixed.on {
+		top: 118px;
+	}
+    /*************************
+    **************************  layout.css 540 End 
+    **************************/    
+    
+    /*************************
+    **************************  table.css 540 Start 
+    **************************/    
+    .table th,
+    .table td {
+        padding: 1rem 0.5rem;
+    }
+	.table.v3 td{
+		padding: 1rem 0.5rem;
+	}
+
+    /*************************
+    **************************  table.css 540 End 
+    **************************/     
+
+    /*************************
+    **************************  search.css 540 Start 
+    **************************/      
+	/* type01 셀렉트+인풋+검색버튼 */
+	.srchArea .srchSelectArea {
+		flex-wrap: wrap;
+	}
+	.srchArea .srchSelectArea .bSelect {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.srchArea .srchSelectArea .srchInput {
+		margin-left: 0;
+	}
+	/* 검색결과 */
+	.srchArea.type01 .total strong:first-child {
+		/* display: block; */
+	}
+    /*************************
+    **************************  search.css 540 End 
+    **************************/      
+
+    /*************************
+    **************************  content.css 540 Start 
+    **************************/         
+    .memInputWrap .btnWrap{
+        flex-direction: column;
+    }
+    .memInputWrap .btnWrap .btn.wFix{
+        width: 100%;
+    }
+    .memInputWrap .btnWrap .btn:nth-child(2){
+        margin-top: 0.5rem;
+    }   
+    .m-only{
+        display: block;
+    }    
+    .applySection .PsnInfTable table tr{
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .applySection .PsnInfTable table th, .applySection .PsnInfTable table td{
+		display:block;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: none;
+    }
+    .applySection .PsnInfTable table th{
+        padding: 0;
+        background-color: inherit;
+        text-align: left;
+    }
+    .applySection .PsnInfTable{
+        border-top: none;
+    }
+    .PsnInfTable table tr:nth-child(1) th{
+        display: none;  
+    }
+    .PsnInfTable table tr:nth-child(1) td{
+        padding-top: 0;
+    }  
+	.PsnInfTable.v2 table tr:nth-child(1) th{
+		display: block;
+		margin-bottom: 0.2rem;
+	}
+	.PsnInfTable.v2 table tr:nth-child(1) td{
+		margin-bottom: 0.5rem;
+	}  
+    .nameInput .nameBox{
+        flex-direction: column;
+    }
+    .nameInput .nameBox > div{}
+    .nameInput .nameBox .m-only{
+        display: inline-block;
+    }
+    .nameInput .nameBox > div{
+        /* flex-direction: column;
+        align-items: flex-start; */
+		width:100%;
+	}
+    .nameInput .nameBox > div .subject{
+        font-weight: 600;
+    }
+    .nameInput .nameBox > div > *:not(:first-child){
+        /* flex: auto; */
+    }
+    .nameInput .nameBox > div > *:nth-child(1){
+        margin-bottom: 0.2rem;
+    }
+    .nameInput .nameBox > div:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }    
+    .sortWrap .sortCont .btnWrap .btn{
+        display: flex;
+        min-width: auto;
+        overflow: inherit;
+    }
+    .sortWrap .sortCont{
+        justify-content: flex-end;
+    }
+
+    .sortCont > div:nth-child(1){
+        margin-left: 1rem;
+    }    
+    .multiLangTable .whereSrch >div:nth-child(1){
+        width: 30%;
+    }    
+    /*************************
+    **************************  content.css 540 End 
+    **************************/          
+}
+
+/***************************************************************
+************************************************    510    ****
+****************************************************************
+*/
+@media screen and (max-width: 510px) {
+    /*************************
+    **************************  content.css 500 Start 
+    **************************/       
+	.sortToggleBox ul.sortable > li.ui-state-default .sortableRight{max-width: 5.5rem;}
+    /*************************
+    **************************  content.css 500 End
+    **************************/   
+}
+
+/***************************************************************
+************************************************    500    ****
+****************************************************************
+*/
+@media only screen and (max-width: 500px) {
+    /*************************
+    **************************  board.css 500 Start 
+    **************************/        
+	.boardCard02 > ul > li {display:block;}
+	.boardCard02 > ul > li > div.boxLeft {width:100%;}
+	.boardCard02 > ul > li > div.boxRight {width:100%; padding:10px 0;}
+	.boardCard02 > ul > li > div.boxRight .layerWrap {margin:10px 0 0 0; max-width:100%;}
+	.boardCard02 > ul > li > div.boxRight .layerWrap .item {width:100%;}
+	.boardCard02 > ul > li > div.boxRight .date {font-weight:400;}
+    /*************************
+    **************************  board.css 500 End 
+    **************************/   
+
+    /*************************
+    **************************  content.css 500 Start 
+    **************************/  
+    .mySection .timeCheckWrap .timeSelectWrap .selectBox{
+        width: 100%;
+    }
+
+    #orgSection04 .orgTable {overflow-x:scroll; overflow-y: hidden;}
+    #orgSection04 .orgTable > table {width:450px;}
+    #orgSection04 .orgTable:after {left:449px;}
+    /*************************
+    **************************  content.css 500 End 
+    **************************/      
+}
+
+
+/***************************************************************
+************************************************    490    ****
+****************************************************************
+*/
+@media screen and (max-width:490px) {
+    /*************************
+    **************************  common.css 490 Start 
+    **************************/      
+	.sortable figure {
+		width: 100%;
+		max-width: 100%;;
+	}
+	.sortable .info {
+		margin-left: 0;
+		width: 100%;
+	}
+	.sortable figure,
+	.sortable .info,
+	.sortable .btnControl {
+		float: none;
+	}
+	.sortable .btnControl {
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.sortable .info {
+		margin-top: 10px;
+	}
+    /*************************
+    **************************  common.css 490 End 
+    **************************/     
+}
+
+
+/***************************************************************
+************************************************    480    ****
+****************************************************************
+*/
+@media screen and (max-width:480px) {
+    /*************************
+    **************************  heading.css 480 Start 
+    **************************/     
+	.heading .item.right {
+		/* display: block; */
+	}
+	.heading .right .bottom .utilBtnWrap {
+		margin-top: 20px;
+	}
+    /*************************
+    **************************  heading.css 480 End 
+    **************************/     
+    
+    /*************************
+    **************************  content.css 480 Start 
+    **************************/        
+    .reserveProcess table{
+        border-top: 1px solid #000;
+    }
+    .reserveProcess table tbody{
+        display: flex;
+        justify-content: space-between;
+    }
+    .reserveProcess table tbody tr:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .reserveProcess table tbody tr:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .reserveProcess table th{
+        border-top: none;
+    }
+    .reserveProcess table th,.reserveProcess table td {
+        border-bottom: 1px solid #949494;
+    }
+    .reserveProcess table td:after{
+        content: '';
+        width: 1px;
+        height: 25%;
+        left: 0;
+        background-color: #949494;
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+    }    
+    /*************************
+    **************************  content.css 480 End 
+    **************************/        
+}
+
+
+/***************************************************************
+************************************************    468    ****
+****************************************************************
+*/
+@media screen and (max-width:468px) {
+    /*************************
+    **************************  form.css 468 Start 
+    **************************/       
+	.dateInputWrap {
+		padding-right: 0;
+	}
+	.dateInputWrap .btn {
+		position: inherit;
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+    /*************************
+    **************************  form.css 468 End 
+    **************************/       
+}
+
+/***************************************************************
+************************************************    460    ****
+****************************************************************
+*/
+@media screen and (max-width:460px) {
+    /*************************
+    **************************  form.css 460 Start 
+    **************************/       
+    .myGalleryInfo .btnWrap{
+        display: block;
+    }
+    .myGalleryInfo .btnWrap .btn{
+        width: 100%;
+    }
+    .myGalleryInfo .btnWrap .btn:nth-child(2){
+        margin-left: 0;
+        margin-top: 0.5rem
+    }
+    /*************************
+    **************************  form.css 460 End 
+    **************************/          
+}
+
+/***************************************************************
+************************************************    450    ****
+****************************************************************
+*/
+@media screen and (max-width:450px) {
+    /*************************
+    **************************  board.css 450 Start 
+    **************************/      
+	.boardType02 > ul > li > div, .boardType02 > ul > li > a{
+		flex-direction: column;
+	}
+	[class^=boardType] .info .cont .btnGo .btn{
+		width: 100%;
+	}
+    .boardCate ul li a{
+		padding: 2vw 1rem;
+	}
+    /*************************
+    **************************  board.css 450 End 
+    **************************/  
+
+    /*************************
+    **************************  content.css 450 Start 
+    **************************/      
+    .sectionList.eduList .contList .contItemWrap{
+        flex-direction: column;
+    }
+    .sectionList.eduList .contList .contItem{
+        width: 100%;
+    }    
+    .multiLangTable .whereSrch >div:nth-child(1) input,
+    .multiLangTable table input,
+    .multiLangTable .whereSrch .selectBox
+    {
+        width: 100%;
+    }
+    .multiLangTable .whereSrch >div:nth-child(1){
+        width: 30%;
+    }
+    .multiLangTable .checkYearWrap input{
+        /* width: 100%; */
+    }    
+	.leaderInfoTable table col:nth-child(1) {width:30% !important;}
+	/* 2022.01.17 & 220117 보존과학 보존처리규정 페이지 퍼블리싱 */
+	.rullBoxWrap .rullBox:nth-of-type(3n) {margin-right:0;}
+	.rullBoxWrap .rullBox {width:100%; margin-right:0; margin-bottom:20px;}
+	.rullBoxWrap .rullBox:last-child {margin-bottom:0;}
+	.rullBoxWrap .rullBox:nth-of-type(2n) {margin-right:0;}
+
+	/* html body .btn:only-of-type {margin:0;} */
+	.boardType02.v2 figure {max-width:100%;}
+	.boardType02.v2 figure img {width:100%;}
+	.appreciationProgram .info .tit {
+		font-size: 15px;
+	}
+    /*************************
+    **************************  content.css 450 End 
+    **************************/      
+	.srchArea.type02 .srchWrap .srchInputArea .btn {margin-left:10px}
+	.mainSection [class*=mainSlide] .info .tit,
+	.collectSection .info .ctg  {
+		font-size: 20px;
+	}
+	.mImgSection [class*=mainSlide] .info {
+		margin-top:20px;
+	}
+	.mImgSection .info .btn {width:100%;}
+	html body #wrap .noticeSection {padding-bottom:20px;}
+	.footer > .inner {padding:20px 0 0;}
+	.footerSection02 {padding-top:20px;}
+	.footerSection03 .inner {padding:25px 0 60px;}
+	.footerSection03 address {font-size:13px;}
+	.togglePlus:before {top:-1px;}
+	.togglePlus:after {margin-top:-3px;}
+	.exhibitionList ul li .btnIcon {height:auto; line-height:1.4; margin:0; font-size:13px;}
+	.exhibitionList ul li .btnIcon i.headphon {vertical-align:middle;}
+	[class^=boardType] > ul > li {margin-bottom:60px;}
+	.detailBody .scrollSectionWrap .bodySection.detailCont + .bodySection {padding-top:110px;}
+	.detailBody .bodySection, .detailBody .scrollSectionWrap .bodySection, .detailBody .scrollSectionWrap .detailCont + .bodySection + .bodySection {
+		padding:15px 0 55px;
+	}
+	.detailBody .bodySection:not(:first-child) h4.he {margin-bottom:15px;}
+	.sectionList .contList {padding:15px 0;}
+	.publicationSection .contItemWrap .btn,
+	.acaList .contItemWrap .btn {width:100%;}
+	.acaList .contItemWrap .btn + .btn {margin-top:10px;}
+	.btnWrap {margin-top:15px;}
+	.srchArea {padding-bottom:35px;}
+	.sectionList .contList .contItem:not(:first-child) {margin-top:60px;}
+	.mainSection .videoPlayWrap .info .btn {max-width:100%;}
+	.videoPlayWrap .info {margin-top:15px;}
+	.submain .mainSection .titleWrap {margin-bottom:20px;}
+/* 	[class^=boardType] > ul > li:first-child > a {padding-top:0;} */ /* 모바일화면 틀어지는 현상으로 인해 주석처리 */
+}
+
+/***************************************************************
+************************************************    420    ****
+****************************************************************
+*/
+@media screen and (max-width:420px) {
+    /*************************
+    **************************  button.css 420 Start 
+    **************************/      
+	/* 아이콘 + 라벨형 */
+	.btnLabelIcon {
+		width: 35px;
+		height: 35px;
+	}
+	.btnWrap .btn.wFix {
+		width: auto;
+	}
+    /*************************
+    **************************  button.css 420 End 
+    **************************/    
+    
+    /*************************
+    **************************  content.css 420 Start 
+    **************************/ 
+    .viewWrap .item.btnView{
+        flex-direction: column;
+    }
+    .viewWrap .item .btn:not(:first-child){
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }   
+    .writeForm .infoView .item.loginSearch a{
+        padding: 0 0.5rem;
+    }     
+    .contView .cont{
+        width: 100%;
+        margin: 0;
+        padding: 4.5rem 0 1rem 0;
+        background-position: center 5% !important;
+    }
+    .contView .cont:nth-child(1){
+        padding-top: 6rem;
+    }
+    .contView::before{
+        display: none;
+    }  
+    .contView .cont .btn {max-width:100%;}
+    .contView .cont:before {background-position:center center !important; margin:0 0 20px;}      
+    .joinSection .conSection .formViewWrap .text {
+        line-height: 24px;
+        /* font-size: 20px; */
+    }    
+    /*************************
+    **************************  content.css 420 End 
+    **************************/       
+}
+
+/***************************************************************
+************************************************    400    ****
+****************************************************************
+*/
+@media only screen and (max-width: 400px) {
+    /*************************
+    **************************  board.css 400 Start 
+    **************************/       
+	.boardInfo {padding:30px 0 0 0;}
+	.boardInfo > .tbox01 .text {flex-wrap: wrap;}
+	.boardInfo > .tbox01 .text span {flex:1 1 100%; margin:0;}
+	.boardInfo > .tbox01 .text span:last-child {margin:5px 0 0 0;}
+	.board-col5 figure {
+		max-height: 220px;
+	}
+    /*************************
+    **************************  board.css 400 End 
+    **************************/      
+
+    /*************************
+    **************************  content.css 400 Start 
+    **************************/     
+    .mypageTopInfo .infoRight {padding:20px;}
+    .mySection .mypageTopInfo .infoRight .infoBox > div {width:100%; padding:0;}
+    .mypageTopInfo .infoRight .infoBox .boxLeft:after {display:none;}
+    .mypageTopInfo .infoRight .infoBox .qrBox img {max-width:139px;}
+    .mypageTopInfo .infoRight .infoBox .pointBox img {position:static; right:auto; bottom:auto; width:auto;}
+    .mySection .mypageTopInfo .infoRight .infoBox .boxRight {margin-top:20px; padding-top:20px;border-top:1px solid #cccccc;}
+    .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxLeft {padding:0;}
+    .mypageTopInfo .infoRight .infoBox.membershipBox > div.boxRight {padding-top:0; border:none;}    
+	.w320 {max-width:280px;}
+	input {padding:0 10px;}
+	html body .multilingualPopup {padding:20px;}
+    /*************************
+    **************************  content.css 400 End 
+    **************************/     
+}
+
+
+/***************************************************************
+************************************************    390    ****
+****************************************************************
+*/
+@media screen and (max-width:390px) {
+    /*************************
+    **************************  content.css 390 Start 
+    **************************/       
+    .joinProgress > ul > li:after{
+        top: 18px;
+    }
+	.fSelect {padding:0 10px;}
+    /*************************
+    **************************  content.css 390 End 
+    **************************/       
+}
+
+
+/***************************************************************
+************************************************    360    ****
+****************************************************************
+*/
+@media screen and (max-width:360px) {
+    /*************************
+    **************************  detail.css 360 Start 
+    **************************/        
+	.detailHead .btn {
+		padding: 0 10px;
+	}
+	.detailHead .right .bottom .btn {
+		margin: 0 1px;
+	}
+    /*************************
+    **************************  detail.css 360 End 
+    **************************/    
+
+    /*************************
+    **************************  heading.css 360 Start 
+    **************************/     
+    .heading .item.right {
+		/* display: block; */
+	}
+	.heading .btn.wFix {
+		/* width: 110px; */
+	}
+	.heading .item.right {
+		/* flex-direction: column; */
+	}
+	.heading .title + div, .heading .title + ul, .heading .title + p, .heading .item + .item > .barList, .heading .item + .item > div > .barList{
+		margin-top: 0.5rem;
+	}
+    /*************************
+    **************************  heading.css 360 End 
+    **************************/   
+	#memberAddContentMov .formGroup {display:block;}
+	#memberAddContentMov .formGroup h3 {width:100%; text-align:left;}
+	#memberAddContentMov .formGroup .toggler {width:100%; text-align:right;}      
+}
+
+/***************************************************************
+************************************************    335    ****
+****************************************************************
+*/
+@media screen and (max-width:335px) {
+    /*************************
+    **************************  heading.css 335 Start 
+    **************************/      
+	.list.type10 > li > *:first-child{
+		min-width: 5rem;
+	}
+    /*************************
+    **************************  heading.css 335 End 
+    **************************/ 
+}
+
+
+
+	/* 220523 MI */
+.colorList ul li{max-width:20%; min-width:20%;}
+.colorList ul li .cInfo {height:120px;}
+.colorList ul li .cInfo:before {width:120px; height:120px;}
+.colorList ul li .cInfo.c1:before {background-color:rgb(0,0,0)}
+.colorList ul li .cInfo.c2:before {background-color:rgb(168,153,110)}
+.colorList ul li .cInfo.c3:before {background-color:rgb(167,169,172)}
+.colorList ul li .cInfo.c4:before {background-color:rgb(0,161,105)}
+.colorList ul li .cInfo.c5:before {background-color: #87bd81;}
+.colorList ul li .cInfo.c6:before {background-color: #008c5b;}
+.colorList ul li .cInfo.c7:before {background-color: #00533d;}
+.colorList ul li .cInfo.c8:before {background-color: #33D300;;}
+.colorList ul li .cInfo.c9:before {background-color: #DC4F3A;}
+.colorList ul li .cInfo.c10:before {background-color: #DC4F3A;}
+.colorList ul li .cInfo.c11:before {background-color: #B12216;}
+.colorList ul li .cInfo.c12:before {background-color: #7A1801;}
+.colorList ul li .cInfo.c13:before {background-color: #F85401;}
+.colorList ul li .cInfo.c14:before {background-color: #B54074;}
+.colorList ul li .cInfo.c15:before {background-color: #B96291;}
+.colorList ul li .cInfo.c16:before {background-color: #8A1355;}
+.colorList ul li .cInfo.c17:before {background-color: #6E0D41;}
+.colorList ul li .cInfo.c18:before {background-color: #DA2FFF;}
+.colorList ul li .cInfo.c19:before {background-color: #3D8CBC;}
+.colorList ul li .cInfo.c20:before {background-color: #89CBE1;}
+.colorList ul li .cInfo.c21:before {background-color: #2A688D;}
+.colorList ul li .cInfo.c22:before {background-color: #1A4B6B;}
+.colorList ul li .cInfo.c23:before {background-color: #2A88FF;}
+   
+.colorList .last_per{max-width: 60%; min-width: 60% }
+    
+@media screen and (max-width: 1360px){
+	.colorList ul li{max-width:25%; min-width:25%;}
+   	.colorList .last_per{max-width: 50%; min-width: 50% }
+   	.colorList ul li.w100{max-width: 100%; min-width: 100% }
+}
+@media screen and (max-width: 1115px){
+   	.colorList ul li{max-width:33.3333%; min-width:33.3333%;}
+   	.colorList .last_per{max-width: calc(100% - 67%); min-width:calc(100% - 67%); }
+   	.colorList ul li.w100{max-width: 66% !important; min-width: 66% !important}
+}
+@media screen and (max-width: 810px){
+   	.colorList ul li{max-width:50%; min-width:50%;}
+   	.colorList .last_per{max-width: 100%; min-width:100%; }
+}
+@media screen and (max-width: 600px){
+   	.colorList ul li{max-width:100%; min-width:100%;}
+   	.colorList ul li.w100{max-width: 100% !important; min-width: 100% !important }
+}
+
+@media screen and (max-width: 600px){
+	.lunchBox {
+		border: 1px solid;
+		width: 100%;
+		margin-top:50px;
+		padding:10px;
+	}
+}

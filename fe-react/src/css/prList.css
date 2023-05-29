@@ -1,0 +1,62 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+  }
+  
+  header h1, footer p {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #24be64;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .experience-list {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 1em;
+    padding: 5em;
+    box-sizing: border-box;
+  }
+  
+    .experience-item {
+      border: 2px solid #9084f1;
+      border-radius: 8px;
+      padding: 1em;
+      text-align: left;
+    }
+    
+    .experience-item img {
+      max-width: 100%;
+    }
+    
+    .experience-item h2 {
+      font-size: 1em;
+    }
+    
+    .inner {
+      width: 1100px;
+      margin: 0 auto;
+      position: relative;
+      height: 100%;
+    }
