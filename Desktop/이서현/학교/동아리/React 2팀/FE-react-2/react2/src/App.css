@@ -1,0 +1,280 @@
+/* color-palette{
+    color: #C7D59B;
+    color: #FCF9F4;
+    color: #F7F0C0;
+    color: #BFD374;
+    color: #799B87;
+} */
+
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  line-height: 1.4;
+  text-align: center;
+  font-size: 16px;
+  font-family: "S-CoreDream-3Light";
+  margin: 0 auto;
+  width: 100%;
+}
+
+.background {
+  width: 100%;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  /* max-width: 1100px; */
+}
+
+p {
+  margin: 0;
+}
+
+/*reset*/
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: #999;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+/*header*/
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #fcf9f4;
+  border-bottom: 1px solid #999;
+}
+
+.categories {
+  padding: 8px 0px;
+  width: 1100px;
+  height: 40px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+.categories ul {
+  /* float: left; */
+}
+
+.categories li {
+  float: left;
+}
+
+.categories a {
+  list-style: none;
+  float: left;
+  text-decoration: none;
+  color: black;
+  padding: 0px 96px;
+  top: -7px;
+  position: relative;
+}
+
+.categories a:hover {
+  font-weight: bold;
+}
+
+/*nav*/
+
+.main {
+  width: 100%;
+  height: 400px;
+  background-color: #fcf9f4;
+  display: flex;
+}
+
+.YeongcheonImgPart {
+  padding-bottom: 50px;
+  flex: 1;
+}
+
+.YeongcheonImgPart img {
+  width: 120px;
+  height: 50px;
+}
+
+.YeongcheonShortcut {
+  position: relative;
+  top: 100px;
+}
+
+.YeonchoenPageBtn {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  position: relative;
+  top: 24px;
+}
+.YeonchoenPageBtn a {
+  text-decoration: none;
+  color: black;
+}
+
+/* main */
+
+.Yeongcheon_ins {
+  width: 100%;
+  height: 500px;
+  background-color: #666;
+}
+
+.pglist {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.button1 {
+  top: 50px;
+  left: 150px;
+}
+.button2 {
+  top: 70px;
+  left: 520px;
+}
+.button3 {
+  top: 120px;
+  left: 370px;
+}
+.button4 {
+  top: 160px;
+  left: 130px;
+}
+.button5 {
+  top: 190px;
+  left: 800px;
+}
+.button6 {
+  top: 280px;
+  left: 450px;
+}
+.button7 {
+  top: 390px;
+  left: 250px;
+}
+
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Yeongcheon_ins */
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #555;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+footer .inner {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.copyright {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+}
+
+.ft-logo {
+  width: 300px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 25px 0px;
+}
+
+.team-int {
+  width: 499px;
+  padding: 30px 0px;
+}
+
+.sns {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member p {
+  padding: 5px 0px;
+}
+
+footer img {
+  width: 150px;
+  height: 70px;
+}
+
+/* footer */
