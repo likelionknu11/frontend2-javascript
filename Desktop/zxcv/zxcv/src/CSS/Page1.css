@@ -1,0 +1,37 @@
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textArea {
+  text-align: center;
+  margin-top: 50px;
+  width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+p {
+  color: gray;
+}
+
+.buttonArea {
+  justify-content: center;
+  display: flex;
+}
+
+Button {
+  margin: 10px;
+}
+
+.imageArea {
+  margin-top: 50px;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
